@@ -1,0 +1,84 @@
+.carousel-container {
+  position: relative;
+  width: 100%;
+  /* max-width: 800px; Ajusta según tus necesidades */
+  margin: auto;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.carousel-inner {
+  border: 1px solid #f5f0f0;
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 3000px; /*El ancho total se ajusta con transform*/
+}
+
+.carousel-item {
+  min-width: 100px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.carousel-item img {
+  width: 100%;
+  display: block;
+  height: auto;
+}
+
+.carousel-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.carousel-control {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 24px;
+  line-height: 1;
+  border-radius: 5px;
+  z-index: 10;
+}
+
+.carousel-control.prev {
+  left: 10px;
+}
+
+.carousel-control.next {
+  right: 10px;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 5px;
+  z-index: 10;
+}
+
+.carousel-indicators span {
+  width: 10px;
+  height: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.carousel-indicators span.active {
+  background-color: white;
+}

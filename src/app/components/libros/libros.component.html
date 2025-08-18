@@ -1,0 +1,42 @@
+<h2 class="text-[#111418] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Featured Books</h2>
+
+<div class="flex overflow-y-auto [-ms-scrollbar-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden">
+    <div class="flex items-stretch p-4 gap-3">
+        @for (libro of dataset; track $index) {
+            <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-60" (click)="goToBookDetail(libro.id)">
+                <div
+                    class="w-full bg-center bg-no-repeat aspect-[3/4] bg-cover rounded-lg flex flex-col"
+                    style='background-image: url("{{libro.imageUrl}}");'
+                ></div>
+                <div>
+                    <p class="text-[#111418] text-base font-medium leading-normal">{{libro.title | uppercase}}</p>
+                    <p class="text-[#60748a] text-sm font-normal leading-normal">{{libro.saga | titlecase}}</p>
+                    <p *ngFor="let autor of libro.authors" class="text-[#60748a] text-sm font-normal leading-normal">
+                        <a href="autor/{{autor.name}}" (click)="goToAuthor(libro.id)">
+                            <img [src]="autor?.imageUrl" alt="{{autor?.name}}" width="36">
+                            <h2>{{autor.name | uppercase}}</h2>
+                        </a>
+                    </p>
+                </div>
+            </div>
+
+
+        <!-- <div>
+            <span>
+                1.6M
+            </span>
+        </div>
+
+        <p>
+            <app-page [url]="libro.synopsis"></app-page>
+        </p>
+
+        <p *ngFor="let category of categories">
+            {{category}}
+        </p> -->
+
+
+            <!-- <button >Leer</button> -->
+        }
+    </div>
+</div>

@@ -1,0 +1,9 @@
+
+<div *ngFor="let p of paragraphs; let i = index;" [ngStyle]="{'display': handleChapter ? 'block' : 'none'}">
+    <app-parrafo [body]="p"></app-parrafo>
+</div>
+
+<button (click)="handleRead()">
+    @if (handleChapter) {<p>Ocultar</p>}
+    @else {<p>Leer</p>}
+</button>
