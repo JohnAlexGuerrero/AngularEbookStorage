@@ -4,38 +4,42 @@ import { Page } from '../../models/page';
 import { CommonModule } from '@angular/common';
 import { PageComponent } from '../page/page.component';
 import { ChaptersService } from '../../services/chapters.service';
+import { DynamicHtmlComponent } from '../dynamic-html/dynamic-html.component';
 
 @Component({
   selector: 'app-reader',
   standalone: true,
   imports: [
     CommonModule,
-    PageComponent,
+    PageComponent, DynamicHtmlComponent,
   ],
   templateUrl: './reader.component.html',
   styleUrl: './reader.component.css'
 })
 export class ReaderComponent implements OnInit{
-  title: string = "The Secret Garden";
-  page: string = 'assets/ebooks/zas/Text/cubierta.xhtml';
+  title: string = "cubierta";
+  url: string = '';
 
   constructor(
     private chaptersService: ChaptersService
   ) {}
 
   ngOnInit(): void {
+    
   }
 
-  getPageUrl(titleChapter: string): void {
-    this.title = titleChapter;
-
-    var result = this.chaptersService.getDataChapters().filter((pag: Page) => pag.title === titleChapter);
-    this.page = result[0].content;
-    console.log(this.page);
+  get pages(): Page[] {
+    return this.chaptersService.getDataChapters();
   }
 
   get titles(): string[] {
     return this.chaptersService.getDataChapters().map((pag: Page)=> pag.title);
+  }
+
+  selectPage(title: string): void {
+    this.title = title;
+    // this.url = this.getPageUrl();
+    
   }
 
 

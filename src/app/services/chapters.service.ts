@@ -26,7 +26,7 @@ export class ChaptersService {
   // Método para extraer los capítulos de un libro
   async setChaptersByBook(id_ebook: string):Promise<void> {
     const q = query(collection(
-      this.firebaseService.db, "chapters"), where("id_ebook", "==", id_ebook)
+      this.firebaseService.db, "pages"), where("id_ebook", "==", id_ebook)
     );
     
     const querySnapshot = await getDocs(q);
@@ -37,15 +37,15 @@ export class ChaptersService {
       if (this.datasetChapters.length > 0) {
         this.destroyDatasetChapters();
       }
-      
+
       querySnapshot.forEach((doc) => {
         this.setId(doc.id);
         var numberChapter = 1;
-        doc.data()['chapters'].forEach((element: any) => {
+        doc.data()['content'].forEach((element: any) => {
           this.datasetChapters.push({
-            id_ebook: this.id, 
-            title: `Capítulo ${numberChapter}`, 
-            content: element
+            // id_ebook: this.id, 
+            title: element.title, 
+            url: element.url
           });
           numberChapter++;
         });

@@ -11,7 +11,7 @@
   border: 1px solid #f5f0f0;
   display: flex;
   transition: transform 0.5s ease-in-out;
-  width: 3000px; /*El ancho total se ajusta con transform*/
+  width: 4800px; /*El ancho total se ajusta con transform*/
 }
 
 .carousel-item {
