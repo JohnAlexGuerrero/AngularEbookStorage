@@ -4,14 +4,14 @@ import { Page } from '../../models/page';
 import { CommonModule } from '@angular/common';
 import { PageComponent } from '../page/page.component';
 import { ChaptersService } from '../../services/chapters.service';
-import { DynamicHtmlComponent } from '../dynamic-html/dynamic-html.component';
+import { TableContentComponent } from '../table-content/table-content.component';
 
 @Component({
   selector: 'app-reader',
   standalone: true,
   imports: [
     CommonModule,
-    PageComponent, DynamicHtmlComponent,
+    PageComponent, TableContentComponent,
   ],
   templateUrl: './reader.component.html',
   styleUrl: './reader.component.css'

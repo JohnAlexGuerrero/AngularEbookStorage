@@ -1,12 +1,7 @@
 <div class="gap-1 px-6 flex flex-1 justify-center py-5">
-    <div class="layout-content-container flex flex-col w-80">
-        <h2 class="text-[#121416] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Table of Contents</h2>
-        <div class="flex items-center gap-4 bg-white px-4 min-h-14" *ngFor="let title of titles">
-            <p class="text-[#121416] text-base font-normal leading-normal flex-1 truncate" (click)="selectPage(title)">{{title}}</p>
-        </div>
-    <!-- <div class="flex items-center gap-4 bg-white px-4 min-h-14">
-        <p class="text-[#121416] text-base font-normal leading-normal flex-1 truncate">Chapter 6: The Garden's Magic</p>
-    </div> -->
+    <!-- tabla de contenido -->
+     <app-table-content [listContent]="titles"></app-table-content>
+    
     <h2 class="text-[#121416] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Annotations</h2>
     <div class="flex items-center gap-4 bg-white px-4 min-h-[72px] py-2">
         <div class="flex flex-col justify-center">
@@ -91,6 +86,6 @@
         <span class="truncate">Bookmark</span>
         </button>
     </div>
-    </div>
+    <!-- </div> -->
 <!-- </div> -->
 
