@@ -1,7 +1,6 @@
 import { Component, Input, OnDestroy, OnInit } from '@angular/core';
 import { Book } from '../../models/book';
 import { CommonModule } from '@angular/common';
-import { LocalDataStorageService } from '../../services/local-data-storage.service';
 import { Router } from '@angular/router';
 
 @Component({
@@ -22,7 +21,7 @@ export class CarouselComponent implements OnInit, OnDestroy{
   private autoPlayInterval: any;
 
   constructor(
-    private service: LocalDataStorageService,
+    // private service: LocalDataStorageService,
     private router: Router
   ) {}
   
@@ -80,7 +79,7 @@ export class CarouselComponent implements OnInit, OnDestroy{
 
   onSlideClick(id: string): void {
     this.router.navigate([`book/${id}`]);
-    this.service.setDataBookByID(id);
+    // this.service.setDataBookByID(id);
     console.log("Book ID clicked: ", id);
   }
 }

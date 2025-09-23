@@ -1,16 +1,16 @@
 <div class="carousel-container">
-  <div class="carousel-inner" [style.transform]="'translateX(-' + currentIndex * 20 + '%)'">
+  <div class="carousel-inner" [style.transform]="'translateX(-' + currentIndex * 10 + '%)'">
     <div class="flex overflow-y-auto [-ms-scrollbar-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden">
       <div class="flex items-stretch p-4 gap-3">    
         <div class="flex h-full flex-1 flex-col gap-5 rounded-lg min-w-60" *ngFor="let slide of slides; let i = index">
           <a (click)="onSlideClick(slide.id)">
             <div
               class="w-full bg-center bg-no-repeat aspect-[3/4] bg-cover rounded-lg flex flex-col"
-              style='background-image: url("{{slide.imageUrl}}");'
+              style='background-image: url("{{slide.cover}}");'
             ></div>
             <div>
-              <p class="text-[#111418] text-base font-medium leading-normal">{{slide.title}}</p>
-              <p class="text-[#60748a] text-sm font-normal leading-normal">A tale of magic and adventure</p>
+              <p class="text-[#111418] text-base font-small leading-normal">{{slide.title}}</p>
+              <p class="text-[#60748a] text-sm font-normal  leading-normal">{{slide.category}}</p>
             </div>
           </a>
         </div>
@@ -30,36 +30,3 @@
   </div>
   
 </div>
-
-
-<!-- <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-60">
-  <div
-    class="w-full bg-center bg-no-repeat aspect-[3/4] bg-cover rounded-lg flex flex-col"
-    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBIQwdnVFJ6QzzwkZFISmbH0SlZPKAqbU-RTWRbOWmfrm_NzCVm8t1QwK5cDznvrl04fisqIW0jxiNhYDycY-nNkWKPNqfZZuGpubn1eKQH5IBNdv1XXfOFQP-25Vg0dzrHaQ5Vj2y1U1qzF9pArno2L8QbIZCFcZA3k_Fsk6tBFay3FazCQgJdU3P2U1Dz2CkV8aunxHGk2jPn0-VXtoFIpi0TU0rHDucVvlSUYz0XSHsBjQK1frpzT5G5VzcoMhMsamMYK54_ZJxe");'
-  ></div>
-  <div>
-    <p class="text-[#111418] text-base font-medium leading-normal">The Enchanted Forest</p>
-    <p class="text-[#60748a] text-sm font-normal leading-normal">A tale of magic and adventure</p>
-  </div>
-</div>
-<div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-60">
-  <div
-    class="w-full bg-center bg-no-repeat aspect-[3/4] bg-cover rounded-lg flex flex-col"
-    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCCECe46v2IuTd-fB8ageHfPiw91dKE8dVlIxsKg6wbLWjJwkcrXM8-78O8pa8ADe0oC8NqAziyJfGdhdP6xb8KjOpqCOI_zbGA9m9keIpJyX-x0I8xLgXfgUp1qXVOsIUQiR1Hz_3hIZcj7IV46QihJG1Kg-j_n5tY0QZoAbARbot6QZ67nJS1C8bmQPYY7PQj3NsraVWHbkHnIaNbhBBSpAXwM-uLlR3GmJN8nuy3FYAswm_cJD1bCqeUJjfPp8xktUMt1vNXWB2j");'
-  ></div>
-  <div>
-    <p class="text-[#111418] text-base font-medium leading-normal">Space Odyssey</p>
-    <p class="text-[#60748a] text-sm font-normal leading-normal">A journey through the cosmos</p>
-  </div>
-</div>
-
-<div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-60">
-  <div
-    class="w-full bg-center bg-no-repeat aspect-[3/4] bg-cover rounded-lg flex flex-col"
-    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAB3fcbOZm-PYVwvC-voO48Oiraza8P1IiHH9NyNdeg3JMFX_32dc8n6bzEFAnCmfWqntw3DF6rviFO9rfi7A50faw_9uP5tvpPXHAumfSSsfS6B8NT-phh_a4ehV5FQFtadBqMgV9CfhzhuNUeVeyyB_qP5hk88P3VCV5aJp-OHjDOSpjJXUAt_e1gXpFtkcdsOyxmh5jcJaOSegDHIpQyECGrK-6ewfvAkr6dy77Q7Z7fGjFr8yOTI1qjUUSGqpZnzW27riADKxFj");'
-  ></div>
-  <div>
-    <p class="text-[#111418] text-base font-medium leading-normal">Love in the City</p>
-    <p class="text-[#60748a] text-sm font-normal leading-normal">A heartwarming romance</p>
-  </div>
-</div> -->

@@ -3,9 +3,11 @@ import { Author } from "./author";
 export interface Book {
     id: string,
     title: string,
-    title_origin: string,
-    imageUrl: string,
-    authors: Author[],
+    cover: string,
+    authorName: string,
+    authorImage: string,
+    authorDescriptin:string,
+    category: string,
     // chapters: [{
     //     title: string, paragraphs: String[]
     // }],
@@ -13,5 +15,6 @@ export interface Book {
     // cover: string,
     synopsis: string,
     saga: string,
+    dateOfadd: string,
     // pages: [],
 }

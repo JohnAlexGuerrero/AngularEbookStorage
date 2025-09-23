@@ -1,40 +1,38 @@
 import { Component, OnInit } from '@angular/core';
-import { LocalDataStorageService } from '../../services/local-data-storage.service';
 import { Page } from '../../models/page';
 import { CommonModule } from '@angular/common';
 import { PageComponent } from '../page/page.component';
 import { ChaptersService } from '../../services/chapters.service';
-import { TableContentComponent } from '../table-content/table-content.component';
+import { BookService } from '../../services/book.service';
 
 @Component({
   selector: 'app-reader',
   standalone: true,
   imports: [
     CommonModule,
-    PageComponent, TableContentComponent,
+    PageComponent,
   ],
   templateUrl: './reader.component.html',
   styleUrl: './reader.component.css'
 })
 export class ReaderComponent implements OnInit{
-  title: string = "cubierta";
+  book: any | undefined;
+  title: string = "";
   url: string = '';
-
+  
   constructor(
-    private chaptersService: ChaptersService
+    private bookService: BookService
   ) {}
-
+  
   ngOnInit(): void {
-    
+    this.book = this.bookService.bookCurrent;
+    console.log(this.book);
   }
 
-  get pages(): Page[] {
-    return this.chaptersService.getDataChapters();
+  get pages(): any[] {
+    return [];
   }
 
-  get titles(): string[] {
-    return this.chaptersService.getDataChapters().map((pag: Page)=> pag.title);
-  }
 
   selectPage(title: string): void {
     this.title = title;

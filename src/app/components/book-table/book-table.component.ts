@@ -16,9 +16,9 @@ export class BookTableComponent implements OnInit{
   ){}
 
   ngOnInit(): void {
-    this.bookService.getAllEbooks().then(
-      res => this.dataset = res
-    );
+    // this.bookService.getAllEbooks().then(
+    //   res => this.dataset = res
+    // );
   }
 
 }
