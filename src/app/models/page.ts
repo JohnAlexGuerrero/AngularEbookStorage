@@ -1,5 +1,4 @@
 export interface Page {
-    // id_ebook: string,
-    title: string,
+    titulo: string,
     url: string
 }

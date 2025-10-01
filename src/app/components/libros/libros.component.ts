@@ -15,11 +15,8 @@ import { BookService } from '../../services/book.service';
   styleUrl: './libros.component.css'
 })
 export class LibrosComponent implements OnInit{
-  books: any[] = [];
+  books: Book[] = [];
   valor: any;
-  categories: string[] = [
-    "fantastico", "terror", "amor", "drama"
-  ];
 
   constructor(
     private router: Router,

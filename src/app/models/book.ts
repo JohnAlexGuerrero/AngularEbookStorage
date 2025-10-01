@@ -1,20 +1,14 @@
 import { Author } from "./author";
+import { Page } from "./page";
 
 export interface Book {
     id: string,
-    title: string,
+    titulo: string,
+    slug: string,
     cover: string,
-    authorName: string,
-    authorImage: string,
-    authorDescriptin:string,
-    category: string,
-    // chapters: [{
-    //     title: string, paragraphs: String[]
-    // }],
-    // portada: string,
-    // cover: string,
-    synopsis: string,
+    sinopsis: string,
     saga: string,
-    dateOfadd: string,
-    // pages: [],
+    active: boolean,
+    authors: Author,
+    pages: Page[],
 }

@@ -1,5 +1,5 @@
 export interface Author {
-    name: string,
-    imageUrl: string,
-    descriptionUrl: string,
+    nombre: string,
+    image: string,
+    bio: string,
 }

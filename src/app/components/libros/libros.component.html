@@ -3,95 +3,15 @@
         <a routerLink="/book/{{item.slug}}" (click)="goToBookDetail(item.slug)">
             <div class="group flex flex-col gap-3">
                 <div class="w-full transform-gpu overflow-hidden rounded-lg bg-cover bg-center bg-no-repeat shadow-md transition-transform duration-300 ease-in-out group-hover:scale-105"
-                    style='background-image: url({{item.cover}}); padding-top: 133.33%;'>
+                    style='background-image: url(http://localhost:4200/assets/ebooks/{{item.slug}}/{{item.cover}}); padding-top: 133.33%;'>
                 </div>
                 <div>
                     <h3 class="font-semibold text-gray-800">{{item.titulo}}</h3>
-                    <p class="text-sm text-gray-500">{{item.autor}}</p>
+                    <p class="text-sm text-gray-500">{{item.authors.nombre}}</p>
                 </div>
             </div>
 
         </a>
     }
-    <!-- <div class="group flex flex-col gap-3">
-        <div class="w-full transform-gpu overflow-hidden rounded-lg bg-cover bg-center bg-no-repeat shadow-md transition-transform duration-300 ease-in-out group-hover:scale-105"
-            style='background-image: url(); padding-top: 133.33%;'>
-        </div>
-        <div>
-            <h3 class="font-semibold text-gray-800">Cumbres Borrascosas</h3>
-            <p class="text-sm text-gray-500">Emily Brontë</p>
-        </div>
-    </div>
-    <div class="group flex flex-col gap-3">
-        <div class="w-full transform-gpu overflow-hidden rounded-lg bg-cover bg-center bg-no-repeat shadow-md transition-transform duration-300 ease-in-out group-hover:scale-105"
-            style='background-image: url(); padding-top: 133.33%;'>
-        </div>
-        <div>
-            <h3 class="font-semibold text-gray-800">Orgullo y Prejuicio</h3>
-            <p class="text-sm text-gray-500">Jane Austen</p>
-        </div>
-    </div>
-    <div class="group flex flex-col gap-3">
-        <div class="w-full transform-gpu overflow-hidden rounded-lg bg-cover bg-center bg-no-repeat shadow-md transition-transform duration-300 ease-in-out group-hover:scale-105"
-            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuC6zohE6OHs1auOVA1ujJAT2NnVRFY_kl388-uATLGrHuSVLCbPfklcKurc0SpPlHBTL2zwk4THqy0u8YF6MrneQc4ylBNtFAnBwV37dfp5ylPo5NjBHTR5BzXBOX0as_A16_P4TCzRv1Mm79qGs2ajM9vWwTFFE_wKrAciRTUcAKyTdGuQ73roD1mwOHTtwt1Aif2grRxpl6YkEbCcllLnC_YIsYi4NVHVS4SKFskJl7bEFXDTWOuEomxc8KRI4VtAh9peej6ehTM"); padding-top: 133.33%;'>
-        </div>
-        <div>
-            <h3 class="font-semibold text-gray-800">Mujercitas</h3>
-            <p class="text-sm text-gray-500">Louisa May Alcott</p>
-        </div>
-    </div>
-    <div class="group flex flex-col gap-3">
-        <div class="w-full transform-gpu overflow-hidden rounded-lg bg-cover bg-center bg-no-repeat shadow-md transition-transform duration-300 ease-in-out group-hover:scale-105"
-            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDPshUY8RrBOc1g1GX_mqba5jUiJmXMuwtvGCblCWgsTf10_oSovzrgzL6tmRzvf90VWyn3MG7BA45Ongkq8d5Kstn6Bh7ZJGDzumjUqmc7MxXAaf1MsFYftem9Rjpp7j5muZ_28k6GV_f0TGJjUq1kxb9natT43y7s_8dZKkLY24XM_0LRpBhP8H1z3ViDcPupKCIHpQEQQrjpCqcAQ4aZ8Ei5JanMQHMFxn4IlQ7CEKdi436-XQBmv2FSNdRF0BTgtA3Wrvaguis"); padding-top: 133.33%;'>
-        </div>
-        <div>
-            <h3 class="font-semibold text-gray-800">La Odisea</h3>
-            <p class="text-sm text-gray-500">Homero</p>
-        </div>
-    </div>
-    <div class="group flex flex-col gap-3">
-        <div class="w-full transform-gpu overflow-hidden rounded-lg bg-cover bg-center bg-no-repeat shadow-md transition-transform duration-300 ease-in-out group-hover:scale-105"
-            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCfL6ufF7KtDL02mEHJ39sasygVlYec3utjaFUkoc5liwFl_E9l8qIStmV3mZPOKX3HQcgwGsq4XDX1Y403MTLp502qFdAM-5M0jIHaHRkjjfZQeNTotZf3I8MRYX35M_o5DwniKxDo8QfNZFCc_8bmVcgv_esa2tpwwiIDljr_bFxIb7xSEM5dVOnvid_auxZN8y7Lwli60E0OntNIPHtLZRtgpAFX8jv7BirjEv7LJ8YVZdqx4krOw8nAAMbI7h9Mw4GHwBIdvfc"); padding-top: 133.33%;'>
-        </div>
-        <div>
-            <h3 class="font-semibold text-gray-800">Moby Dick</h3>
-            <p class="text-sm text-gray-500">Herman Melville</p>
-        </div>
-    </div>
-    <div class="group flex flex-col gap-3">
-        <div class="w-full transform-gpu overflow-hidden rounded-lg bg-cover bg-center bg-no-repeat shadow-md transition-transform duration-300 ease-in-out group-hover:scale-105"
-            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDC5fIPVbaR614KOa7UhpGAkZwSbFLuH-aSbOkPgsvdKOPN53TExcQ517Qo9xIyHibt3UWuamhf7KVzSBiZ3yBc5E-38igrUyUByEXNi-eP3BJRjkXFd3o98KUS0qsbiQj2S0VrDnadAHKm8o5rpOxAfqxeveEJquI3xDHs9pyb8gbrtbC8BED_OJrZWPi_lO0knDqUge4y36AKUoKgQpJVZVdOrYSPE_23vo57jURRcA_0M6wNMy9Gd9tbC0HLx2kZUCYZMbtQFcY"); padding-top: 133.33%;'>
-        </div>
-        <div>
-            <h3 class="font-semibold text-gray-800">Crimen y Castigo</h3>
-            <p class="text-sm text-gray-500">Fiodor Dostoievski</p>
-        </div>
-    </div>
-    <div class="group flex flex-col gap-3">
-        <div class="w-full transform-gpu overflow-hidden rounded-lg bg-cover bg-center bg-no-repeat shadow-md transition-transform duration-300 ease-in-out group-hover:scale-105"
-            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBk_FOKxKppThkYpubhL-DdLfx6Gri3nhpVZ1WlWO3DVpCH-LB55EGYiZUmmB7XoVaIYgNwVE__L3-Jil6hktkrwe-lT_kT8U-DKghBAx0rBN3wf-2MQeWsnvWjBXZGvt4Gczt7jki19NVnVCwjsE4sFTjAKowE6TNnu1nXYGXFT3Wh9e5FZnb2XGGsDn2z6eL_IBHfn5O0K2iT8ep1_VZsk9nGOO6lF5jMzux7Iz66daBR2Ry72_RZKq8n8EJPvM8Ovfh8GTYB8uE"); padding-top: 133.33%;'>
-        </div>
-        <div>
-            <h3 class="font-semibold text-gray-800">Ana Karenina</h3>
-            <p class="text-sm text-gray-500">León Tolstói</p>
-        </div>
-    </div>
-    <div class="group flex flex-col gap-3">
-        <div class="w-full transform-gpu overflow-hidden rounded-lg bg-cover bg-center bg-no-repeat shadow-md transition-transform duration-300 ease-in-out group-hover:scale-105"
-            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuC_4XwYj202VyfokKHjvufCnONX3-rRPiG9sWKcVHWXe_VEYNq7Ny7RuJ5dPYEN1bhQSmKkvcnoo68L2KC2J5TnPAghSS4nZHhqqt-m3wUnfrRPYOTR7iJs9Y_rBK0HyURzwtQc7bMMScguPKB9vsYoSBv-tNg3cvweLJS2bXJlSHjjRaH_8qXklxkFQ9XeTlOKqJRD0ltOUp5z_Zy25ghIDHLFTszkwb5faN-x20Q1xrxHKOAGboxR9SFqFA14JoC4VvmPiTPmSZg"); padding-top: 133.33%;'>
-        </div>
-        <div>
-            <h3 class="font-semibold text-gray-800">Don Quijote</h3>
-            <p class="text-sm text-gray-500">Miguel de Cervantes</p>
-        </div>
-    </div>
-    <div class="group flex flex-col gap-3">
-        <div class="w-full transform-gpu overflow-hidden rounded-lg bg-cover bg-center bg-no-repeat shadow-md transition-transform duration-300 ease-in-out group-hover:scale-105"
-            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBUNC84320XRgMxe2y9IjNRTxMdMdZvULDYSTtsbDQUM5vel5E9Twtv82nZljNYNIgmCQF3bkRw4g7uPBSfL1ZTuolDFwZBNYnIlJU9MVfzs9n6MVHIWOy6jD9xEpw5QFNZFnYou7n044xt0KMLenIdBRRqfWb1OaPux6qvJiZ7Wusyphy7H0Z5TQI9TqhUdBfBL3N8fEzTFMsgW0YW11PQOTXzywPkrM-bkZf4eyYvlPOjDK-VWshZ2M86bax6honRJeA_1bG8PJo"); padding-top: 133.33%;'>
-        </div>
-        <div>
-            <h3 class="font-semibold text-gray-800">Ulises</h3>
-            <p class="text-sm text-gray-500">James Joyce</p>
-        </div>
-    </div> -->
+        
 </div>

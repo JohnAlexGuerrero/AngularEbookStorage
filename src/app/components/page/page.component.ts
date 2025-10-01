@@ -31,7 +31,7 @@ export class PageComponent implements OnInit{
   }
 
   getContentHtml(): Observable<string> {
-    return this.http.get(`${this.url}`, { responseType: 'text'});
+    return this.http.get(`http://localhost:4200/assets/ebooks/${this.url}`, { responseType: 'text'});
   }
 
 

@@ -1,9 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { Page } from '../../models/page';
 import { CommonModule } from '@angular/common';
 import { PageComponent } from '../page/page.component';
-import { ChaptersService } from '../../services/chapters.service';
 import { BookService } from '../../services/book.service';
+import { Book } from '../../models/book';
 
 @Component({
   selector: 'app-reader',
@@ -16,9 +15,12 @@ import { BookService } from '../../services/book.service';
   styleUrl: './reader.component.css'
 })
 export class ReaderComponent implements OnInit{
-  book: any | undefined;
+  book: Book = {
+    id: "", titulo: "", slug:"",sinopsis:"",saga:"",cover:"",active:false, authors: {nombre: "",image:"",bio:""}, pages:[]
+  };
+
   title: string = "";
-  url: string = '';
+  urlBase: string = 'http://localhost:4200/assets/ebooks/';
   
   constructor(
     private bookService: BookService
@@ -26,11 +28,10 @@ export class ReaderComponent implements OnInit{
   
   ngOnInit(): void {
     this.book = this.bookService.bookCurrent;
-    console.log(this.book);
   }
 
   get pages(): any[] {
-    return [];
+    return this.book.pages;
   }
 
 

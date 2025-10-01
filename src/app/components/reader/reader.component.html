@@ -1,3 +1,3 @@
-@for(pg of book.pages; track pg.titulo) {
-    <app-page [url]="pg.url"></app-page>
+@for(page of pages; track page.titulo) {
+    <app-page [url]='book.slug+"/"+page.url'></app-page>
 }

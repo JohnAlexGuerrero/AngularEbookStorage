@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { Router, RouterLink } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { Book } from '../../models/book';
-import { ChaptersService } from '../../services/chapters.service';
 import { BookService } from '../../services/book.service';
 import { PageComponent } from '../page/page.component';
 
@@ -18,7 +17,9 @@ import { PageComponent } from '../page/page.component';
   styleUrl: './libro-detalle.component.css'
 })
 export class LibroDetalleComponent implements OnInit{
-  book: any | undefined;
+  book: Book = {
+    id: "", titulo: "", slug:"",sinopsis:"",saga:"",cover:"",active:false, authors: {nombre: "",image:"",bio:""}, pages:[]
+  };
 
   constructor(
     private router: Router,
@@ -27,7 +28,6 @@ export class LibroDetalleComponent implements OnInit{
 
   ngOnInit():void {
     this.book = this.bookService.bookCurrent;
-    console.log(this.book);
   }
   
 
