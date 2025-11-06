@@ -1,3 +1,12 @@
+<section class="image"></section>
+<section class="text">
+    <h2>{{book.titulo}}</h2>
+</section>
+
 @for(page of pages; track page.titulo) {
-    <app-page [url]='book.slug+"/"+page.url'></app-page>
+    <section class="image"></section>
+    <section class="text">
+        <h2 class="chapter-title">{{page.titulo}}</h2>
+        <app-page [url]='book.slug+"/"+page.url'></app-page>
+    </section>
 }

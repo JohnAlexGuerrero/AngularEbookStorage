@@ -1,4 +1,3 @@
-
 export const librosDataSet = [{
   "_id": {
     "$oid": "68d85e3fe009aaf0466c28c4"
@@ -2224,187 +2223,187 @@ export const librosDataSet = [{
       "url": "OEBPS/Text/dedicatoria.xhtml"
     },
     {
-      "titulo": "Sec0001",
+      "titulo": "Libro Uno - Bella",
       "url": "OEBPS/Text/Sec0001.xhtml"
     },
     {
-      "titulo": "Sec0002",
+      "titulo": "Prefacio",
       "url": "OEBPS/Text/Sec0002.xhtml"
     },
     {
-      "titulo": "Sec0003",
+      "titulo": "Comprometida",
       "url": "OEBPS/Text/Sec0003.xhtml"
     },
     {
-      "titulo": "Sec0004",
+      "titulo": "La larga noche",
       "url": "OEBPS/Text/Sec0004.xhtml"
     },
     {
-      "titulo": "Sec0005",
+      "titulo": "El gran día",
       "url": "OEBPS/Text/Sec0005.xhtml"
     },
     {
-      "titulo": "Sec0006",
+      "titulo": "El gesto",
       "url": "OEBPS/Text/Sec0006.xhtml"
     },
     {
-      "titulo": "Sec0007",
+      "titulo": "Isla Esme",
       "url": "OEBPS/Text/Sec0007.xhtml"
     },
     {
-      "titulo": "Sec0008",
+      "titulo": "Distracciones",
       "url": "OEBPS/Text/Sec0008.xhtml"
     },
     {
-      "titulo": "Sec0009",
+      "titulo": "Algo inesperado",
       "url": "OEBPS/Text/Sec0009.xhtml"
     },
     {
-      "titulo": "Sec0010",
+      "titulo": "Libro Dos - Jacob",
       "url": "OEBPS/Text/Sec0010.xhtml"
     },
     {
-      "titulo": "Sec0011",
+      "titulo": "Prefacio",
       "url": "OEBPS/Text/Sec0011.xhtml"
     },
     {
-      "titulo": "Sec0012",
+      "titulo": "A la espera de que empiece de una vez la maldita pelea",
       "url": "OEBPS/Text/Sec0012.xhtml"
     },
     {
-      "titulo": "Sec0013",
+      "titulo": "Tan seguro como que hay infierno que no ve lo que se le viene encima",
       "url": "OEBPS/Text/Sec0013.xhtml"
     },
     {
-      "titulo": "Sec0014",
+      "titulo": "Qué por qué no me largué? Ah, sí, vale, porque soy imbécil",
       "url": "OEBPS/Text/Sec0014.xhtml"
     },
     {
-      "titulo": "Sec0015",
+      "titulo": "Las dos primeras cosas de la lista de «lo que jamás querría hacer»",
       "url": "OEBPS/Text/Sec0015.xhtml"
     },
     {
-      "titulo": "Sec0016",
+      "titulo": "Los hay que no entienden el concepto de «persona non grata»",
       "url": "OEBPS/Text/Sec0016.xhtml"
     },
     {
-      "titulo": "Sec0017",
+      "titulo": "Suerte que tengo un estómago de hierro",
       "url": "OEBPS/Text/Sec0017.xhtml"
     },
     {
-      "titulo": "Sec0018",
+      "titulo": "Te haces idea de lo mal que va todo cuando te sientes culpable por ser borde con un vampiro",
       "url": "OEBPS/Text/Sec0018.xhtml"
     },
     {
-      "titulo": "Sec0019",
+      "titulo": "Tic, tac, tic, tac, tic, tac",
       "url": "OEBPS/Text/Sec0019.xhtml"
     },
     {
-      "titulo": "Sec0020",
+      "titulo": "Alerta, exceso de información",
       "url": "OEBPS/Text/Sec0020.xhtml"
     },
     {
-      "titulo": "Sec0021",
+      "titulo": "¿Qué pinta tengo? ¿Es que parezco el Mago de Oz? ¿Qué es lo que quieres, mi cabeza o mí corazón? Pues hala, tómalos, llévate todo lo que es mío",
       "url": "OEBPS/Text/Sec0021.xhtml"
     },
     {
-      "titulo": "Sec0022",
+      "titulo": "Esto no tiene nombre",
       "url": "OEBPS/Text/Sec0022.xhtml"
     },
     {
-      "titulo": "Sec0023",
+      "titulo": "Libro Tres - Bella",
       "url": "OEBPS/Text/Sec0023.xhtml"
     },
     {
-      "titulo": "Sec0024",
+      "titulo": "Prefacio",
       "url": "OEBPS/Text/Sec0024.xhtml"
     },
     {
-      "titulo": "Sec0025",
+      "titulo": "Febril",
       "url": "OEBPS/Text/Sec0025.xhtml"
     },
     {
-      "titulo": "Sec0026",
+      "titulo": "Nuevo",
       "url": "OEBPS/Text/Sec0026.xhtml"
     },
     {
-      "titulo": "Sec0027",
+      "titulo": "La primera caza",
       "url": "OEBPS/Text/Sec0027.xhtml"
     },
     {
-      "titulo": "Sec0028",
+      "titulo": "La promesa",
       "url": "OEBPS/Text/Sec0028.xhtml"
     },
     {
-      "titulo": "Sec0029",
+      "titulo": "Recuerdos",
       "url": "OEBPS/Text/Sec0029.xhtml"
     },
     {
-      "titulo": "Sec0030",
+      "titulo": "Sorpresa",
       "url": "OEBPS/Text/Sec0030.xhtml"
     },
     {
-      "titulo": "Sec0031",
+      "titulo": "Un favor",
       "url": "OEBPS/Text/Sec0031.xhtml"
     },
     {
-      "titulo": "Sec0032",
+      "titulo": "Soy brillante",
       "url": "OEBPS/Text/Sec0032.xhtml"
     },
     {
-      "titulo": "Sec0033",
+      "titulo": "Plan de viaje",
       "url": "OEBPS/Text/Sec0033.xhtml"
     },
     {
-      "titulo": "Sec0034",
+      "titulo": "El futuro",
       "url": "OEBPS/Text/Sec0034.xhtml"
     },
     {
-      "titulo": "Sec0035",
+      "titulo": "Deserción",
       "url": "OEBPS/Text/Sec0035.xhtml"
     },
     {
-      "titulo": "Sec0036",
+      "titulo": "Irresistible",
       "url": "OEBPS/Text/Sec0036.xhtml"
     },
     {
-      "titulo": "Sec0037",
+      "titulo": "Talentos",
       "url": "OEBPS/Text/Sec0037.xhtml"
     },
     {
-      "titulo": "Sec0038",
+      "titulo": "En compañía",
       "url": "OEBPS/Text/Sec0038.xhtml"
     },
     {
-      "titulo": "Sec0039",
+      "titulo": "Falsificación",
       "url": "OEBPS/Text/Sec0039.xhtml"
     },
     {
-      "titulo": "Sec0040",
+      "titulo": "Declaración",
       "url": "OEBPS/Text/Sec0040.xhtml"
     },
     {
-      "titulo": "Sec0041",
+      "titulo": "Fin de plazo",
       "url": "OEBPS/Text/Sec0041.xhtml"
     },
     {
-      "titulo": "Sec0042",
+      "titulo": "Ansia de sangre",
       "url": "OEBPS/Text/Sec0042.xhtml"
     },
     {
-      "titulo": "Sec0043",
+      "titulo": "Argucias",
       "url": "OEBPS/Text/Sec0043.xhtml"
     },
     {
-      "titulo": "Sec0044",
+      "titulo": "Poder",
       "url": "OEBPS/Text/Sec0044.xhtml"
     },
     {
-      "titulo": "Sec0045",
+      "titulo": "Y vivieron felices y comieron perdices",
       "url": "OEBPS/Text/Sec0045.xhtml"
     },
     {
-      "titulo": "Sec0046",
+      "titulo": "Indice de vampiros",
       "url": "OEBPS/Text/Sec0046.xhtml"
     },
     {
@@ -2412,5 +2411,1302 @@ export const librosDataSet = [{
       "url": "OEBPS/Text/Agradecimientos.xhtml"
     }
   ]
+},
+{
+  "_id": {
+    "$oid": "68e874bb5e3c4688b3fbe274"
+  },
+  "titulo": "El archivo de Sherlock Holmes Ed Ilustrada",
+  "slug": "El-archivo-de-Sherlock-Holmes-Ed-Ilustrada",
+  "saga": "Sherlock Holmes",
+  "cover": "OEBPS/Images/cover.jpg",
+  "sinopsis": "OEBPS/Text/sinopsis.xhtml",
+  "authors": {
+    "nombre": "Arthur Conan Doyle",
+    "image": "OEBPS/Images/autor.jpg",
+    "bio": "OEBPS/Text/autor.xhtml"
+  },
+  "active": true,
+  "pages": [
+    {
+      "titulo": "cubierta",
+      "url": "OEBPS/Text/cubierta.xhtml"
+    },
+    {
+      "titulo": "rotulo",
+      "url": "OEBPS/Text/rotulo.xhtml"
+    },
+    {
+      "titulo": "PrimeraParte",
+      "url": "OEBPS/Text/PrimeraParte.xhtml"
+    },
+    {
+      "titulo": "SumarioI",
+      "url": "OEBPS/Text/SumarioI.xhtml"
+    },
+    {
+      "titulo": "Prefacio",
+      "url": "OEBPS/Text/Prefacio.xhtml"
+    },
+    {
+      "titulo": "LaaventuradelapiedraMazarino",
+      "url": "OEBPS/Text/LaaventuradelapiedraMazarino.xhtml"
+    },
+    {
+      "titulo": "ElproblemadelpuentedeThor",
+      "url": "OEBPS/Text/ElproblemadelpuentedeThor.xhtml"
+    },
+    {
+      "titulo": "Laaventuradelhombrequereptaba",
+      "url": "OEBPS/Text/Laaventuradelhombrequereptaba.xhtml"
+    },
+    {
+      "titulo": "ElvampirodeSussex",
+      "url": "OEBPS/Text/ElvampirodeSussex.xhtml"
+    },
+    {
+      "titulo": "Laaventuradelostresgarribebs",
+      "url": "OEBPS/Text/Laaventuradelostresgarribebs.xhtml"
+    },
+    {
+      "titulo": "Laaventuradelclienteilustre",
+      "url": "OEBPS/Text/Laaventuradelclienteilustre.xhtml"
+    },
+    {
+      "titulo": "SegundaParte",
+      "url": "OEBPS/Text/SegundaParte.xhtml"
+    },
+    {
+      "titulo": "SumarioII",
+      "url": "OEBPS/Text/SumarioII.xhtml"
+    },
+    {
+      "titulo": "LaaventuradelostresGabletes",
+      "url": "OEBPS/Text/LaaventuradelostresGabletes.xhtml"
+    },
+    {
+      "titulo": "Laaventuradelsoldadodelapieldecolorada",
+      "url": "OEBPS/Text/Laaventuradelsoldadodelapieldecolorada.xhtml"
+    },
+    {
+      "titulo": "Laaventuradelamelenadeleon",
+      "url": "OEBPS/Text/Laaventuradelamelenadeleon.xhtml"
+    },
+    {
+      "titulo": "Laaventuradelfabricantedecoloresretirado",
+      "url": "OEBPS/Text/Laaventuradelfabricantedecoloresretirado.xhtml"
+    },
+    {
+      "titulo": "Laaventuradelainquilinadelvelo",
+      "url": "OEBPS/Text/Laaventuradelainquilinadelvelo.xhtml"
+    },
+    {
+      "titulo": "LaaventuradeShoscombeOldPlace",
+      "url": "OEBPS/Text/LaaventuradeShoscombeOldPlace.xhtml"
+    },
+    {
+      "titulo": "RelacionI",
+      "url": "OEBPS/Text/RelacionI.xhtml"
+    },
+    {
+      "titulo": "Apendices",
+      "url": "OEBPS/Text/Apendices.xhtml"
+    },
+    {
+      "titulo": "Apendice01",
+      "url": "OEBPS/Text/Apendice01.xhtml"
+    },
+    {
+      "titulo": "Apendice02",
+      "url": "OEBPS/Text/Apendice02.xhtml"
+    },
+    {
+      "titulo": "Apendice03",
+      "url": "OEBPS/Text/Apendice03.xhtml"
+    },
+    {
+      "titulo": "Apendice04",
+      "url": "OEBPS/Text/Apendice04.xhtml"
+    },
+    {
+      "titulo": "Apendice05",
+      "url": "OEBPS/Text/Apendice05.xhtml"
+    },
+    {
+      "titulo": "Apendice06",
+      "url": "OEBPS/Text/Apendice06.xhtml"
+    },
+    {
+      "titulo": "Apendice07",
+      "url": "OEBPS/Text/Apendice07.xhtml"
+    },
+    {
+      "titulo": "Ap07b",
+      "url": "OEBPS/Text/Ap07b.xhtml"
+    },
+    {
+      "titulo": "Ap07c",
+      "url": "OEBPS/Text/Ap07c.xhtml"
+    },
+    {
+      "titulo": "notas",
+      "url": "OEBPS/Text/notas.xhtml"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "68e878b25e3c4688b3fbe275"
+  },
+  "titulo": "Angel mecanico",
+  "slug": "Angel-mecanico",
+  "saga": "Cazadores de sombras",
+  "cover": "OEBPS/Images/cover.jpg",
+  "sinopsis": "OEBPS/Text/sinopsis.xhtml",
+  "authors": {
+    "nombre": "Cassandra Clare",
+    "image": "OEBPS/Images/autor.jpg",
+    "bio": "OEBPS/Text/autor.xhtml"
+  },
+  "active": true,
+  "pages": [
+    {
+      "titulo": "cubierta",
+      "url": "OEBPS/Text/cubierta.xhtml"
+    },
+    {
+      "titulo": "intro",
+      "url": "OEBPS/Text/intro.xhtml"
+    },
+    {
+      "titulo": "Prologo",
+      "url": "OEBPS/Text/Prologo.xhtml"
+    },
+    {
+      "titulo": "Section0001",
+      "url": "OEBPS/Text/Section0001.xhtml"
+    },
+    {
+      "titulo": "Section0002",
+      "url": "OEBPS/Text/Section0002.xhtml"
+    },
+    {
+      "titulo": "Section0003",
+      "url": "OEBPS/Text/Section0003.xhtml"
+    },
+    {
+      "titulo": "Section0004",
+      "url": "OEBPS/Text/Section0004.xhtml"
+    },
+    {
+      "titulo": "Section0005",
+      "url": "OEBPS/Text/Section0005.xhtml"
+    },
+    {
+      "titulo": "Section0006",
+      "url": "OEBPS/Text/Section0006.xhtml"
+    },
+    {
+      "titulo": "Section0007",
+      "url": "OEBPS/Text/Section0007.xhtml"
+    },
+    {
+      "titulo": "Section0008",
+      "url": "OEBPS/Text/Section0008.xhtml"
+    },
+    {
+      "titulo": "Section0009",
+      "url": "OEBPS/Text/Section0009.xhtml"
+    },
+    {
+      "titulo": "Section0010",
+      "url": "OEBPS/Text/Section0010.xhtml"
+    },
+    {
+      "titulo": "Section0011",
+      "url": "OEBPS/Text/Section0011.xhtml"
+    },
+    {
+      "titulo": "Section0012",
+      "url": "OEBPS/Text/Section0012.xhtml"
+    },
+    {
+      "titulo": "Section0013",
+      "url": "OEBPS/Text/Section0013.xhtml"
+    },
+    {
+      "titulo": "Section0014",
+      "url": "OEBPS/Text/Section0014.xhtml"
+    },
+    {
+      "titulo": "Section0015",
+      "url": "OEBPS/Text/Section0015.xhtml"
+    },
+    {
+      "titulo": "Section0016",
+      "url": "OEBPS/Text/Section0016.xhtml"
+    },
+    {
+      "titulo": "Section0017",
+      "url": "OEBPS/Text/Section0017.xhtml"
+    },
+    {
+      "titulo": "Section0018",
+      "url": "OEBPS/Text/Section0018.xhtml"
+    },
+    {
+      "titulo": "Section0019",
+      "url": "OEBPS/Text/Section0019.xhtml"
+    },
+    {
+      "titulo": "Section0020",
+      "url": "OEBPS/Text/Section0020.xhtml"
+    },
+    {
+      "titulo": "Epilogo",
+      "url": "OEBPS/Text/Epilogo.xhtml"
+    },
+    {
+      "titulo": "Notasobreellondresdetessa",
+      "url": "OEBPS/Text/Notasobreellondresdetessa.xhtml"
+    },
+    {
+      "titulo": "Notasobrelapoesia",
+      "url": "OEBPS/Text/Notasobrelapoesia.xhtml"
+    },
+    {
+      "titulo": "agradecimientos",
+      "url": "OEBPS/Text/agradecimientos.xhtml"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "68e87a625e3c4688b3fbe276"
+  },
+  "titulo": "Cincuenta sombras de Grey (Coleccion com",
+  "slug": "Cincuenta-sombras-de-Grey-(Coleccion-com",
+  "saga": "Cincuenta Sombras",
+  "cover": "OEBPS/Images/cover.jpg",
+  "sinopsis": "OEBPS/Text/sinopsis.xhtml",
+  "authors": {
+    "nombre": "E. L. James",
+    "image": "OEBPS/Images/autor.jpg",
+    "bio": "OEBPS/Text/autor.xhtml"
+  },
+  "active": true,
+  "pages": [
+    {
+      "titulo": "cubierta",
+      "url": "OEBPS/Text/cubierta.xhtml"
+    },
+    {
+      "titulo": "50sombras",
+      "url": "OEBPS/Text/50sombras.xhtml"
+    },
+    {
+      "titulo": "dedicatoria",
+      "url": "OEBPS/Text/dedicatoria.xhtml"
+    },
+    {
+      "titulo": "agradecimientos",
+      "url": "OEBPS/Text/agradecimientos.xhtml"
+    },
+    {
+      "titulo": "Section0001",
+      "url": "OEBPS/Text/Section0001.xhtml"
+    },
+    {
+      "titulo": "Section0002",
+      "url": "OEBPS/Text/Section0002.xhtml"
+    },
+    {
+      "titulo": "Section0003",
+      "url": "OEBPS/Text/Section0003.xhtml"
+    },
+    {
+      "titulo": "Section0004",
+      "url": "OEBPS/Text/Section0004.xhtml"
+    },
+    {
+      "titulo": "Section0005",
+      "url": "OEBPS/Text/Section0005.xhtml"
+    },
+    {
+      "titulo": "Section0006",
+      "url": "OEBPS/Text/Section0006.xhtml"
+    },
+    {
+      "titulo": "Section0007",
+      "url": "OEBPS/Text/Section0007.xhtml"
+    },
+    {
+      "titulo": "Section0008",
+      "url": "OEBPS/Text/Section0008.xhtml"
+    },
+    {
+      "titulo": "Section0009",
+      "url": "OEBPS/Text/Section0009.xhtml"
+    },
+    {
+      "titulo": "Section0010",
+      "url": "OEBPS/Text/Section0010.xhtml"
+    },
+    {
+      "titulo": "Section0011",
+      "url": "OEBPS/Text/Section0011.xhtml"
+    },
+    {
+      "titulo": "Section0012",
+      "url": "OEBPS/Text/Section0012.xhtml"
+    },
+    {
+      "titulo": "Section0013",
+      "url": "OEBPS/Text/Section0013.xhtml"
+    },
+    {
+      "titulo": "Section0014",
+      "url": "OEBPS/Text/Section0014.xhtml"
+    },
+    {
+      "titulo": "Section0015",
+      "url": "OEBPS/Text/Section0015.xhtml"
+    },
+    {
+      "titulo": "Section0016",
+      "url": "OEBPS/Text/Section0016.xhtml"
+    },
+    {
+      "titulo": "Section0017",
+      "url": "OEBPS/Text/Section0017.xhtml"
+    },
+    {
+      "titulo": "Section0018",
+      "url": "OEBPS/Text/Section0018.xhtml"
+    },
+    {
+      "titulo": "Section0019",
+      "url": "OEBPS/Text/Section0019.xhtml"
+    },
+    {
+      "titulo": "Section0020",
+      "url": "OEBPS/Text/Section0020.xhtml"
+    },
+    {
+      "titulo": "Section0021",
+      "url": "OEBPS/Text/Section0021.xhtml"
+    },
+    {
+      "titulo": "Section0022",
+      "url": "OEBPS/Text/Section0022.xhtml"
+    },
+    {
+      "titulo": "Section0023",
+      "url": "OEBPS/Text/Section0023.xhtml"
+    },
+    {
+      "titulo": "Section0024",
+      "url": "OEBPS/Text/Section0024.xhtml"
+    },
+    {
+      "titulo": "Section0025",
+      "url": "OEBPS/Text/Section0025.xhtml"
+    },
+    {
+      "titulo": "Section0026",
+      "url": "OEBPS/Text/Section0026.xhtml"
+    },
+    {
+      "titulo": "masoscuras",
+      "url": "OEBPS/Text/masoscuras.xhtml"
+    },
+    {
+      "titulo": "dedicatoria2",
+      "url": "OEBPS/Text/dedicatoria2.xhtml"
+    },
+    {
+      "titulo": "prologo2",
+      "url": "OEBPS/Text/prologo2.xhtml"
+    },
+    {
+      "titulo": "Section0027",
+      "url": "OEBPS/Text/Section0027.xhtml"
+    },
+    {
+      "titulo": "Section0028",
+      "url": "OEBPS/Text/Section0028.xhtml"
+    },
+    {
+      "titulo": "Section0029",
+      "url": "OEBPS/Text/Section0029.xhtml"
+    },
+    {
+      "titulo": "Section0030",
+      "url": "OEBPS/Text/Section0030.xhtml"
+    },
+    {
+      "titulo": "Section0031",
+      "url": "OEBPS/Text/Section0031.xhtml"
+    },
+    {
+      "titulo": "Section0032",
+      "url": "OEBPS/Text/Section0032.xhtml"
+    },
+    {
+      "titulo": "Section0033",
+      "url": "OEBPS/Text/Section0033.xhtml"
+    },
+    {
+      "titulo": "Section0034",
+      "url": "OEBPS/Text/Section0034.xhtml"
+    },
+    {
+      "titulo": "Section0035",
+      "url": "OEBPS/Text/Section0035.xhtml"
+    },
+    {
+      "titulo": "Section0036",
+      "url": "OEBPS/Text/Section0036.xhtml"
+    },
+    {
+      "titulo": "Section0037",
+      "url": "OEBPS/Text/Section0037.xhtml"
+    },
+    {
+      "titulo": "Section0038",
+      "url": "OEBPS/Text/Section0038.xhtml"
+    },
+    {
+      "titulo": "Section0039",
+      "url": "OEBPS/Text/Section0039.xhtml"
+    },
+    {
+      "titulo": "Section0040",
+      "url": "OEBPS/Text/Section0040.xhtml"
+    },
+    {
+      "titulo": "Section0041",
+      "url": "OEBPS/Text/Section0041.xhtml"
+    },
+    {
+      "titulo": "Section0042",
+      "url": "OEBPS/Text/Section0042.xhtml"
+    },
+    {
+      "titulo": "Section0043",
+      "url": "OEBPS/Text/Section0043.xhtml"
+    },
+    {
+      "titulo": "Section0044",
+      "url": "OEBPS/Text/Section0044.xhtml"
+    },
+    {
+      "titulo": "Section0045",
+      "url": "OEBPS/Text/Section0045.xhtml"
+    },
+    {
+      "titulo": "Section0046",
+      "url": "OEBPS/Text/Section0046.xhtml"
+    },
+    {
+      "titulo": "Section0047",
+      "url": "OEBPS/Text/Section0047.xhtml"
+    },
+    {
+      "titulo": "Section0048",
+      "url": "OEBPS/Text/Section0048.xhtml"
+    },
+    {
+      "titulo": "liberadas",
+      "url": "OEBPS/Text/liberadas.xhtml"
+    },
+    {
+      "titulo": "dedicatoria3",
+      "url": "OEBPS/Text/dedicatoria3.xhtml"
+    },
+    {
+      "titulo": "prologo3",
+      "url": "OEBPS/Text/prologo3.xhtml"
+    },
+    {
+      "titulo": "Section0049",
+      "url": "OEBPS/Text/Section0049.xhtml"
+    },
+    {
+      "titulo": "Section0050",
+      "url": "OEBPS/Text/Section0050.xhtml"
+    },
+    {
+      "titulo": "Section0051",
+      "url": "OEBPS/Text/Section0051.xhtml"
+    },
+    {
+      "titulo": "Section0052",
+      "url": "OEBPS/Text/Section0052.xhtml"
+    },
+    {
+      "titulo": "Section0053",
+      "url": "OEBPS/Text/Section0053.xhtml"
+    },
+    {
+      "titulo": "Section0054",
+      "url": "OEBPS/Text/Section0054.xhtml"
+    },
+    {
+      "titulo": "Section0055",
+      "url": "OEBPS/Text/Section0055.xhtml"
+    },
+    {
+      "titulo": "Section0056",
+      "url": "OEBPS/Text/Section0056.xhtml"
+    },
+    {
+      "titulo": "Section0057",
+      "url": "OEBPS/Text/Section0057.xhtml"
+    },
+    {
+      "titulo": "Section0058",
+      "url": "OEBPS/Text/Section0058.xhtml"
+    },
+    {
+      "titulo": "Section0059",
+      "url": "OEBPS/Text/Section0059.xhtml"
+    },
+    {
+      "titulo": "Section0060",
+      "url": "OEBPS/Text/Section0060.xhtml"
+    },
+    {
+      "titulo": "Section0061",
+      "url": "OEBPS/Text/Section0061.xhtml"
+    },
+    {
+      "titulo": "Section0062",
+      "url": "OEBPS/Text/Section0062.xhtml"
+    },
+    {
+      "titulo": "Section0063",
+      "url": "OEBPS/Text/Section0063.xhtml"
+    },
+    {
+      "titulo": "Section0064",
+      "url": "OEBPS/Text/Section0064.xhtml"
+    },
+    {
+      "titulo": "Section0065",
+      "url": "OEBPS/Text/Section0065.xhtml"
+    },
+    {
+      "titulo": "Section0066",
+      "url": "OEBPS/Text/Section0066.xhtml"
+    },
+    {
+      "titulo": "Section0067",
+      "url": "OEBPS/Text/Section0067.xhtml"
+    },
+    {
+      "titulo": "Section0068",
+      "url": "OEBPS/Text/Section0068.xhtml"
+    },
+    {
+      "titulo": "Section0069",
+      "url": "OEBPS/Text/Section0069.xhtml"
+    },
+    {
+      "titulo": "Section0070",
+      "url": "OEBPS/Text/Section0070.xhtml"
+    },
+    {
+      "titulo": "Section0071",
+      "url": "OEBPS/Text/Section0071.xhtml"
+    },
+    {
+      "titulo": "Section0072",
+      "url": "OEBPS/Text/Section0072.xhtml"
+    },
+    {
+      "titulo": "Section0073",
+      "url": "OEBPS/Text/Section0073.xhtml"
+    },
+    {
+      "titulo": "epilogo",
+      "url": "OEBPS/Text/epilogo.xhtml"
+    },
+    {
+      "titulo": "las-sombras",
+      "url": "OEBPS/Text/las-sombras.xhtml"
+    },
+    {
+      "titulo": "cincuentasombras",
+      "url": "OEBPS/Text/cincuentasombras.xhtml"
+    },
+    {
+      "titulo": "notaautora",
+      "url": "OEBPS/Text/notaautora.xhtml"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "68e87e0b5e3c4688b3fbe277"
+  },
+  "titulo": "!Guardias! _Guardias_",
+  "slug": "!Guardias!-_Guardias_",
+  "saga": "Mundodisco",
+  "cover": "OEBPS/Images/cover.jpg",
+  "sinopsis": "OEBPS/Text/sinopsis.xhtml",
+  "authors": {
+    "nombre": "Terry Pratchett",
+    "image": "OEBPS/Images/autor.jpg",
+    "bio": "OEBPS/Text/autor.xhtml"
+  },
+  "active": true,
+  "pages": [
+    {
+      "titulo": "cover",
+      "url": "OEBPS/Text/cover.xhtml"
+    },
+    {
+      "titulo": "001",
+      "url": "OEBPS/Text/001.xhtml"
+    },
+    {
+      "titulo": "002",
+      "url": "OEBPS/Text/002.xhtml"
+    },
+    {
+      "titulo": "003",
+      "url": "OEBPS/Text/003.xhtml"
+    },
+    {
+      "titulo": "004",
+      "url": "OEBPS/Text/004.xhtml"
+    },
+    {
+      "titulo": "004b",
+      "url": "OEBPS/Text/004b.xhtml"
+    },
+    {
+      "titulo": "004c",
+      "url": "OEBPS/Text/004c.xhtml"
+    },
+    {
+      "titulo": "notas",
+      "url": "OEBPS/Text/notas.xhtml"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "68e8860635f8b55301d3327b"
+  },
+  "titulo": "Angeles y demonios",
+  "slug": "Angeles-y-demonios",
+  "saga": "",
+  "cover": "OEBPS/Images/cover.jpg",
+  "sinopsis": "OEBPS/Text/sinopsis.xhtml",
+  "authors": {
+    "nombre": "Dan Brown",
+    "image": "OEBPS/Images/autor.jpg",
+    "bio": "OEBPS/Text/autor.xhtml"
+  },
+  "active": true,
+  "pages": [
+    {
+      "titulo": "Angeles y demonios v2",
+      "url": "OEBPS/Text/Angeles y demonios v2.0.xhtml"
+    },
+    {
+      "titulo": "Section0002",
+      "url": "OEBPS/Text/Section0002.xhtml"
+    },
+    {
+      "titulo": "Section0003",
+      "url": "OEBPS/Text/Section0003.xhtml"
+    },
+    {
+      "titulo": "Section0004",
+      "url": "OEBPS/Text/Section0004.xhtml"
+    },
+    {
+      "titulo": "Section0005",
+      "url": "OEBPS/Text/Section0005.xhtml"
+    },
+    {
+      "titulo": "Section0006",
+      "url": "OEBPS/Text/Section0006.xhtml"
+    },
+    {
+      "titulo": "Section0007",
+      "url": "OEBPS/Text/Section0007.xhtml"
+    },
+    {
+      "titulo": "Section0008",
+      "url": "OEBPS/Text/Section0008.xhtml"
+    },
+    {
+      "titulo": "Section0009",
+      "url": "OEBPS/Text/Section0009.xhtml"
+    },
+    {
+      "titulo": "Section0010",
+      "url": "OEBPS/Text/Section0010.xhtml"
+    },
+    {
+      "titulo": "Section0011",
+      "url": "OEBPS/Text/Section0011.xhtml"
+    },
+    {
+      "titulo": "Section0012",
+      "url": "OEBPS/Text/Section0012.xhtml"
+    },
+    {
+      "titulo": "Section0013",
+      "url": "OEBPS/Text/Section0013.xhtml"
+    },
+    {
+      "titulo": "Section0014",
+      "url": "OEBPS/Text/Section0014.xhtml"
+    },
+    {
+      "titulo": "Section0015",
+      "url": "OEBPS/Text/Section0015.xhtml"
+    },
+    {
+      "titulo": "Section0016",
+      "url": "OEBPS/Text/Section0016.xhtml"
+    },
+    {
+      "titulo": "Section0017",
+      "url": "OEBPS/Text/Section0017.xhtml"
+    },
+    {
+      "titulo": "Section0018",
+      "url": "OEBPS/Text/Section0018.xhtml"
+    },
+    {
+      "titulo": "Section0019",
+      "url": "OEBPS/Text/Section0019.xhtml"
+    },
+    {
+      "titulo": "Section0020",
+      "url": "OEBPS/Text/Section0020.xhtml"
+    },
+    {
+      "titulo": "Section0021",
+      "url": "OEBPS/Text/Section0021.xhtml"
+    },
+    {
+      "titulo": "Section0022",
+      "url": "OEBPS/Text/Section0022.xhtml"
+    },
+    {
+      "titulo": "Section0023",
+      "url": "OEBPS/Text/Section0023.xhtml"
+    },
+    {
+      "titulo": "Section0024",
+      "url": "OEBPS/Text/Section0024.xhtml"
+    },
+    {
+      "titulo": "Section0025",
+      "url": "OEBPS/Text/Section0025.xhtml"
+    },
+    {
+      "titulo": "Section0026",
+      "url": "OEBPS/Text/Section0026.xhtml"
+    },
+    {
+      "titulo": "Section0027",
+      "url": "OEBPS/Text/Section0027.xhtml"
+    },
+    {
+      "titulo": "Section0028",
+      "url": "OEBPS/Text/Section0028.xhtml"
+    },
+    {
+      "titulo": "Section0029",
+      "url": "OEBPS/Text/Section0029.xhtml"
+    },
+    {
+      "titulo": "Section0030",
+      "url": "OEBPS/Text/Section0030.xhtml"
+    },
+    {
+      "titulo": "Section0031",
+      "url": "OEBPS/Text/Section0031.xhtml"
+    },
+    {
+      "titulo": "Section0032",
+      "url": "OEBPS/Text/Section0032.xhtml"
+    },
+    {
+      "titulo": "Section0033",
+      "url": "OEBPS/Text/Section0033.xhtml"
+    },
+    {
+      "titulo": "Section0034",
+      "url": "OEBPS/Text/Section0034.xhtml"
+    },
+    {
+      "titulo": "Section0035",
+      "url": "OEBPS/Text/Section0035.xhtml"
+    },
+    {
+      "titulo": "Section0036",
+      "url": "OEBPS/Text/Section0036.xhtml"
+    },
+    {
+      "titulo": "Section0037",
+      "url": "OEBPS/Text/Section0037.xhtml"
+    },
+    {
+      "titulo": "Section0038",
+      "url": "OEBPS/Text/Section0038.xhtml"
+    },
+    {
+      "titulo": "Section0039",
+      "url": "OEBPS/Text/Section0039.xhtml"
+    },
+    {
+      "titulo": "Section0040",
+      "url": "OEBPS/Text/Section0040.xhtml"
+    },
+    {
+      "titulo": "Section0041",
+      "url": "OEBPS/Text/Section0041.xhtml"
+    },
+    {
+      "titulo": "Section0042",
+      "url": "OEBPS/Text/Section0042.xhtml"
+    },
+    {
+      "titulo": "Section0043",
+      "url": "OEBPS/Text/Section0043.xhtml"
+    },
+    {
+      "titulo": "Section0044",
+      "url": "OEBPS/Text/Section0044.xhtml"
+    },
+    {
+      "titulo": "Section0045",
+      "url": "OEBPS/Text/Section0045.xhtml"
+    },
+    {
+      "titulo": "Section0046",
+      "url": "OEBPS/Text/Section0046.xhtml"
+    },
+    {
+      "titulo": "Section0047",
+      "url": "OEBPS/Text/Section0047.xhtml"
+    },
+    {
+      "titulo": "Section0048",
+      "url": "OEBPS/Text/Section0048.xhtml"
+    },
+    {
+      "titulo": "Section0049",
+      "url": "OEBPS/Text/Section0049.xhtml"
+    },
+    {
+      "titulo": "Section0050",
+      "url": "OEBPS/Text/Section0050.xhtml"
+    },
+    {
+      "titulo": "Section0051",
+      "url": "OEBPS/Text/Section0051.xhtml"
+    },
+    {
+      "titulo": "Section0052",
+      "url": "OEBPS/Text/Section0052.xhtml"
+    },
+    {
+      "titulo": "Section0053",
+      "url": "OEBPS/Text/Section0053.xhtml"
+    },
+    {
+      "titulo": "Section0054",
+      "url": "OEBPS/Text/Section0054.xhtml"
+    },
+    {
+      "titulo": "Section0055",
+      "url": "OEBPS/Text/Section0055.xhtml"
+    },
+    {
+      "titulo": "Section0056",
+      "url": "OEBPS/Text/Section0056.xhtml"
+    },
+    {
+      "titulo": "Section0057",
+      "url": "OEBPS/Text/Section0057.xhtml"
+    },
+    {
+      "titulo": "Section0058",
+      "url": "OEBPS/Text/Section0058.xhtml"
+    },
+    {
+      "titulo": "Section0059",
+      "url": "OEBPS/Text/Section0059.xhtml"
+    },
+    {
+      "titulo": "Section0060",
+      "url": "OEBPS/Text/Section0060.xhtml"
+    },
+    {
+      "titulo": "Section0061",
+      "url": "OEBPS/Text/Section0061.xhtml"
+    },
+    {
+      "titulo": "Section0062",
+      "url": "OEBPS/Text/Section0062.xhtml"
+    },
+    {
+      "titulo": "Section0063",
+      "url": "OEBPS/Text/Section0063.xhtml"
+    },
+    {
+      "titulo": "Section0064",
+      "url": "OEBPS/Text/Section0064.xhtml"
+    },
+    {
+      "titulo": "Section0065",
+      "url": "OEBPS/Text/Section0065.xhtml"
+    },
+    {
+      "titulo": "Section0066",
+      "url": "OEBPS/Text/Section0066.xhtml"
+    },
+    {
+      "titulo": "Section0067",
+      "url": "OEBPS/Text/Section0067.xhtml"
+    },
+    {
+      "titulo": "Section0068",
+      "url": "OEBPS/Text/Section0068.xhtml"
+    },
+    {
+      "titulo": "Section0069",
+      "url": "OEBPS/Text/Section0069.xhtml"
+    },
+    {
+      "titulo": "Section0070",
+      "url": "OEBPS/Text/Section0070.xhtml"
+    },
+    {
+      "titulo": "Section0071",
+      "url": "OEBPS/Text/Section0071.xhtml"
+    },
+    {
+      "titulo": "Section0072",
+      "url": "OEBPS/Text/Section0072.xhtml"
+    },
+    {
+      "titulo": "Section0073",
+      "url": "OEBPS/Text/Section0073.xhtml"
+    },
+    {
+      "titulo": "Section0074",
+      "url": "OEBPS/Text/Section0074.xhtml"
+    },
+    {
+      "titulo": "Section0075",
+      "url": "OEBPS/Text/Section0075.xhtml"
+    },
+    {
+      "titulo": "Section0076",
+      "url": "OEBPS/Text/Section0076.xhtml"
+    },
+    {
+      "titulo": "Section0077",
+      "url": "OEBPS/Text/Section0077.xhtml"
+    },
+    {
+      "titulo": "Section0078",
+      "url": "OEBPS/Text/Section0078.xhtml"
+    },
+    {
+      "titulo": "Section0079",
+      "url": "OEBPS/Text/Section0079.xhtml"
+    },
+    {
+      "titulo": "Section0080",
+      "url": "OEBPS/Text/Section0080.xhtml"
+    },
+    {
+      "titulo": "Section0081",
+      "url": "OEBPS/Text/Section0081.xhtml"
+    },
+    {
+      "titulo": "Section0082",
+      "url": "OEBPS/Text/Section0082.xhtml"
+    },
+    {
+      "titulo": "Section0083",
+      "url": "OEBPS/Text/Section0083.xhtml"
+    },
+    {
+      "titulo": "Section0084",
+      "url": "OEBPS/Text/Section0084.xhtml"
+    },
+    {
+      "titulo": "Section0085",
+      "url": "OEBPS/Text/Section0085.xhtml"
+    },
+    {
+      "titulo": "Section0086",
+      "url": "OEBPS/Text/Section0086.xhtml"
+    },
+    {
+      "titulo": "Section0087",
+      "url": "OEBPS/Text/Section0087.xhtml"
+    },
+    {
+      "titulo": "Section0088",
+      "url": "OEBPS/Text/Section0088.xhtml"
+    },
+    {
+      "titulo": "Section0089",
+      "url": "OEBPS/Text/Section0089.xhtml"
+    },
+    {
+      "titulo": "Section0090",
+      "url": "OEBPS/Text/Section0090.xhtml"
+    },
+    {
+      "titulo": "Section0091",
+      "url": "OEBPS/Text/Section0091.xhtml"
+    },
+    {
+      "titulo": "Section0092",
+      "url": "OEBPS/Text/Section0092.xhtml"
+    },
+    {
+      "titulo": "Section0093",
+      "url": "OEBPS/Text/Section0093.xhtml"
+    },
+    {
+      "titulo": "Section0094",
+      "url": "OEBPS/Text/Section0094.xhtml"
+    },
+    {
+      "titulo": "Section0095",
+      "url": "OEBPS/Text/Section0095.xhtml"
+    },
+    {
+      "titulo": "Section0096",
+      "url": "OEBPS/Text/Section0096.xhtml"
+    },
+    {
+      "titulo": "Section0097",
+      "url": "OEBPS/Text/Section0097.xhtml"
+    },
+    {
+      "titulo": "Section0098",
+      "url": "OEBPS/Text/Section0098.xhtml"
+    },
+    {
+      "titulo": "Section0099",
+      "url": "OEBPS/Text/Section0099.xhtml"
+    },
+    {
+      "titulo": "Section0100",
+      "url": "OEBPS/Text/Section0100.xhtml"
+    },
+    {
+      "titulo": "Section0101",
+      "url": "OEBPS/Text/Section0101.xhtml"
+    },
+    {
+      "titulo": "Section0102",
+      "url": "OEBPS/Text/Section0102.xhtml"
+    },
+    {
+      "titulo": "Section0103",
+      "url": "OEBPS/Text/Section0103.xhtml"
+    },
+    {
+      "titulo": "Section0104",
+      "url": "OEBPS/Text/Section0104.xhtml"
+    },
+    {
+      "titulo": "Section0105",
+      "url": "OEBPS/Text/Section0105.xhtml"
+    },
+    {
+      "titulo": "Section0106",
+      "url": "OEBPS/Text/Section0106.xhtml"
+    },
+    {
+      "titulo": "Section0107",
+      "url": "OEBPS/Text/Section0107.xhtml"
+    },
+    {
+      "titulo": "Section0108",
+      "url": "OEBPS/Text/Section0108.xhtml"
+    },
+    {
+      "titulo": "Section0109",
+      "url": "OEBPS/Text/Section0109.xhtml"
+    },
+    {
+      "titulo": "Section0110",
+      "url": "OEBPS/Text/Section0110.xhtml"
+    },
+    {
+      "titulo": "Section0111",
+      "url": "OEBPS/Text/Section0111.xhtml"
+    },
+    {
+      "titulo": "Section0112",
+      "url": "OEBPS/Text/Section0112.xhtml"
+    },
+    {
+      "titulo": "Section0113",
+      "url": "OEBPS/Text/Section0113.xhtml"
+    },
+    {
+      "titulo": "Section0114",
+      "url": "OEBPS/Text/Section0114.xhtml"
+    },
+    {
+      "titulo": "Section0115",
+      "url": "OEBPS/Text/Section0115.xhtml"
+    },
+    {
+      "titulo": "Section0116",
+      "url": "OEBPS/Text/Section0116.xhtml"
+    },
+    {
+      "titulo": "Section0117",
+      "url": "OEBPS/Text/Section0117.xhtml"
+    },
+    {
+      "titulo": "Section0118",
+      "url": "OEBPS/Text/Section0118.xhtml"
+    },
+    {
+      "titulo": "Section0119",
+      "url": "OEBPS/Text/Section0119.xhtml"
+    },
+    {
+      "titulo": "Section0120",
+      "url": "OEBPS/Text/Section0120.xhtml"
+    },
+    {
+      "titulo": "Section0121",
+      "url": "OEBPS/Text/Section0121.xhtml"
+    },
+    {
+      "titulo": "Section0122",
+      "url": "OEBPS/Text/Section0122.xhtml"
+    },
+    {
+      "titulo": "Section0123",
+      "url": "OEBPS/Text/Section0123.xhtml"
+    },
+    {
+      "titulo": "Section0124",
+      "url": "OEBPS/Text/Section0124.xhtml"
+    },
+    {
+      "titulo": "Section0125",
+      "url": "OEBPS/Text/Section0125.xhtml"
+    },
+    {
+      "titulo": "Section0126",
+      "url": "OEBPS/Text/Section0126.xhtml"
+    },
+    {
+      "titulo": "Section0127",
+      "url": "OEBPS/Text/Section0127.xhtml"
+    },
+    {
+      "titulo": "Section0128",
+      "url": "OEBPS/Text/Section0128.xhtml"
+    },
+    {
+      "titulo": "Section0129",
+      "url": "OEBPS/Text/Section0129.xhtml"
+    },
+    {
+      "titulo": "Section0130",
+      "url": "OEBPS/Text/Section0130.xhtml"
+    },
+    {
+      "titulo": "Section0131",
+      "url": "OEBPS/Text/Section0131.xhtml"
+    },
+    {
+      "titulo": "Section0132",
+      "url": "OEBPS/Text/Section0132.xhtml"
+    },
+    {
+      "titulo": "Section0133",
+      "url": "OEBPS/Text/Section0133.xhtml"
+    },
+    {
+      "titulo": "Section0134",
+      "url": "OEBPS/Text/Section0134.xhtml"
+    },
+    {
+      "titulo": "Section0135",
+      "url": "OEBPS/Text/Section0135.xhtml"
+    },
+    {
+      "titulo": "Section0136",
+      "url": "OEBPS/Text/Section0136.xhtml"
+    },
+    {
+      "titulo": "Section0137",
+      "url": "OEBPS/Text/Section0137.xhtml"
+    },
+    {
+      "titulo": "Section0138",
+      "url": "OEBPS/Text/Section0138.xhtml"
+    },
+    {
+      "titulo": "Section0139",
+      "url": "OEBPS/Text/Section0139.xhtml"
+    },
+    {
+      "titulo": "Section0140",
+      "url": "OEBPS/Text/Section0140.xhtml"
+    },
+    {
+      "titulo": "Section0141",
+      "url": "OEBPS/Text/Section0141.xhtml"
+    },
+    {
+      "titulo": "Section0142",
+      "url": "OEBPS/Text/Section0142.xhtml"
+    },
+    {
+      "titulo": "Section0143",
+      "url": "OEBPS/Text/Section0143.xhtml"
+    },
+    {
+      "titulo": "Section0144",
+      "url": "OEBPS/Text/Section0144.xhtml"
+    },
+    {
+      "titulo": "Section0145",
+      "url": "OEBPS/Text/Section0145.xhtml"
+    },
+    {
+      "titulo": "Section0146",
+      "url": "OEBPS/Text/Section0146.xhtml"
+    },
+    {
+      "titulo": "Section0147",
+      "url": "OEBPS/Text/Section0147.xhtml"
+    },
+    {
+      "titulo": "Section0148",
+      "url": "OEBPS/Text/Section0148.xhtml"
+    },
+    {
+      "titulo": "Section0149",
+      "url": "OEBPS/Text/Section0149.xhtml"
+    }
+  ]
 }]
-
