@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package version="2.0" unique-identifier="BookId" xmlns="http://www.idpf.org/2007/opf">
+  <metadata xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:identifier opf:scheme="UUID" id="BookId">urn:uuid:3da98db4-223a-47b7-bcbd-325b96b278d5</dc:identifier>
+    <dc:title>El archivo de Sherlock Holmes (Ed. Ilustrada)</dc:title>
+    <dc:creator opf:role="aut" opf:file-as="Doyle, Arthur Conan">Arthur Conan Doyle</dc:creator>
+    <dc:language>es</dc:language>
+    <dc:subject>Relato, Policial</dc:subject>
+    <dc:description>Inexorablemente las aventuras de Sherlock Holmes y su querido Watson terminan en este libro. «El archivo de Sherlock Holmes», compuesto de varios relatos cuyos casos son, si cabe, más originales y estrafalarios de lo normal, posee la categoría que exige el guion en casos de despedida: asuntos de vampiros, de viejos cadáveres que de repente alguien quema, el propio Holmes narrando dos de los cuentos, frases como «¿Cuándo estará disponible para cenar, señor Holmes?». «Siete y media, pasado mañana», el merecido cariño que Holmes le expresa a Watson e, inevitablemente, la sensación de querer volver a empezar con el primer libro, por si nos hubiéramos perdido algo… El volumen reúne doce apasionantes nuevas aventuras del singular investigador, entre las que figura, excepcionalmente, alguna de las pocas que dejó sin resolver, como «La aventura de la inquilina del velo».</dc:description>
+    <dc:date opf:event="publication">1927-06-16</dc:date>
+    <dc:date opf:event="modification">2017-07-30</dc:date>
+    <dc:publisher>ePubLibre</dc:publisher>
+    <meta name="calibre:series" content="Canon Sherlock Holmes Ilustrado" />
+    <meta name="calibre:series_index" content="9.0" />
+    <meta name="Sigil version" content="0.9.8" />
+    <meta name="cover" content="cover.jpg" />
+  </metadata>
+  <manifest>
+    <item id="Ap07b.xhtml" href="Text/Ap07b.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Ap07c.xhtml" href="Text/Ap07c.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Apendice01.xhtml" href="Text/Apendice01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Apendice02.xhtml" href="Text/Apendice02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Apendice03.xhtml" href="Text/Apendice03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Apendice04.xhtml" href="Text/Apendice04.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Apendice05.xhtml" href="Text/Apendice05.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Apendice06.xhtml" href="Text/Apendice06.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Apendice07.xhtml" href="Text/Apendice07.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Apendices.xhtml" href="Text/Apendices.xhtml" media-type="application/xhtml+xml"/>
+    <item id="EPL_logo.png" href="Images/EPL_logo.png" media-type="image/png"/>
+    <item id="ElproblemadelpuentedeThor.xhtml" href="Text/ElproblemadelpuentedeThor.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ElvampirodeSussex.xhtml" href="Text/ElvampirodeSussex.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Imagen01.jpg" href="Images/Imagen01.jpg" media-type="image/jpeg"/>
+    <item id="Imagen02.jpg" href="Images/Imagen02.jpg" media-type="image/jpeg"/>
+    <item id="Imagen03.jpg" href="Images/Imagen03.jpg" media-type="image/jpeg"/>
+    <item id="Imagen04.jpg" href="Images/Imagen04.jpg" media-type="image/jpeg"/>
+    <item id="Imagen05.jpg" href="Images/Imagen05.jpg" media-type="image/jpeg"/>
+    <item id="Imagen06.jpg" href="Images/Imagen06.jpg" media-type="image/jpeg"/>
+    <item id="Imagen07.jpg" href="Images/Imagen07.jpg" media-type="image/jpeg"/>
+    <item id="Imagen08.jpg" href="Images/Imagen08.jpg" media-type="image/jpeg"/>
+    <item id="Imagen09.jpg" href="Images/Imagen09.jpg" media-type="image/jpeg"/>
+    <item id="Imagen10.jpg" href="Images/Imagen10.jpg" media-type="image/jpeg"/>
+    <item id="Imagen11.jpg" href="Images/Imagen11.jpg" media-type="image/jpeg"/>
+    <item id="Imagen12.jpg" href="Images/Imagen12.jpg" media-type="image/jpeg"/>
+    <item id="Imagen13.jpg" href="Images/Imagen13.jpg" media-type="image/jpeg"/>
+    <item id="Imagen14.jpg" href="Images/Imagen14.jpg" media-type="image/jpeg"/>
+    <item id="Imagen15.jpg" href="Images/Imagen15.jpg" media-type="image/jpeg"/>
+    <item id="Imagen16.jpg" href="Images/Imagen16.jpg" media-type="image/jpeg"/>
+    <item id="Imagen17.jpg" href="Images/Imagen17.jpg" media-type="image/jpeg"/>
+    <item id="Imagen18.jpg" href="Images/Imagen18.jpg" media-type="image/jpeg"/>
+    <item id="Imagen19.jpg" href="Images/Imagen19.jpg" media-type="image/jpeg"/>
+    <item id="Imagen20.jpg" href="Images/Imagen20.jpg" media-type="image/jpeg"/>
+    <item id="Imagen21.jpg" href="Images/Imagen21.jpg" media-type="image/jpeg"/>
+    <item id="Imagen22.jpg" href="Images/Imagen22.jpg" media-type="image/jpeg"/>
+    <item id="Imagen23.jpg" href="Images/Imagen23.jpg" media-type="image/jpeg"/>
+    <item id="Imagen24.jpg" href="Images/Imagen24.jpg" media-type="image/jpeg"/>
+    <item id="Imagen25.jpg" href="Images/Imagen25.jpg" media-type="image/jpeg"/>
+    <item id="Imagen26.jpg" href="Images/Imagen26.jpg" media-type="image/jpeg"/>
+    <item id="Imagen27.jpg" href="Images/Imagen27.jpg" media-type="image/jpeg"/>
+    <item id="Imagen28.jpg" href="Images/Imagen28.jpg" media-type="image/jpeg"/>
+    <item id="Imagen29.jpg" href="Images/Imagen29.jpg" media-type="image/jpeg"/>
+    <item id="Imagen30.jpg" href="Images/Imagen30.jpg" media-type="image/jpeg"/>
+    <item id="Imagen31.jpg" href="Images/Imagen31.jpg" media-type="image/jpeg"/>
+    <item id="Imagen32.jpg" href="Images/Imagen32.jpg" media-type="image/jpeg"/>
+    <item id="Imagen33.jpg" href="Images/Imagen33.jpg" media-type="image/jpeg"/>
+    <item id="Imagen34.jpg" href="Images/Imagen34.jpg" media-type="image/jpeg"/>
+    <item id="Imagen35.jpg" href="Images/Imagen35.jpg" media-type="image/jpeg"/>
+    <item id="Imagen36.jpg" href="Images/Imagen36.jpg" media-type="image/jpeg"/>
+    <item id="Imagen37.jpg" href="Images/Imagen37.jpg" media-type="image/jpeg"/>
+    <item id="Imagen38.jpg" href="Images/Imagen38.jpg" media-type="image/jpeg"/>
+    <item id="Imagen39.jpg" href="Images/Imagen39.jpg" media-type="image/jpeg"/>
+    <item id="Imagen40.jpg" href="Images/Imagen40.jpg" media-type="image/jpeg"/>
+    <item id="Imagen41.jpg" href="Images/Imagen41.jpg" media-type="image/jpeg"/>
+    <item id="Imagen42.jpg" href="Images/Imagen42.jpg" media-type="image/jpeg"/>
+    <item id="Imagen43.jpg" href="Images/Imagen43.jpg" media-type="image/jpeg"/>
+    <item id="Imagen44.jpg" href="Images/Imagen44.jpg" media-type="image/jpeg"/>
+    <item id="Imagen45.jpg" href="Images/Imagen45.jpg" media-type="image/jpeg"/>
+    <item id="Imagen46.jpg" href="Images/Imagen46.jpg" media-type="image/jpeg"/>
+    <item id="Imagen47.jpg" href="Images/Imagen47.jpg" media-type="image/jpeg"/>
+    <item id="Imagen48.jpg" href="Images/Imagen48.jpg" media-type="image/jpeg"/>
+    <item id="Imagen49.jpg" href="Images/Imagen49.jpg" media-type="image/jpeg"/>
+    <item id="Imagen50.jpg" href="Images/Imagen50.jpg" media-type="image/jpeg"/>
+    <item id="Imagen51.jpg" href="Images/Imagen51.jpg" media-type="image/jpeg"/>
+    <item id="Imagen52.jpg" href="Images/Imagen52.jpg" media-type="image/jpeg"/>
+    <item id="Imagen53.jpg" href="Images/Imagen53.jpg" media-type="image/jpeg"/>
+    <item id="Imagen54.jpg" href="Images/Imagen54.jpg" media-type="image/jpeg"/>
+    <item id="Imagen55.jpg" href="Images/Imagen55.jpg" media-type="image/jpeg"/>
+    <item id="Imagen56.jpg" href="Images/Imagen56.jpg" media-type="image/jpeg"/>
+    <item id="Imagen57.jpg" href="Images/Imagen57.jpg" media-type="image/jpeg"/>
+    <item id="Imagen58.jpg" href="Images/Imagen58.jpg" media-type="image/jpeg"/>
+    <item id="Imagen59.jpg" href="Images/Imagen59.jpg" media-type="image/jpeg"/>
+    <item id="Imagen60.jpg" href="Images/Imagen60.jpg" media-type="image/jpeg"/>
+    <item id="Imagen61.jpg" href="Images/Imagen61.jpg" media-type="image/jpeg"/>
+    <item id="Imagen62.jpg" href="Images/Imagen62.jpg" media-type="image/jpeg"/>
+    <item id="Imagen63.jpg" href="Images/Imagen63.jpg" media-type="image/jpeg"/>
+    <item id="Imagen64.jpg" href="Images/Imagen64.jpg" media-type="image/jpeg"/>
+    <item id="Imagen65.jpg" href="Images/Imagen65.jpg" media-type="image/jpeg"/>
+    <item id="Imagen66.jpg" href="Images/Imagen66.jpg" media-type="image/jpeg"/>
+    <item id="Imagen67.jpg" href="Images/Imagen67.jpg" media-type="image/jpeg"/>
+    <item id="Imagen68.jpg" href="Images/Imagen68.jpg" media-type="image/jpeg"/>
+    <item id="Imagen69.jpg" href="Images/Imagen69.jpg" media-type="image/jpeg"/>
+    <item id="Imagen70.jpg" href="Images/Imagen70.jpg" media-type="image/jpeg"/>
+    <item id="Imagen71.jpg" href="Images/Imagen71.jpg" media-type="image/jpeg"/>
+    <item id="Imagen72.jpg" href="Images/Imagen72.jpg" media-type="image/jpeg"/>
+    <item id="Imagen73.jpg" href="Images/Imagen73.jpg" media-type="image/jpeg"/>
+    <item id="Imagen74.jpg" href="Images/Imagen74.jpg" media-type="image/jpeg"/>
+    <item id="Imagen75.jpg" href="Images/Imagen75.jpg" media-type="image/jpeg"/>
+    <item id="Imagen76.jpg" href="Images/Imagen76.jpg" media-type="image/jpeg"/>
+    <item id="Imagen77.jpg" href="Images/Imagen77.jpg" media-type="image/jpeg"/>
+    <item id="Imagen78.jpg" href="Images/Imagen78.jpg" media-type="image/jpeg"/>
+    <item id="Imagen79.jpg" href="Images/Imagen79.jpg" media-type="image/jpeg"/>
+    <item id="Imagen80.jpg" href="Images/Imagen80.jpg" media-type="image/jpeg"/>
+    <item id="Imagen81.jpg" href="Images/Imagen81.jpg" media-type="image/jpeg"/>
+    <item id="Imagen82.jpg" href="Images/Imagen82.jpg" media-type="image/jpeg"/>
+    <item id="LaaventuradeShoscombeOldPlace.xhtml" href="Text/LaaventuradeShoscombeOldPlace.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Laaventuradelainquilinadelvelo.xhtml" href="Text/Laaventuradelainquilinadelvelo.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Laaventuradelamelenadeleon.xhtml" href="Text/Laaventuradelamelenadeleon.xhtml" media-type="application/xhtml+xml"/>
+    <item id="LaaventuradelapiedraMazarino.xhtml" href="Text/LaaventuradelapiedraMazarino.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Laaventuradelclienteilustre.xhtml" href="Text/Laaventuradelclienteilustre.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Laaventuradelfabricantedecoloresretirado.xhtml" href="Text/Laaventuradelfabricantedecoloresretirado.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Laaventuradelhombrequereptaba.xhtml" href="Text/Laaventuradelhombrequereptaba.xhtml" media-type="application/xhtml+xml"/>
+    <item id="LaaventuradelostresGabletes.xhtml" href="Text/LaaventuradelostresGabletes.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Laaventuradelostresgarribebs.xhtml" href="Text/Laaventuradelostresgarribebs.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Laaventuradelsoldadodelapieldecolorada.xhtml" href="Text/Laaventuradelsoldadodelapieldecolorada.xhtml" media-type="application/xhtml+xml"/>
+    <item id="PV.ttf" href="Fonts/PV.ttf" media-type="application/x-font-ttf"/>
+    <item id="Prefacio.xhtml" href="Text/Prefacio.xhtml" media-type="application/xhtml+xml"/>
+    <item id="PrimeraParte.xhtml" href="Text/PrimeraParte.xhtml" media-type="application/xhtml+xml"/>
+    <item id="RelacionI.xhtml" href="Text/RelacionI.xhtml" media-type="application/xhtml+xml"/>
+    <item id="SegundaParte.xhtml" href="Text/SegundaParte.xhtml" media-type="application/xhtml+xml"/>
+    <item id="SumarioI.xhtml" href="Text/SumarioI.xhtml" media-type="application/xhtml+xml"/>
+    <item id="SumarioII.xhtml" href="Text/SumarioII.xhtml" media-type="application/xhtml+xml"/>
+    <item id="autor.jpg" href="Images/autor.jpg" media-type="image/jpeg"/>
+    <item id="autor.xhtml" href="Text/autor.xhtml" media-type="application/xhtml+xml"/>
+    <item id="cover.jpg" href="Images/cover.jpg" media-type="image/jpeg"/>
+    <item id="cubierta.xhtml" href="Text/cubierta.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ex_libris.png" href="Images/ex_libris.png" media-type="image/png"/>
+    <item id="firma.jpg" href="Images/firma.jpg" media-type="image/jpeg"/>
+    <item id="info.xhtml" href="Text/info.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="notas.xhtml" href="Text/notas.xhtml" media-type="application/xhtml+xml"/>
+    <item id="rotulo.xhtml" href="Text/rotulo.xhtml" media-type="application/xhtml+xml"/>
+    <item id="sinopsis.xhtml" href="Text/sinopsis.xhtml" media-type="application/xhtml+xml"/>
+    <item id="style.css" href="Styles/style.css" media-type="text/css"/>
+    <item id="titulo.xhtml" href="Text/titulo.xhtml" media-type="application/xhtml+xml"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="cubierta.xhtml"/>
+    <itemref idref="sinopsis.xhtml"/>
+    <itemref idref="titulo.xhtml"/>
+    <itemref idref="info.xhtml"/>
+    <itemref idref="rotulo.xhtml"/>
+    <itemref idref="PrimeraParte.xhtml"/>
+    <itemref idref="SumarioI.xhtml"/>
+    <itemref idref="Prefacio.xhtml"/>
+    <itemref idref="LaaventuradelapiedraMazarino.xhtml"/>
+    <itemref idref="ElproblemadelpuentedeThor.xhtml"/>
+    <itemref idref="Laaventuradelhombrequereptaba.xhtml"/>
+    <itemref idref="ElvampirodeSussex.xhtml"/>
+    <itemref idref="Laaventuradelostresgarribebs.xhtml"/>
+    <itemref idref="Laaventuradelclienteilustre.xhtml"/>
+    <itemref idref="SegundaParte.xhtml"/>
+    <itemref idref="SumarioII.xhtml"/>
+    <itemref idref="LaaventuradelostresGabletes.xhtml"/>
+    <itemref idref="Laaventuradelsoldadodelapieldecolorada.xhtml"/>
+    <itemref idref="Laaventuradelamelenadeleon.xhtml"/>
+    <itemref idref="Laaventuradelfabricantedecoloresretirado.xhtml"/>
+    <itemref idref="Laaventuradelainquilinadelvelo.xhtml"/>
+    <itemref idref="LaaventuradeShoscombeOldPlace.xhtml"/>
+    <itemref idref="RelacionI.xhtml"/>
+    <itemref idref="Apendices.xhtml"/>
+    <itemref idref="Apendice01.xhtml"/>
+    <itemref idref="Apendice02.xhtml"/>
+    <itemref idref="Apendice03.xhtml"/>
+    <itemref idref="Apendice04.xhtml"/>
+    <itemref idref="Apendice05.xhtml"/>
+    <itemref idref="Apendice06.xhtml"/>
+    <itemref idref="Apendice07.xhtml"/>
+    <itemref idref="Ap07b.xhtml"/>
+    <itemref idref="Ap07c.xhtml"/>
+    <itemref idref="autor.xhtml"/>
+    <itemref idref="notas.xhtml"/>
+  </spine>
+  <guide>
+    <reference type="cover" title="Cover" href="Text/cubierta.xhtml"/>
+  </guide>
+</package>

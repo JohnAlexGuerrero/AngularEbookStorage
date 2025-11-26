@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN"
+ "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+  <head>
+    <meta content="urn:uuid:2b46c036-0fe8-44ad-a523-435d30f41625" name="dtb:uid"/>
+    <meta content="1" name="dtb:depth"/>
+    <meta content="0" name="dtb:totalPageCount"/>
+    <meta content="0" name="dtb:maxPageNumber"/>
+  </head>
+  <docTitle>
+    <text>A todos los chicos de los que me enamoré</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="navPoint-1" playOrder="1">
+      <navLabel>
+        <text>Cubierta</text>
+      </navLabel>
+      <content src="Text/cubierta.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-2" playOrder="2">
+      <navLabel>
+        <text>A todos los chicos de los que me enamoré</text>
+      </navLabel>
+      <content src="Text/titulo.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-3" playOrder="3">
+      <navLabel>
+        <text>Cita</text>
+      </navLabel>
+      <content src="Text/cita.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-4" playOrder="4">
+      <navLabel>
+        <text>Dedicatoria</text>
+      </navLabel>
+      <content src="Text/dedicatoria.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-5" playOrder="5">
+      <navLabel>
+        <text>Capítulo 1</text>
+      </navLabel>
+      <content src="Text/cap1.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-6" playOrder="6">
+      <navLabel>
+        <text>Capítulo 2</text>
+      </navLabel>
+      <content src="Text/cap2.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-7" playOrder="7">
+      <navLabel>
+        <text>Capítulo 3</text>
+      </navLabel>
+      <content src="Text/cap3.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-8" playOrder="8">
+      <navLabel>
+        <text>Capítulo 4</text>
+      </navLabel>
+      <content src="Text/cap4.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-9" playOrder="9">
+      <navLabel>
+        <text>Capítulo 5</text>
+      </navLabel>
+      <content src="Text/cap5.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-10" playOrder="10">
+      <navLabel>
+        <text>Capítulo 6</text>
+      </navLabel>
+      <content src="Text/cap6.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-11" playOrder="11">
+      <navLabel>
+        <text>Capítulo 7</text>
+      </navLabel>
+      <content src="Text/cap7.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-12" playOrder="12">
+      <navLabel>
+        <text>Capítulo 8</text>
+      </navLabel>
+      <content src="Text/cap8.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-13" playOrder="13">
+      <navLabel>
+        <text>Capítulo 9</text>
+      </navLabel>
+      <content src="Text/cap9.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-14" playOrder="14">
+      <navLabel>
+        <text>Capítulo 10</text>
+      </navLabel>
+      <content src="Text/cap10.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-15" playOrder="15">
+      <navLabel>
+        <text>Capítulo 11</text>
+      </navLabel>
+      <content src="Text/cap11.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-16" playOrder="16">
+      <navLabel>
+        <text>Capítulo 12</text>
+      </navLabel>
+      <content src="Text/cap12.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-17" playOrder="17">
+      <navLabel>
+        <text>Capítulo 13</text>
+      </navLabel>
+      <content src="Text/cap13.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-18" playOrder="18">
+      <navLabel>
+        <text>Capítulo 14</text>
+      </navLabel>
+      <content src="Text/cap14.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-19" playOrder="19">
+      <navLabel>
+        <text>Capítulo 15</text>
+      </navLabel>
+      <content src="Text/cap15.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-20" playOrder="20">
+      <navLabel>
+        <text>Capítulo 16</text>
+      </navLabel>
+      <content src="Text/cap16.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-21" playOrder="21">
+      <navLabel>
+        <text>Capítulo 17</text>
+      </navLabel>
+      <content src="Text/cap17.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-22" playOrder="22">
+      <navLabel>
+        <text>Capítulo 18</text>
+      </navLabel>
+      <content src="Text/cap18.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-23" playOrder="23">
+      <navLabel>
+        <text>Capítulo 19</text>
+      </navLabel>
+      <content src="Text/cap19.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-24" playOrder="24">
+      <navLabel>
+        <text>Capítulo 20</text>
+      </navLabel>
+      <content src="Text/cap20.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-25" playOrder="25">
+      <navLabel>
+        <text>Capítulo 21</text>
+      </navLabel>
+      <content src="Text/cap21.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-26" playOrder="26">
+      <navLabel>
+        <text>Capítulo 22</text>
+      </navLabel>
+      <content src="Text/cap22.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-27" playOrder="27">
+      <navLabel>
+        <text>Capítulo 23</text>
+      </navLabel>
+      <content src="Text/cap23.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-28" playOrder="28">
+      <navLabel>
+        <text>Capítulo 24</text>
+      </navLabel>
+      <content src="Text/cap24.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-29" playOrder="29">
+      <navLabel>
+        <text>Capítulo 25</text>
+      </navLabel>
+      <content src="Text/cap25.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-30" playOrder="30">
+      <navLabel>
+        <text>Capítulo 26</text>
+      </navLabel>
+      <content src="Text/cap26.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-31" playOrder="31">
+      <navLabel>
+        <text>Capítulo 27</text>
+      </navLabel>
+      <content src="Text/cap27.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-32" playOrder="32">
+      <navLabel>
+        <text>Capítulo 28</text>
+      </navLabel>
+      <content src="Text/cap28.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-33" playOrder="33">
+      <navLabel>
+        <text>Capítulo 29</text>
+      </navLabel>
+      <content src="Text/cap29.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-34" playOrder="34">
+      <navLabel>
+        <text>Capítulo 30</text>
+      </navLabel>
+      <content src="Text/cap30.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-35" playOrder="35">
+      <navLabel>
+        <text>Capítulo 31</text>
+      </navLabel>
+      <content src="Text/cap31.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-36" playOrder="36">
+      <navLabel>
+        <text>Capítulo 32</text>
+      </navLabel>
+      <content src="Text/cap32.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-37" playOrder="37">
+      <navLabel>
+        <text>Capítulo 33</text>
+      </navLabel>
+      <content src="Text/cap33.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-38" playOrder="38">
+      <navLabel>
+        <text>Capítulo 34</text>
+      </navLabel>
+      <content src="Text/cap34.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-39" playOrder="39">
+      <navLabel>
+        <text>Capítulo 35</text>
+      </navLabel>
+      <content src="Text/cap35.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-40" playOrder="40">
+      <navLabel>
+        <text>Capítulo 36</text>
+      </navLabel>
+      <content src="Text/cap36.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-41" playOrder="41">
+      <navLabel>
+        <text>Capítulo 37</text>
+      </navLabel>
+      <content src="Text/cap37.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-42" playOrder="42">
+      <navLabel>
+        <text>Capítulo 38</text>
+      </navLabel>
+      <content src="Text/cap38.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-43" playOrder="43">
+      <navLabel>
+        <text>Capítulo 39</text>
+      </navLabel>
+      <content src="Text/cap39.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-44" playOrder="44">
+      <navLabel>
+        <text>Capítulo 40</text>
+      </navLabel>
+      <content src="Text/cap40.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-45" playOrder="45">
+      <navLabel>
+        <text>Capítulo 41</text>
+      </navLabel>
+      <content src="Text/cap41.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-46" playOrder="46">
+      <navLabel>
+        <text>Capítulo 42</text>
+      </navLabel>
+      <content src="Text/cap42.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-47" playOrder="47">
+      <navLabel>
+        <text>Capítulo 43</text>
+      </navLabel>
+      <content src="Text/cap43.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-48" playOrder="48">
+      <navLabel>
+        <text>Capítulo 44</text>
+      </navLabel>
+      <content src="Text/cap44.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-49" playOrder="49">
+      <navLabel>
+        <text>Capítulo 45</text>
+      </navLabel>
+      <content src="Text/cap45.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-50" playOrder="50">
+      <navLabel>
+        <text>Capítulo 46</text>
+      </navLabel>
+      <content src="Text/cap46.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-51" playOrder="51">
+      <navLabel>
+        <text>Capítulo 47</text>
+      </navLabel>
+      <content src="Text/cap47.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-52" playOrder="52">
+      <navLabel>
+        <text>Capítulo 48</text>
+      </navLabel>
+      <content src="Text/cap48.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-53" playOrder="53">
+      <navLabel>
+        <text>Capítulo 49</text>
+      </navLabel>
+      <content src="Text/cap49.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-54" playOrder="54">
+      <navLabel>
+        <text>Capítulo 50</text>
+      </navLabel>
+      <content src="Text/cap50.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-55" playOrder="55">
+      <navLabel>
+        <text>Capítulo 51</text>
+      </navLabel>
+      <content src="Text/cap51.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-56" playOrder="56">
+      <navLabel>
+        <text>Capítulo 52</text>
+      </navLabel>
+      <content src="Text/cap52.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-57" playOrder="57">
+      <navLabel>
+        <text>Capítulo 53</text>
+      </navLabel>
+      <content src="Text/cap53.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-58" playOrder="58">
+      <navLabel>
+        <text>Capítulo 54</text>
+      </navLabel>
+      <content src="Text/cap54.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-59" playOrder="59">
+      <navLabel>
+        <text>Capítulo 55</text>
+      </navLabel>
+      <content src="Text/cap55.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-60" playOrder="60">
+      <navLabel>
+        <text>Capítulo 56</text>
+      </navLabel>
+      <content src="Text/cap56.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-61" playOrder="61">
+      <navLabel>
+        <text>Capítulo 57</text>
+      </navLabel>
+      <content src="Text/cap57.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-62" playOrder="62">
+      <navLabel>
+        <text>Capítulo 58</text>
+      </navLabel>
+      <content src="Text/cap58.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-63" playOrder="63">
+      <navLabel>
+        <text>Capítulo 59</text>
+      </navLabel>
+      <content src="Text/cap59.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-64" playOrder="64">
+      <navLabel>
+        <text>Capítulo 60</text>
+      </navLabel>
+      <content src="Text/cap60.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-65" playOrder="65">
+      <navLabel>
+        <text>Capítulo 61</text>
+      </navLabel>
+      <content src="Text/cap61.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-66" playOrder="66">
+      <navLabel>
+        <text>Capítulo 62</text>
+      </navLabel>
+      <content src="Text/cap62.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-67" playOrder="67">
+      <navLabel>
+        <text>Capítulo 63</text>
+      </navLabel>
+      <content src="Text/cap63.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-68" playOrder="68">
+      <navLabel>
+        <text>Capítulo 64</text>
+      </navLabel>
+      <content src="Text/cap64.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-69" playOrder="69">
+      <navLabel>
+        <text>Capítulo 65</text>
+      </navLabel>
+      <content src="Text/cap65.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-70" playOrder="70">
+      <navLabel>
+        <text>Capítulo 66</text>
+      </navLabel>
+      <content src="Text/cap66.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-71" playOrder="71">
+      <navLabel>
+        <text>Capítulo 67</text>
+      </navLabel>
+      <content src="Text/cap67.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-72" playOrder="72">
+      <navLabel>
+        <text>Capítulo 68</text>
+      </navLabel>
+      <content src="Text/cap68.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-73" playOrder="73">
+      <navLabel>
+        <text>Capítulo 69</text>
+      </navLabel>
+      <content src="Text/cap69.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-74" playOrder="74">
+      <navLabel>
+        <text>Capítulo 70</text>
+      </navLabel>
+      <content src="Text/cap70.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-75" playOrder="75">
+      <navLabel>
+        <text>Capítulo 71</text>
+      </navLabel>
+      <content src="Text/cap71.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-76" playOrder="76">
+      <navLabel>
+        <text>Capítulo 72</text>
+      </navLabel>
+      <content src="Text/cap72.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-77" playOrder="77">
+      <navLabel>
+        <text>Agradecimientos</text>
+      </navLabel>
+      <content src="Text/agradecimientos.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-78" playOrder="78">
+      <navLabel>
+        <text>Autora</text>
+      </navLabel>
+      <content src="Text/autor.xhtml"/>
+    </navPoint>
+  </navMap>
+</ncx>

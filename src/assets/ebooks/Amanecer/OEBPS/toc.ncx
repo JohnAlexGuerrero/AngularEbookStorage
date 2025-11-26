@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN"
+ "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+  <head>
+    <meta name="dtb:uid" content="urn:uuid:e7059fde-56b2-468f-bffa-8194df796e0f" />
+    <meta name="dtb:depth" content="3" />
+    <meta name="dtb:totalPageCount" content="0" />
+    <meta name="dtb:maxPageNumber" content="0" />
+  </head>
+  <docTitle>
+    <text>Amanecer</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="navPoint-1" playOrder="1">
+      <navLabel>
+        <text>Cubierta</text>
+      </navLabel>
+      <content src="Text/cover.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-2" playOrder="2">
+      <navLabel>
+        <text>Amanecer</text>
+      </navLabel>
+      <content src="Text/titulo.xhtml" />
+      <navPoint id="navPoint-3" playOrder="3">
+        <navLabel>
+          <text>LIBRO UNO - Bella</text>
+        </navLabel>
+        <content src="Text/Sec0001.xhtml" />
+        <navPoint id="navPoint-4" playOrder="4">
+          <navLabel>
+            <text>Prefacio</text>
+          </navLabel>
+          <content src="Text/Sec0002.xhtml" />
+        </navPoint>
+        <navPoint id="navPoint-5" playOrder="5">
+          <navLabel>
+            <text>Comprometida</text>
+          </navLabel>
+          <content src="Text/Sec0003.xhtml" />
+        </navPoint>
+        <navPoint id="navPoint-6" playOrder="6">
+          <navLabel>
+            <text>La larga noche</text>
+          </navLabel>
+          <content src="Text/Sec0004.xhtml" />
+        </navPoint>
+        <navPoint id="navPoint-7" playOrder="7">
+          <navLabel>
+            <text>El gran día</text>
+          </navLabel>
+          <content src="Text/Sec0005.xhtml" />
+        </navPoint>
+        <navPoint id="navPoint-8" playOrder="8">
+          <navLabel>
+            <text>El gesto</text>
+          </navLabel>
+          <content src="Text/Sec0006.xhtml" />
+        </navPoint>
+        <navPoint id="navPoint-9" playOrder="9">
+          <navLabel>
+            <text>Isla Esme</text>
+          </navLabel>
+          <content src="Text/Sec0007.xhtml" />
+        </navPoint>
+        <navPoint id="navPoint-10" playOrder="10">
+          <navLabel>
+            <text>Distracciones</text>
+          </navLabel>
+          <content src="Text/Sec0008.xhtml" />
+        </navPoint>
+        <navPoint id="navPoint-11" playOrder="11">
+          <navLabel>
+            <text>Algo inesperado</text>
+          </navLabel>
+          <content src="Text/Sec0009.xhtml" />
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-12" playOrder="12">
+        <navLabel>
+          <text>LIBRO DOS - Jacob</text>
+        </navLabel>
+        <content src="Text/Sec0010.xhtml" />
+        <navPoint id="navPoint-13" playOrder="13">
+          <navLabel>
+            <text>Prefacio</text>
+          </navLabel>
+          <content src="Text/Sec0011.xhtml" />
+        </navPoint>
+        <navPoint id="navPoint-14" playOrder="14">
+          <navLabel>
+            <text>A la espera de que empiece de una vez la maldita pelea</text>
+          </navLabel>
+          <content src="Text/Sec0012.xhtml" />
+        </navPoint>
+        <navPoint id="navPoint-15" playOrder="15">
+          <navLabel>
+            <text>Tan seguro como que hay infierno que no ve lo que se le viene encima</text>
+          </navLabel>
+          <content src="Text/Sec0013.xhtml" />
+        </navPoint>
+        <navPoint id="navPoint-16" playOrder="16">
+          <navLabel>
+            <text>Qué por qué no me largué? Ah, sí, vale, porque soy imbécil</text>
+          </navLabel>
+          <content src="Text/Sec0014.xhtml" />
+        </navPoint>
+        <navPoint id="navPoint-17" playOrder="17">
+          <navLabel>
+            <text>Las dos primeras cosas de la lista de «lo que jamás querría hacer»</text>
+          </navLabel>
+          <content src="Text/Sec0015.xhtml" />
+        </navPoint>
+        <navPoint id="navPoint-18" playOrder="18">
+          <navLabel>
+            <text>Los hay que no entienden el concepto de «persona non grata»</text>
+          </navLabel>
+          <content src="Text/Sec0016.xhtml" />
+        </navPoint>
+        <navPoint id="navPoint-19" playOrder="19">
+          <navLabel>
+            <text>Suerte que tengo un estómago de hierro</text>
+          </navLabel>
+          <content src="Text/Sec0017.xhtml" />
+        </navPoint>
+        <navPoint id="navPoint-20" playOrder="20">
+          <navLabel>
+            <text>Te haces idea de lo mal que va todo cuando te sientes culpable por ser borde con un vampiro</text>
+          </navLabel>
+          <content src="Text/Sec0018.xhtml" />
+        </navPoint>
+        <navPoint id="navPoint-21" playOrder="21">
+          <navLabel>
+            <text>Tic, tac, tic, tac, tic, tac</text>
+          </navLabel>
+          <content src="Text/Sec0019.xhtml" />
+        </navPoint>
+        <navPoint id="navPoint-22" playOrder="22">
+          <navLabel>
+            <text>Alerta, exceso de información</text>
+          </navLabel>
+          <content src="Text/Sec0020.xhtml" />
+        </navPoint>
+        <navPoint id="navPoint-23" playOrder="23">
+          <navLabel>
+            <text>¿Qué pinta tengo? ¿Es que parezco el Mago de Oz? ¿Qué es lo que quieres, mi cabeza o mí corazón? Pues hala, tómalos, llévate todo lo que es mío</text>
+          </navLabel>
+          <content src="Text/Sec0021.xhtml" />
+        </navPoint>
+        <navPoint id="navPoint-24" playOrder="24">
+          <navLabel>
+            <text>Esto no tiene nombre</text>
+          </navLabel>
+          <content src="Text/Sec0022.xhtml" />
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-25" playOrder="25">
+        <navLabel>
+          <text>LIBRO TRES - Bella</text>
+        </navLabel>
+        <content src="Text/Sec0023.xhtml" />
+        <navPoint id="navPoint-26" playOrder="26">
+          <navLabel>
+            <text>Prefacio</text>
+          </navLabel>
+          <content src="Text/Sec0024.xhtml" />
+        </navPoint>
+        <navPoint id="navPoint-27" playOrder="27">
+          <navLabel>
+            <text>Febril</text>
+          </navLabel>
+          <content src="Text/Sec0025.xhtml" />
+        </navPoint>
+        <navPoint id="navPoint-28" playOrder="28">
+          <navLabel>
+            <text>Nuevo</text>
+          </navLabel>
+          <content src="Text/Sec0026.xhtml" />
+        </navPoint>
+        <navPoint id="navPoint-29" playOrder="29">
+          <navLabel>
+            <text>La primera caza</text>
+          </navLabel>
+          <content src="Text/Sec0027.xhtml" />
+        </navPoint>
+        <navPoint id="navPoint-30" playOrder="30">
+          <navLabel>
+            <text>La promesa</text>
+          </navLabel>
+          <content src="Text/Sec0028.xhtml" />
+        </navPoint>
+        <navPoint id="navPoint-31" playOrder="31">
+          <navLabel>
+            <text>Recuerdos</text>
+          </navLabel>
+          <content src="Text/Sec0029.xhtml" />
+        </navPoint>
+        <navPoint id="navPoint-32" playOrder="32">
+          <navLabel>
+            <text>Sorpresa</text>
+          </navLabel>
+          <content src="Text/Sec0030.xhtml" />
+        </navPoint>
+        <navPoint id="navPoint-33" playOrder="33">
+          <navLabel>
+            <text>Un favor</text>
+          </navLabel>
+          <content src="Text/Sec0031.xhtml" />
+        </navPoint>
+        <navPoint id="navPoint-34" playOrder="34">
+          <navLabel>
+            <text>Soy brillante</text>
+          </navLabel>
+          <content src="Text/Sec0032.xhtml" />
+        </navPoint>
+        <navPoint id="navPoint-35" playOrder="35">
+          <navLabel>
+            <text>Planes de viaje</text>
+          </navLabel>
+          <content src="Text/Sec0033.xhtml" />
+        </navPoint>
+        <navPoint id="navPoint-36" playOrder="36">
+          <navLabel>
+            <text>El futuro</text>
+          </navLabel>
+          <content src="Text/Sec0034.xhtml" />
+        </navPoint>
+        <navPoint id="navPoint-37" playOrder="37">
+          <navLabel>
+            <text>Deserción</text>
+          </navLabel>
+          <content src="Text/Sec0035.xhtml" />
+        </navPoint>
+        <navPoint id="navPoint-38" playOrder="38">
+          <navLabel>
+            <text>Irresistible</text>
+          </navLabel>
+          <content src="Text/Sec0036.xhtml" />
+        </navPoint>
+        <navPoint id="navPoint-39" playOrder="39">
+          <navLabel>
+            <text>Talentos</text>
+          </navLabel>
+          <content src="Text/Sec0037.xhtml" />
+        </navPoint>
+        <navPoint id="navPoint-40" playOrder="40">
+          <navLabel>
+            <text>En compañía</text>
+          </navLabel>
+          <content src="Text/Sec0038.xhtml" />
+        </navPoint>
+        <navPoint id="navPoint-41" playOrder="41">
+          <navLabel>
+            <text>Falsificación</text>
+          </navLabel>
+          <content src="Text/Sec0039.xhtml" />
+        </navPoint>
+        <navPoint id="navPoint-42" playOrder="42">
+          <navLabel>
+            <text>Declaración</text>
+          </navLabel>
+          <content src="Text/Sec0040.xhtml" />
+        </navPoint>
+        <navPoint id="navPoint-43" playOrder="43">
+          <navLabel>
+            <text>Fin de plazo</text>
+          </navLabel>
+          <content src="Text/Sec0041.xhtml" />
+        </navPoint>
+        <navPoint id="navPoint-44" playOrder="44">
+          <navLabel>
+            <text>Ansia de sangre</text>
+          </navLabel>
+          <content src="Text/Sec0042.xhtml" />
+        </navPoint>
+        <navPoint id="navPoint-45" playOrder="45">
+          <navLabel>
+            <text>Argucias</text>
+          </navLabel>
+          <content src="Text/Sec0043.xhtml" />
+        </navPoint>
+        <navPoint id="navPoint-46" playOrder="46">
+          <navLabel>
+            <text>Poder</text>
+          </navLabel>
+          <content src="Text/Sec0044.xhtml" />
+        </navPoint>
+        <navPoint id="navPoint-47" playOrder="47">
+          <navLabel>
+            <text>Y vivieron felices y comieron perdices</text>
+          </navLabel>
+          <content src="Text/Sec0045.xhtml" />
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-48" playOrder="48">
+        <navLabel>
+          <text>Índice de vampiros</text>
+        </navLabel>
+        <content src="Text/Sec0046.xhtml" />
+        <navPoint id="navPoint-49" playOrder="49">
+          <navLabel>
+            <text>Agradecimientos</text>
+          </navLabel>
+          <content src="Text/Agradecimientos.xhtml" />
+        </navPoint>
+      </navPoint>
+    </navPoint>
+  </navMap>
+</ncx>
