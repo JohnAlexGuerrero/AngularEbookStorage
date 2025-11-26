@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN"
+   "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+  <head>
+    <meta name="dtb:uid" content="urn:uuid:3da98db4-223a-47b7-bcbd-325b96b278d5"/>
+    <meta name="dtb:depth" content="2"/>
+    <meta name="dtb:totalPageCount" content="0"/>
+    <meta name="dtb:maxPageNumber" content="0"/>
+  </head>
+  <docTitle>
+    <text>El archivo de Sherlock Holmes (Ed. Ilustrada)</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="navPoint-1" playOrder="1">
+      <navLabel>
+        <text>Cubierta</text>
+      </navLabel>
+      <content src="Text/cubierta.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-2" playOrder="2">
+      <navLabel>
+        <text>El archivo de Sherlock Holmes (Ed. Ilustrada)</text>
+      </navLabel>
+      <content src="Text/titulo.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-3" playOrder="3">
+      <navLabel>
+        <text>El archivo de Sherlock Holmes. Parte I</text>
+      </navLabel>
+      <content src="Text/PrimeraParte.xhtml"/>
+      <navPoint id="navPoint-4" playOrder="4">
+        <navLabel>
+          <text>Sumario I</text>
+        </navLabel>
+        <content src="Text/SumarioI.xhtml"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-5" playOrder="5">
+      <navLabel>
+        <text>Prefacio</text>
+      </navLabel>
+      <content src="Text/Prefacio.xhtml"/>
+      <navPoint id="navPoint-6" playOrder="6">
+        <navLabel>
+          <text>La aventura de la piedra de Mazarino</text>
+        </navLabel>
+        <content src="Text/LaaventuradelapiedraMazarino.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-7" playOrder="7">
+        <navLabel>
+          <text>El problema del puente de Thor</text>
+        </navLabel>
+        <content src="Text/ElproblemadelpuentedeThor.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-8" playOrder="8">
+        <navLabel>
+          <text>La aventura del hombre que reptaba</text>
+        </navLabel>
+        <content src="Text/Laaventuradelhombrequereptaba.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-9" playOrder="9">
+        <navLabel>
+          <text>El vampiro de Sussex</text>
+        </navLabel>
+        <content src="Text/ElvampirodeSussex.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-10" playOrder="10">
+        <navLabel>
+          <text>La aventura de los tres Garridebs</text>
+        </navLabel>
+        <content src="Text/Laaventuradelostresgarribebs.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-11" playOrder="11">
+        <navLabel>
+          <text>La aventura del cliente ilustre</text>
+        </navLabel>
+        <content src="Text/Laaventuradelclienteilustre.xhtml"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-12" playOrder="12">
+      <navLabel>
+        <text>El archivo de Sherlock Holmes. Parte II</text>
+      </navLabel>
+      <content src="Text/SegundaParte.xhtml"/>
+      <navPoint id="navPoint-13" playOrder="13">
+        <navLabel>
+          <text>Sumario II</text>
+        </navLabel>
+        <content src="Text/SumarioII.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-14" playOrder="14">
+        <navLabel>
+          <text>La aventura de los tres gabletes</text>
+        </navLabel>
+        <content src="Text/LaaventuradelostresGabletes.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-15" playOrder="15">
+        <navLabel>
+          <text>La aventura del soldado de la piel decolorada</text>
+        </navLabel>
+        <content src="Text/Laaventuradelsoldadodelapieldecolorada.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-16" playOrder="16">
+        <navLabel>
+          <text>La aventura de la melena de león</text>
+        </navLabel>
+        <content src="Text/Laaventuradelamelenadeleon.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-17" playOrder="17">
+        <navLabel>
+          <text>La aventura del fabricante de colores retirado</text>
+        </navLabel>
+        <content src="Text/Laaventuradelfabricantedecoloresretirado.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-18" playOrder="18">
+        <navLabel>
+          <text>La aventura de la inquilina del velo</text>
+        </navLabel>
+        <content src="Text/Laaventuradelainquilinadelvelo.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-19" playOrder="19">
+        <navLabel>
+          <text>La aventura de Shoscombe Old Place</text>
+        </navLabel>
+        <content src="Text/LaaventuradeShoscombeOldPlace.xhtml"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-20" playOrder="20">
+      <navLabel>
+        <text>Relación de Ilustradores</text>
+      </navLabel>
+      <content src="Text/RelacionI.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-21" playOrder="21">
+      <navLabel>
+        <text>Apéndices</text>
+      </navLabel>
+      <content src="Text/Apendices.xhtml"/>
+      <navPoint id="navPoint-22" playOrder="22">
+        <navLabel>
+          <text>Apéndice 1</text>
+        </navLabel>
+        <content src="Text/Apendice01.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-23" playOrder="23">
+        <navLabel>
+          <text>Apéndice 2</text>
+        </navLabel>
+        <content src="Text/Apendice02.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-24" playOrder="24">
+        <navLabel>
+          <text>Apéndice 3</text>
+        </navLabel>
+        <content src="Text/Apendice03.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-25" playOrder="25">
+        <navLabel>
+          <text>Apéndice 4</text>
+        </navLabel>
+        <content src="Text/Apendice04.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-26" playOrder="26">
+        <navLabel>
+          <text>Apéndice 1</text>
+        </navLabel>
+        <content src="Text/Apendice05.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-27" playOrder="27">
+        <navLabel>
+          <text>Apéndice 2</text>
+        </navLabel>
+        <content src="Text/Apendice06.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-28" playOrder="28">
+        <navLabel>
+          <text>Apéndice 3</text>
+        </navLabel>
+        <content src="Text/Apendice07.xhtml"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-29" playOrder="29">
+      <navLabel>
+        <text>Autor</text>
+      </navLabel>
+      <content src="Text/autor.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-30" playOrder="30">
+      <navLabel>
+        <text>Notas</text>
+      </navLabel>
+      <content src="Text/notas.xhtml"/>
+    </navPoint>
+  </navMap>
+</ncx>
