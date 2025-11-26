@@ -16,7 +16,7 @@ import { Book } from '../../models/book';
 })
 export class ReaderComponent implements OnInit{
   book: Book = {
-    id: "", titulo: "", slug:"",sinopsis:"",saga:"",cover:"",active:false, authors: {nombre: "",image:"",bio:""}, pages:[]
+    id: "", titulo: "", slug:"",sinopsis:"",saga:"",cover:"",active:false, authors: {nombre: "",image:"",bio:""}, pages:[], wallpapers:[]
   };
 
   title: string = "";

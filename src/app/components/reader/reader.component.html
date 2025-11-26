@@ -1,12 +1,15 @@
-<section class="image"></section>
+<!-- <section class="image" style="background-image: url({{book.wallpapers[0]}});"></section> -->
 <section class="text">
-    <h2>{{book.titulo}}</h2>
+    <h2 class="title">{{book.titulo}}</h2>
 </section>
 
 @for(page of pages; track page.titulo) {
-    <section class="image"></section>
-    <section class="text">
-        <h2 class="chapter-title">{{page.titulo}}</h2>
-        <app-page [url]='book.slug+"/"+page.url'></app-page>
-    </section>
+    @if (page.titulo != "cubierta") {
+        <!-- @if (book.wallpapers.length > 0) {
+            <section class="image" style="background-image: url({{book.wallpapers[0]}});"></section>
+        } -->
+        <section class="text">
+            <app-page [url]='book.slug+"/"+page.url'></app-page>
+        </section>
+    }
 }

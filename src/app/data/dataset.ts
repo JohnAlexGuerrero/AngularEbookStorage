@@ -1,4 +1,5 @@
-export const librosDataSet = [{
+export const librosDataSet = [
+  {
   "_id": {
     "$oid": "68d85e3fe009aaf0466c28c4"
   },
@@ -3709,4 +3710,1347 @@ export const librosDataSet = [{
       "url": "OEBPS/Text/Section0149.xhtml"
     }
   ]
-}]
+},
+{
+  "_id": {
+    "$oid": "690c0c29ee9e745ab65d3212"
+  },
+  "titulo": "Casa capitular Dune",
+  "slug": "Casa-capitular-Dune",
+  "saga": "Dune",
+  "cover": "OEBPS/Images/cover.jpg",
+  "sinopsis": "OEBPS/Text/sinopsis.xhtml",
+  "authors": {
+    "nombre": "Frank Herbert",
+    "image": "OEBPS/Images/autor.jpg",
+    "bio": "OEBPS/Text/autor.xhtml"
+  },
+  "active": true,
+  "pages": [
+    {
+      "titulo": "cubierta",
+      "url": "OEBPS/Text/cubierta.xhtml"
+    },
+    {
+      "titulo": "titulo",
+      "url": "OEBPS/Text/titulo.xhtml"
+    },
+    {
+      "titulo": "info",
+      "url": "OEBPS/Text/info.xhtml"
+    },
+    {
+      "titulo": "Section0001",
+      "url": "OEBPS/Text/Section0001.xhtml"
+    },
+    {
+      "titulo": "Section0002",
+      "url": "OEBPS/Text/Section0002.xhtml"
+    },
+    {
+      "titulo": "Section0003",
+      "url": "OEBPS/Text/Section0003.xhtml"
+    },
+    {
+      "titulo": "Section0004",
+      "url": "OEBPS/Text/Section0004.xhtml"
+    },
+    {
+      "titulo": "Section0005",
+      "url": "OEBPS/Text/Section0005.xhtml"
+    },
+    {
+      "titulo": "Section0006",
+      "url": "OEBPS/Text/Section0006.xhtml"
+    },
+    {
+      "titulo": "Section0007",
+      "url": "OEBPS/Text/Section0007.xhtml"
+    },
+    {
+      "titulo": "Section0008",
+      "url": "OEBPS/Text/Section0008.xhtml"
+    },
+    {
+      "titulo": "Section0009",
+      "url": "OEBPS/Text/Section0009.xhtml"
+    },
+    {
+      "titulo": "Section0010",
+      "url": "OEBPS/Text/Section0010.xhtml"
+    },
+    {
+      "titulo": "Section0011",
+      "url": "OEBPS/Text/Section0011.xhtml"
+    },
+    {
+      "titulo": "Section0012",
+      "url": "OEBPS/Text/Section0012.xhtml"
+    },
+    {
+      "titulo": "Section0013",
+      "url": "OEBPS/Text/Section0013.xhtml"
+    },
+    {
+      "titulo": "Section0014",
+      "url": "OEBPS/Text/Section0014.xhtml"
+    },
+    {
+      "titulo": "Section0015",
+      "url": "OEBPS/Text/Section0015.xhtml"
+    },
+    {
+      "titulo": "Section0016",
+      "url": "OEBPS/Text/Section0016.xhtml"
+    },
+    {
+      "titulo": "Section0017",
+      "url": "OEBPS/Text/Section0017.xhtml"
+    },
+    {
+      "titulo": "Section0018",
+      "url": "OEBPS/Text/Section0018.xhtml"
+    },
+    {
+      "titulo": "Section0019",
+      "url": "OEBPS/Text/Section0019.xhtml"
+    },
+    {
+      "titulo": "Section0020",
+      "url": "OEBPS/Text/Section0020.xhtml"
+    },
+    {
+      "titulo": "Section0021",
+      "url": "OEBPS/Text/Section0021.xhtml"
+    },
+    {
+      "titulo": "Section0022",
+      "url": "OEBPS/Text/Section0022.xhtml"
+    },
+    {
+      "titulo": "Section0023",
+      "url": "OEBPS/Text/Section0023.xhtml"
+    },
+    {
+      "titulo": "Section0024",
+      "url": "OEBPS/Text/Section0024.xhtml"
+    },
+    {
+      "titulo": "Section0025",
+      "url": "OEBPS/Text/Section0025.xhtml"
+    },
+    {
+      "titulo": "Section0026",
+      "url": "OEBPS/Text/Section0026.xhtml"
+    },
+    {
+      "titulo": "Section0027",
+      "url": "OEBPS/Text/Section0027.xhtml"
+    },
+    {
+      "titulo": "Section0028",
+      "url": "OEBPS/Text/Section0028.xhtml"
+    },
+    {
+      "titulo": "Section0029",
+      "url": "OEBPS/Text/Section0029.xhtml"
+    },
+    {
+      "titulo": "Section0030",
+      "url": "OEBPS/Text/Section0030.xhtml"
+    },
+    {
+      "titulo": "Section0031",
+      "url": "OEBPS/Text/Section0031.xhtml"
+    },
+    {
+      "titulo": "Section0032",
+      "url": "OEBPS/Text/Section0032.xhtml"
+    },
+    {
+      "titulo": "Section0033",
+      "url": "OEBPS/Text/Section0033.xhtml"
+    },
+    {
+      "titulo": "Section0034",
+      "url": "OEBPS/Text/Section0034.xhtml"
+    },
+    {
+      "titulo": "Section0035",
+      "url": "OEBPS/Text/Section0035.xhtml"
+    },
+    {
+      "titulo": "Section0036",
+      "url": "OEBPS/Text/Section0036.xhtml"
+    },
+    {
+      "titulo": "Section0037",
+      "url": "OEBPS/Text/Section0037.xhtml"
+    },
+    {
+      "titulo": "Section0038",
+      "url": "OEBPS/Text/Section0038.xhtml"
+    },
+    {
+      "titulo": "Section0039",
+      "url": "OEBPS/Text/Section0039.xhtml"
+    },
+    {
+      "titulo": "Section0040",
+      "url": "OEBPS/Text/Section0040.xhtml"
+    },
+    {
+      "titulo": "Section0041",
+      "url": "OEBPS/Text/Section0041.xhtml"
+    },
+    {
+      "titulo": "Section0042",
+      "url": "OEBPS/Text/Section0042.xhtml"
+    },
+    {
+      "titulo": "Section0043",
+      "url": "OEBPS/Text/Section0043.xhtml"
+    },
+    {
+      "titulo": "Section0044",
+      "url": "OEBPS/Text/Section0044.xhtml"
+    },
+    {
+      "titulo": "Section0045",
+      "url": "OEBPS/Text/Section0045.xhtml"
+    },
+    {
+      "titulo": "Section0046",
+      "url": "OEBPS/Text/Section0046.xhtml"
+    },
+    {
+      "titulo": "Section0047",
+      "url": "OEBPS/Text/Section0047.xhtml"
+    },
+    {
+      "titulo": "Section0048",
+      "url": "OEBPS/Text/Section0048.xhtml"
+    },
+    {
+      "titulo": "dedicatoria",
+      "url": "OEBPS/Text/dedicatoria.xhtml"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "690c0df2ee9e745ab65d3213"
+  },
+  "titulo": "Dune",
+  "slug": "Dune",
+  "saga": "Dune",
+  "cover": "OEBPS/Images/cover.jpg",
+  "sinopsis": "OEBPS/Text/sinopsis.xhtml",
+  "authors": {
+    "nombre": "Frank Herbert",
+    "image": "OEBPS/Images/autor.jpg",
+    "bio": "OEBPS/Text/autor.xhtml"
+  },
+  "active": true,
+  "pages": [
+    {
+      "titulo": "cubierta",
+      "url": "OEBPS/Text/cubierta.xhtml"
+    },
+    {
+      "titulo": "info",
+      "url": "OEBPS/Text/info.xhtml"
+    },
+    {
+      "titulo": "dedicatoria",
+      "url": "OEBPS/Text/dedicatoria.xhtml"
+    },
+    {
+      "titulo": "librouno",
+      "url": "OEBPS/Text/librouno.xhtml"
+    },
+    {
+      "titulo": "101",
+      "url": "OEBPS/Text/101.xhtml"
+    },
+    {
+      "titulo": "102",
+      "url": "OEBPS/Text/102.xhtml"
+    },
+    {
+      "titulo": "103",
+      "url": "OEBPS/Text/103.xhtml"
+    },
+    {
+      "titulo": "104",
+      "url": "OEBPS/Text/104.xhtml"
+    },
+    {
+      "titulo": "105",
+      "url": "OEBPS/Text/105.xhtml"
+    },
+    {
+      "titulo": "106",
+      "url": "OEBPS/Text/106.xhtml"
+    },
+    {
+      "titulo": "107",
+      "url": "OEBPS/Text/107.xhtml"
+    },
+    {
+      "titulo": "108",
+      "url": "OEBPS/Text/108.xhtml"
+    },
+    {
+      "titulo": "109",
+      "url": "OEBPS/Text/109.xhtml"
+    },
+    {
+      "titulo": "110",
+      "url": "OEBPS/Text/110.xhtml"
+    },
+    {
+      "titulo": "111",
+      "url": "OEBPS/Text/111.xhtml"
+    },
+    {
+      "titulo": "112",
+      "url": "OEBPS/Text/112.xhtml"
+    },
+    {
+      "titulo": "113",
+      "url": "OEBPS/Text/113.xhtml"
+    },
+    {
+      "titulo": "114",
+      "url": "OEBPS/Text/114.xhtml"
+    },
+    {
+      "titulo": "115",
+      "url": "OEBPS/Text/115.xhtml"
+    },
+    {
+      "titulo": "116",
+      "url": "OEBPS/Text/116.xhtml"
+    },
+    {
+      "titulo": "117",
+      "url": "OEBPS/Text/117.xhtml"
+    },
+    {
+      "titulo": "118",
+      "url": "OEBPS/Text/118.xhtml"
+    },
+    {
+      "titulo": "119",
+      "url": "OEBPS/Text/119.xhtml"
+    },
+    {
+      "titulo": "120",
+      "url": "OEBPS/Text/120.xhtml"
+    },
+    {
+      "titulo": "121",
+      "url": "OEBPS/Text/121.xhtml"
+    },
+    {
+      "titulo": "122",
+      "url": "OEBPS/Text/122.xhtml"
+    },
+    {
+      "titulo": "librodos",
+      "url": "OEBPS/Text/librodos.xhtml"
+    },
+    {
+      "titulo": "223",
+      "url": "OEBPS/Text/223.xhtml"
+    },
+    {
+      "titulo": "224",
+      "url": "OEBPS/Text/224.xhtml"
+    },
+    {
+      "titulo": "225",
+      "url": "OEBPS/Text/225.xhtml"
+    },
+    {
+      "titulo": "226",
+      "url": "OEBPS/Text/226.xhtml"
+    },
+    {
+      "titulo": "227",
+      "url": "OEBPS/Text/227.xhtml"
+    },
+    {
+      "titulo": "228",
+      "url": "OEBPS/Text/228.xhtml"
+    },
+    {
+      "titulo": "229",
+      "url": "OEBPS/Text/229.xhtml"
+    },
+    {
+      "titulo": "230",
+      "url": "OEBPS/Text/230.xhtml"
+    },
+    {
+      "titulo": "231",
+      "url": "OEBPS/Text/231.xhtml"
+    },
+    {
+      "titulo": "232",
+      "url": "OEBPS/Text/232.xhtml"
+    },
+    {
+      "titulo": "233",
+      "url": "OEBPS/Text/233.xhtml"
+    },
+    {
+      "titulo": "234",
+      "url": "OEBPS/Text/234.xhtml"
+    },
+    {
+      "titulo": "235",
+      "url": "OEBPS/Text/235.xhtml"
+    },
+    {
+      "titulo": "236",
+      "url": "OEBPS/Text/236.xhtml"
+    },
+    {
+      "titulo": "237",
+      "url": "OEBPS/Text/237.xhtml"
+    },
+    {
+      "titulo": "librotres",
+      "url": "OEBPS/Text/librotres.xhtml"
+    },
+    {
+      "titulo": "338",
+      "url": "OEBPS/Text/338.xhtml"
+    },
+    {
+      "titulo": "339",
+      "url": "OEBPS/Text/339.xhtml"
+    },
+    {
+      "titulo": "340",
+      "url": "OEBPS/Text/340.xhtml"
+    },
+    {
+      "titulo": "341",
+      "url": "OEBPS/Text/341.xhtml"
+    },
+    {
+      "titulo": "342",
+      "url": "OEBPS/Text/342.xhtml"
+    },
+    {
+      "titulo": "343",
+      "url": "OEBPS/Text/343.xhtml"
+    },
+    {
+      "titulo": "344",
+      "url": "OEBPS/Text/344.xhtml"
+    },
+    {
+      "titulo": "345",
+      "url": "OEBPS/Text/345.xhtml"
+    },
+    {
+      "titulo": "346",
+      "url": "OEBPS/Text/346.xhtml"
+    },
+    {
+      "titulo": "347",
+      "url": "OEBPS/Text/347.xhtml"
+    },
+    {
+      "titulo": "348",
+      "url": "OEBPS/Text/348.xhtml"
+    },
+    {
+      "titulo": "apendices",
+      "url": "OEBPS/Text/apendices.xhtml"
+    },
+    {
+      "titulo": "401",
+      "url": "OEBPS/Text/401.xhtml"
+    },
+    {
+      "titulo": "402",
+      "url": "OEBPS/Text/402.xhtml"
+    },
+    {
+      "titulo": "403",
+      "url": "OEBPS/Text/403.xhtml"
+    },
+    {
+      "titulo": "404",
+      "url": "OEBPS/Text/404.xhtml"
+    },
+    {
+      "titulo": "terminologia",
+      "url": "OEBPS/Text/terminologia.xhtml"
+    },
+    {
+      "titulo": "mapa",
+      "url": "OEBPS/Text/mapa.xhtml"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "690c0fd5ee9e745ab65d3214"
+  },
+  "titulo": "Dios emperador de Dune",
+  "slug": "Dios-emperador-de-Dune",
+  "saga": "Dune",
+  "cover": "OEBPS/Images/cover.jpg",
+  "sinopsis": "OEBPS/Text/sinopsis.xhtml",
+  "authors": {
+    "nombre": "Frank Herbert",
+    "image": "OEBPS/Images/autor.jpg",
+    "bio": "OEBPS/Text/autor.xhtml"
+  },
+  "active": true,
+  "pages": [
+    {
+      "titulo": "cubierta",
+      "url": "OEBPS/Text/cubierta.xhtml"
+    },
+    {
+      "titulo": "info",
+      "url": "OEBPS/Text/info.xhtml"
+    },
+    {
+      "titulo": "Section0001",
+      "url": "OEBPS/Text/Section0001.xhtml"
+    },
+    {
+      "titulo": "Section0002",
+      "url": "OEBPS/Text/Section0002.xhtml"
+    },
+    {
+      "titulo": "Section0003",
+      "url": "OEBPS/Text/Section0003.xhtml"
+    },
+    {
+      "titulo": "Section0004",
+      "url": "OEBPS/Text/Section0004.xhtml"
+    },
+    {
+      "titulo": "Section0005",
+      "url": "OEBPS/Text/Section0005.xhtml"
+    },
+    {
+      "titulo": "Section0006",
+      "url": "OEBPS/Text/Section0006.xhtml"
+    },
+    {
+      "titulo": "Section0007",
+      "url": "OEBPS/Text/Section0007.xhtml"
+    },
+    {
+      "titulo": "Section0008",
+      "url": "OEBPS/Text/Section0008.xhtml"
+    },
+    {
+      "titulo": "Section0009",
+      "url": "OEBPS/Text/Section0009.xhtml"
+    },
+    {
+      "titulo": "Section0010",
+      "url": "OEBPS/Text/Section0010.xhtml"
+    },
+    {
+      "titulo": "Section0011",
+      "url": "OEBPS/Text/Section0011.xhtml"
+    },
+    {
+      "titulo": "Section0012",
+      "url": "OEBPS/Text/Section0012.xhtml"
+    },
+    {
+      "titulo": "Section0013",
+      "url": "OEBPS/Text/Section0013.xhtml"
+    },
+    {
+      "titulo": "Section0014",
+      "url": "OEBPS/Text/Section0014.xhtml"
+    },
+    {
+      "titulo": "Section0015",
+      "url": "OEBPS/Text/Section0015.xhtml"
+    },
+    {
+      "titulo": "Section0016",
+      "url": "OEBPS/Text/Section0016.xhtml"
+    },
+    {
+      "titulo": "Section0017",
+      "url": "OEBPS/Text/Section0017.xhtml"
+    },
+    {
+      "titulo": "Section0018",
+      "url": "OEBPS/Text/Section0018.xhtml"
+    },
+    {
+      "titulo": "Section0019",
+      "url": "OEBPS/Text/Section0019.xhtml"
+    },
+    {
+      "titulo": "Section0020",
+      "url": "OEBPS/Text/Section0020.xhtml"
+    },
+    {
+      "titulo": "Section0021",
+      "url": "OEBPS/Text/Section0021.xhtml"
+    },
+    {
+      "titulo": "Section0022",
+      "url": "OEBPS/Text/Section0022.xhtml"
+    },
+    {
+      "titulo": "Section0023",
+      "url": "OEBPS/Text/Section0023.xhtml"
+    },
+    {
+      "titulo": "Section0024",
+      "url": "OEBPS/Text/Section0024.xhtml"
+    },
+    {
+      "titulo": "Section0025",
+      "url": "OEBPS/Text/Section0025.xhtml"
+    },
+    {
+      "titulo": "Section0026",
+      "url": "OEBPS/Text/Section0026.xhtml"
+    },
+    {
+      "titulo": "Section0027",
+      "url": "OEBPS/Text/Section0027.xhtml"
+    },
+    {
+      "titulo": "Section0028",
+      "url": "OEBPS/Text/Section0028.xhtml"
+    },
+    {
+      "titulo": "Section0029",
+      "url": "OEBPS/Text/Section0029.xhtml"
+    },
+    {
+      "titulo": "Section0030",
+      "url": "OEBPS/Text/Section0030.xhtml"
+    },
+    {
+      "titulo": "Section0031",
+      "url": "OEBPS/Text/Section0031.xhtml"
+    },
+    {
+      "titulo": "Section0032",
+      "url": "OEBPS/Text/Section0032.xhtml"
+    },
+    {
+      "titulo": "Section0033",
+      "url": "OEBPS/Text/Section0033.xhtml"
+    },
+    {
+      "titulo": "Section0034",
+      "url": "OEBPS/Text/Section0034.xhtml"
+    },
+    {
+      "titulo": "Section0035",
+      "url": "OEBPS/Text/Section0035.xhtml"
+    },
+    {
+      "titulo": "Section0036",
+      "url": "OEBPS/Text/Section0036.xhtml"
+    },
+    {
+      "titulo": "Section0037",
+      "url": "OEBPS/Text/Section0037.xhtml"
+    },
+    {
+      "titulo": "Section0038",
+      "url": "OEBPS/Text/Section0038.xhtml"
+    },
+    {
+      "titulo": "Section0039",
+      "url": "OEBPS/Text/Section0039.xhtml"
+    },
+    {
+      "titulo": "Section0040",
+      "url": "OEBPS/Text/Section0040.xhtml"
+    },
+    {
+      "titulo": "Section0041",
+      "url": "OEBPS/Text/Section0041.xhtml"
+    },
+    {
+      "titulo": "Section0042",
+      "url": "OEBPS/Text/Section0042.xhtml"
+    },
+    {
+      "titulo": "Section0043",
+      "url": "OEBPS/Text/Section0043.xhtml"
+    },
+    {
+      "titulo": "Section0044",
+      "url": "OEBPS/Text/Section0044.xhtml"
+    },
+    {
+      "titulo": "Section0045",
+      "url": "OEBPS/Text/Section0045.xhtml"
+    },
+    {
+      "titulo": "Section0046",
+      "url": "OEBPS/Text/Section0046.xhtml"
+    },
+    {
+      "titulo": "Section0047",
+      "url": "OEBPS/Text/Section0047.xhtml"
+    },
+    {
+      "titulo": "Section0048",
+      "url": "OEBPS/Text/Section0048.xhtml"
+    },
+    {
+      "titulo": "Section0049",
+      "url": "OEBPS/Text/Section0049.xhtml"
+    },
+    {
+      "titulo": "Section0050",
+      "url": "OEBPS/Text/Section0050.xhtml"
+    },
+    {
+      "titulo": "Section0051",
+      "url": "OEBPS/Text/Section0051.xhtml"
+    },
+    {
+      "titulo": "Section0052",
+      "url": "OEBPS/Text/Section0052.xhtml"
+    },
+    {
+      "titulo": "Section0053",
+      "url": "OEBPS/Text/Section0053.xhtml"
+    },
+    {
+      "titulo": "Section0054",
+      "url": "OEBPS/Text/Section0054.xhtml"
+    },
+    {
+      "titulo": "Section0055",
+      "url": "OEBPS/Text/Section0055.xhtml"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "690c10c5ee9e745ab65d3215"
+  },
+  "titulo": "Herejes de Dune",
+  "slug": "Herejes-de-Dune",
+  "saga": "Dune",
+  "cover": "OEBPS/Images/cover.jpg",
+  "sinopsis": "OEBPS/Text/sinopsis.xhtml",
+  "authors": {
+    "nombre": "Frank Herbert",
+    "image": "OEBPS/Images/autor.jpg",
+    "bio": "OEBPS/Text/autor.xhtml"
+  },
+  "active": true,
+  "pages": [
+    {
+      "titulo": "cubierta",
+      "url": "OEBPS/Text/cubierta.xhtml"
+    },
+    {
+      "titulo": "info",
+      "url": "OEBPS/Text/info.xhtml"
+    },
+    {
+      "titulo": "Section0001",
+      "url": "OEBPS/Text/Section0001.xhtml"
+    },
+    {
+      "titulo": "Section0002",
+      "url": "OEBPS/Text/Section0002.xhtml"
+    },
+    {
+      "titulo": "Section0003",
+      "url": "OEBPS/Text/Section0003.xhtml"
+    },
+    {
+      "titulo": "Section0004",
+      "url": "OEBPS/Text/Section0004.xhtml"
+    },
+    {
+      "titulo": "Section0005",
+      "url": "OEBPS/Text/Section0005.xhtml"
+    },
+    {
+      "titulo": "Section0006",
+      "url": "OEBPS/Text/Section0006.xhtml"
+    },
+    {
+      "titulo": "Section0007",
+      "url": "OEBPS/Text/Section0007.xhtml"
+    },
+    {
+      "titulo": "Section0008",
+      "url": "OEBPS/Text/Section0008.xhtml"
+    },
+    {
+      "titulo": "Section0009",
+      "url": "OEBPS/Text/Section0009.xhtml"
+    },
+    {
+      "titulo": "Section0010",
+      "url": "OEBPS/Text/Section0010.xhtml"
+    },
+    {
+      "titulo": "Section0011",
+      "url": "OEBPS/Text/Section0011.xhtml"
+    },
+    {
+      "titulo": "Section0012",
+      "url": "OEBPS/Text/Section0012.xhtml"
+    },
+    {
+      "titulo": "Section0013",
+      "url": "OEBPS/Text/Section0013.xhtml"
+    },
+    {
+      "titulo": "Section0014",
+      "url": "OEBPS/Text/Section0014.xhtml"
+    },
+    {
+      "titulo": "Section0015",
+      "url": "OEBPS/Text/Section0015.xhtml"
+    },
+    {
+      "titulo": "Section0016",
+      "url": "OEBPS/Text/Section0016.xhtml"
+    },
+    {
+      "titulo": "Section0017",
+      "url": "OEBPS/Text/Section0017.xhtml"
+    },
+    {
+      "titulo": "Section0018",
+      "url": "OEBPS/Text/Section0018.xhtml"
+    },
+    {
+      "titulo": "Section0019",
+      "url": "OEBPS/Text/Section0019.xhtml"
+    },
+    {
+      "titulo": "Section0020",
+      "url": "OEBPS/Text/Section0020.xhtml"
+    },
+    {
+      "titulo": "Section0021",
+      "url": "OEBPS/Text/Section0021.xhtml"
+    },
+    {
+      "titulo": "Section0022",
+      "url": "OEBPS/Text/Section0022.xhtml"
+    },
+    {
+      "titulo": "Section0023",
+      "url": "OEBPS/Text/Section0023.xhtml"
+    },
+    {
+      "titulo": "Section0024",
+      "url": "OEBPS/Text/Section0024.xhtml"
+    },
+    {
+      "titulo": "Section0025",
+      "url": "OEBPS/Text/Section0025.xhtml"
+    },
+    {
+      "titulo": "Section0026",
+      "url": "OEBPS/Text/Section0026.xhtml"
+    },
+    {
+      "titulo": "Section0027",
+      "url": "OEBPS/Text/Section0027.xhtml"
+    },
+    {
+      "titulo": "Section0028",
+      "url": "OEBPS/Text/Section0028.xhtml"
+    },
+    {
+      "titulo": "Section0029",
+      "url": "OEBPS/Text/Section0029.xhtml"
+    },
+    {
+      "titulo": "Section0030",
+      "url": "OEBPS/Text/Section0030.xhtml"
+    },
+    {
+      "titulo": "Section0031",
+      "url": "OEBPS/Text/Section0031.xhtml"
+    },
+    {
+      "titulo": "Section0032",
+      "url": "OEBPS/Text/Section0032.xhtml"
+    },
+    {
+      "titulo": "Section0033",
+      "url": "OEBPS/Text/Section0033.xhtml"
+    },
+    {
+      "titulo": "Section0034",
+      "url": "OEBPS/Text/Section0034.xhtml"
+    },
+    {
+      "titulo": "Section0035",
+      "url": "OEBPS/Text/Section0035.xhtml"
+    },
+    {
+      "titulo": "Section0036",
+      "url": "OEBPS/Text/Section0036.xhtml"
+    },
+    {
+      "titulo": "Section0037",
+      "url": "OEBPS/Text/Section0037.xhtml"
+    },
+    {
+      "titulo": "Section0038",
+      "url": "OEBPS/Text/Section0038.xhtml"
+    },
+    {
+      "titulo": "Section0039",
+      "url": "OEBPS/Text/Section0039.xhtml"
+    },
+    {
+      "titulo": "Section0040",
+      "url": "OEBPS/Text/Section0040.xhtml"
+    },
+    {
+      "titulo": "Section0041",
+      "url": "OEBPS/Text/Section0041.xhtml"
+    },
+    {
+      "titulo": "Section0042",
+      "url": "OEBPS/Text/Section0042.xhtml"
+    },
+    {
+      "titulo": "Section0043",
+      "url": "OEBPS/Text/Section0043.xhtml"
+    },
+    {
+      "titulo": "Section0044",
+      "url": "OEBPS/Text/Section0044.xhtml"
+    },
+    {
+      "titulo": "Section0045",
+      "url": "OEBPS/Text/Section0045.xhtml"
+    },
+    {
+      "titulo": "Section0046",
+      "url": "OEBPS/Text/Section0046.xhtml"
+    },
+    {
+      "titulo": "Section0047",
+      "url": "OEBPS/Text/Section0047.xhtml"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "690c11a0ee9e745ab65d3216"
+  },
+  "titulo": "Hijos de Dune",
+  "slug": "Hijos-de-Dune",
+  "saga": "Dune",
+  "cover": "OEBPS/Images/cover.jpg",
+  "sinopsis": "OEBPS/Text/sinopsis.xhtml",
+  "authors": {
+    "nombre": "Frank Herbert",
+    "image": "OEBPS/Images/autor.jpg",
+    "bio": "OEBPS/Text/autor.xhtml"
+  },
+  "active": true,
+  "pages": [
+    {
+      "titulo": "cubierta",
+      "url": "OEBPS/Text/cubierta.xhtml"
+    },
+    {
+      "titulo": "info",
+      "url": "OEBPS/Text/info.xhtml"
+    },
+    {
+      "titulo": "dedicatoria",
+      "url": "OEBPS/Text/dedicatoria.xhtml"
+    },
+    {
+      "titulo": "001",
+      "url": "OEBPS/Text/001.xhtml"
+    },
+    {
+      "titulo": "002",
+      "url": "OEBPS/Text/002.xhtml"
+    },
+    {
+      "titulo": "003",
+      "url": "OEBPS/Text/003.xhtml"
+    },
+    {
+      "titulo": "004",
+      "url": "OEBPS/Text/004.xhtml"
+    },
+    {
+      "titulo": "005",
+      "url": "OEBPS/Text/005.xhtml"
+    },
+    {
+      "titulo": "006",
+      "url": "OEBPS/Text/006.xhtml"
+    },
+    {
+      "titulo": "007",
+      "url": "OEBPS/Text/007.xhtml"
+    },
+    {
+      "titulo": "008",
+      "url": "OEBPS/Text/008.xhtml"
+    },
+    {
+      "titulo": "009",
+      "url": "OEBPS/Text/009.xhtml"
+    },
+    {
+      "titulo": "010",
+      "url": "OEBPS/Text/010.xhtml"
+    },
+    {
+      "titulo": "011",
+      "url": "OEBPS/Text/011.xhtml"
+    },
+    {
+      "titulo": "012",
+      "url": "OEBPS/Text/012.xhtml"
+    },
+    {
+      "titulo": "013",
+      "url": "OEBPS/Text/013.xhtml"
+    },
+    {
+      "titulo": "014",
+      "url": "OEBPS/Text/014.xhtml"
+    },
+    {
+      "titulo": "015",
+      "url": "OEBPS/Text/015.xhtml"
+    },
+    {
+      "titulo": "016",
+      "url": "OEBPS/Text/016.xhtml"
+    },
+    {
+      "titulo": "017",
+      "url": "OEBPS/Text/017.xhtml"
+    },
+    {
+      "titulo": "018",
+      "url": "OEBPS/Text/018.xhtml"
+    },
+    {
+      "titulo": "019",
+      "url": "OEBPS/Text/019.xhtml"
+    },
+    {
+      "titulo": "020",
+      "url": "OEBPS/Text/020.xhtml"
+    },
+    {
+      "titulo": "021",
+      "url": "OEBPS/Text/021.xhtml"
+    },
+    {
+      "titulo": "022",
+      "url": "OEBPS/Text/022.xhtml"
+    },
+    {
+      "titulo": "023",
+      "url": "OEBPS/Text/023.xhtml"
+    },
+    {
+      "titulo": "024",
+      "url": "OEBPS/Text/024.xhtml"
+    },
+    {
+      "titulo": "025",
+      "url": "OEBPS/Text/025.xhtml"
+    },
+    {
+      "titulo": "026",
+      "url": "OEBPS/Text/026.xhtml"
+    },
+    {
+      "titulo": "027",
+      "url": "OEBPS/Text/027.xhtml"
+    },
+    {
+      "titulo": "028",
+      "url": "OEBPS/Text/028.xhtml"
+    },
+    {
+      "titulo": "029",
+      "url": "OEBPS/Text/029.xhtml"
+    },
+    {
+      "titulo": "030",
+      "url": "OEBPS/Text/030.xhtml"
+    },
+    {
+      "titulo": "031",
+      "url": "OEBPS/Text/031.xhtml"
+    },
+    {
+      "titulo": "032",
+      "url": "OEBPS/Text/032.xhtml"
+    },
+    {
+      "titulo": "033",
+      "url": "OEBPS/Text/033.xhtml"
+    },
+    {
+      "titulo": "034",
+      "url": "OEBPS/Text/034.xhtml"
+    },
+    {
+      "titulo": "035",
+      "url": "OEBPS/Text/035.xhtml"
+    },
+    {
+      "titulo": "036",
+      "url": "OEBPS/Text/036.xhtml"
+    },
+    {
+      "titulo": "037",
+      "url": "OEBPS/Text/037.xhtml"
+    },
+    {
+      "titulo": "038",
+      "url": "OEBPS/Text/038.xhtml"
+    },
+    {
+      "titulo": "039",
+      "url": "OEBPS/Text/039.xhtml"
+    },
+    {
+      "titulo": "040",
+      "url": "OEBPS/Text/040.xhtml"
+    },
+    {
+      "titulo": "041",
+      "url": "OEBPS/Text/041.xhtml"
+    },
+    {
+      "titulo": "042",
+      "url": "OEBPS/Text/042.xhtml"
+    },
+    {
+      "titulo": "043",
+      "url": "OEBPS/Text/043.xhtml"
+    },
+    {
+      "titulo": "044",
+      "url": "OEBPS/Text/044.xhtml"
+    },
+    {
+      "titulo": "045",
+      "url": "OEBPS/Text/045.xhtml"
+    },
+    {
+      "titulo": "046",
+      "url": "OEBPS/Text/046.xhtml"
+    },
+    {
+      "titulo": "047",
+      "url": "OEBPS/Text/047.xhtml"
+    },
+    {
+      "titulo": "048",
+      "url": "OEBPS/Text/048.xhtml"
+    },
+    {
+      "titulo": "049",
+      "url": "OEBPS/Text/049.xhtml"
+    },
+    {
+      "titulo": "050",
+      "url": "OEBPS/Text/050.xhtml"
+    },
+    {
+      "titulo": "051",
+      "url": "OEBPS/Text/051.xhtml"
+    },
+    {
+      "titulo": "052",
+      "url": "OEBPS/Text/052.xhtml"
+    },
+    {
+      "titulo": "053",
+      "url": "OEBPS/Text/053.xhtml"
+    },
+    {
+      "titulo": "054",
+      "url": "OEBPS/Text/054.xhtml"
+    },
+    {
+      "titulo": "055",
+      "url": "OEBPS/Text/055.xhtml"
+    },
+    {
+      "titulo": "056",
+      "url": "OEBPS/Text/056.xhtml"
+    },
+    {
+      "titulo": "057",
+      "url": "OEBPS/Text/057.xhtml"
+    },
+    {
+      "titulo": "058",
+      "url": "OEBPS/Text/058.xhtml"
+    },
+    {
+      "titulo": "059",
+      "url": "OEBPS/Text/059.xhtml"
+    },
+    {
+      "titulo": "060",
+      "url": "OEBPS/Text/060.xhtml"
+    },
+    {
+      "titulo": "061",
+      "url": "OEBPS/Text/061.xhtml"
+    },
+    {
+      "titulo": "062",
+      "url": "OEBPS/Text/062.xhtml"
+    },
+    {
+      "titulo": "063",
+      "url": "OEBPS/Text/063.xhtml"
+    },
+    {
+      "titulo": "064",
+      "url": "OEBPS/Text/064.xhtml"
+    },
+    {
+      "titulo": "notas",
+      "url": "OEBPS/Text/notas.xhtml"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "690d66ce91e0a6589cc182c1"
+  },
+  "titulo": "en la hierba alta",
+  "slug": "en-la-hierba-alta",
+  "saga": "Stephen king y Joe Hill",
+  "cover": "OEBPS/Images/cover.jpg",
+  "sinopsis": "OEBPS/Text/sinopsis.xhtml",
+  "authors": {
+    "nombre": "Stephen King",
+    "image": "OEBPS/Images/autor.jpg",
+    "bio": "OEBPS/Text/autor.xhtml"
+  },
+  "active": true,
+  "pages": [
+    {
+      "titulo": "cubierta",
+      "url": "OEBPS/Text/cubierta.xhtml"
+    },
+    {
+      "titulo": "info",
+      "url": "OEBPS/Text/info.xhtml"
+    },
+    {
+      "titulo": "Section0001",
+      "url": "OEBPS/Text/Section0001.xhtml"
+    },
+    {
+      "titulo": "Section0002",
+      "url": "OEBPS/Text/Section0002.xhtml"
+    },
+    {
+      "titulo": "Section0003",
+      "url": "OEBPS/Text/Section0003.xhtml"
+    },
+    {
+      "titulo": "Section0004",
+      "url": "OEBPS/Text/Section0004.xhtml"
+    },
+    {
+      "titulo": "Section0005",
+      "url": "OEBPS/Text/Section0005.xhtml"
+    },
+    {
+      "titulo": "Section0006",
+      "url": "OEBPS/Text/Section0006.xhtml"
+    },
+    {
+      "titulo": "Section0007",
+      "url": "OEBPS/Text/Section0007.xhtml"
+    },
+    {
+      "titulo": "Section0008",
+      "url": "OEBPS/Text/Section0008.xhtml"
+    },
+    {
+      "titulo": "Section0009",
+      "url": "OEBPS/Text/Section0009.xhtml"
+    },
+    {
+      "titulo": "Section0010",
+      "url": "OEBPS/Text/Section0010.xhtml"
+    },
+    {
+      "titulo": "Section0011",
+      "url": "OEBPS/Text/Section0011.xhtml"
+    },
+    {
+      "titulo": "Section0012",
+      "url": "OEBPS/Text/Section0012.xhtml"
+    },
+    {
+      "titulo": "Section0013",
+      "url": "OEBPS/Text/Section0013.xhtml"
+    },
+    {
+      "titulo": "Section0014",
+      "url": "OEBPS/Text/Section0014.xhtml"
+    },
+    {
+      "titulo": "Section0015",
+      "url": "OEBPS/Text/Section0015.xhtml"
+    },
+    {
+      "titulo": "Section0016",
+      "url": "OEBPS/Text/Section0016.xhtml"
+    },
+    {
+      "titulo": "Section0017",
+      "url": "OEBPS/Text/Section0017.xhtml"
+    },
+    {
+      "titulo": "Section0018",
+      "url": "OEBPS/Text/Section0018.xhtml"
+    },
+    {
+      "titulo": "notas",
+      "url": "OEBPS/Text/notas.xhtml"
+    }
+  ],
+  "wallpapers": [
+    "https://www.lascosasquenoshacenfelices.com/wp-content/uploads/2019/10/En-la-hierba-alta-1.jpg"
+  ]}
+]

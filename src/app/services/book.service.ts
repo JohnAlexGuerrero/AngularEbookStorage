@@ -8,7 +8,7 @@ import { Book } from '../models/book';
 export class BookService {
   books: any[] = librosDataSet;
   bookCurrent: Book = {
-    id: "", titulo: "", slug:"",sinopsis:"",saga:"",cover:"",active:false, authors: {nombre: "",image:"",bio:""}, pages:[]
+    id: "", titulo: "", slug:"",sinopsis:"",saga:"",cover:"",active:false, authors: {nombre: "",image:"",bio:""}, pages:[], wallpapers: []
   };
 
   constructor() { }

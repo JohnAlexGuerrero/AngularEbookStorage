@@ -5,6 +5,11 @@ body {
     background: #c4d0c4;
 }
 
+/* saltos */
+.saltoinicio { margin-top:33%; }
+.salto25 { padding-top:2.5em; }
+.salto10 { padding-top:1em; }
+
 p, h2 {
     position: relative;
     z-index: 1;
@@ -24,8 +29,10 @@ section { padding: 40px 0;}
 .text {
     background: #fff;
     position: relative;
-    padding: 10% 25%;
+    padding: 5% 25%;
     align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .text::before {
@@ -36,7 +43,16 @@ section { padding: 40px 0;}
     left: 50%;
     width: 250%;
     height: auto;
-    background: #ffff;
+    background: #e0e0e0;
     rotate: -3deg;
     translate: -50%, -50%;
+}
+
+.title {
+    text-align: left;
+    font-size: 3em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    font-weight: bold;
+    text-transform: uppercase;
 }

@@ -11,4 +11,5 @@ export interface Book {
     active: boolean,
     authors: Author,
     pages: Page[],
+    wallpapers: string[],
 }
