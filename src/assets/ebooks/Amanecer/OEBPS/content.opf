@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookID" version="2.0">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:identifier id="BookID" opf:scheme="UUID">urn:uuid:e7059fde-56b2-468f-bffa-8194df796e0f</dc:identifier>
+    <dc:title>Amanecer</dc:title>
+    <dc:subject>Fantástico, Infantil y Juvenil</dc:subject>
+    <dc:creator opf:role="aut">Stephenie Meyer</dc:creator>
+    <dc:description>«No tengas miedo», le susurré. «Somos como una sola persona». De pronto me abrumó la realidad de mis palabras. Ese momento era tan perfecto, tan auténtico. No dejaba lugar a la duda. Me rodeó con los brazos, me estrechó contra él y hasta la última de mis terminaciones nerviosas cobró vida propia. «Para siempre» concluyó... Así comenzó la historia de amor más adictiva de todos los tiempos.</dc:description>
+    <dc:date opf:event="publication">2008-10-08</dc:date>
+    <dc:language>es</dc:language>
+    <meta name="cover" content="cubierta.jpg" />
+    <meta content="Twilight" name="calibre:series" />
+    <meta content="4" name="calibre:serie_index" />
+    <meta content="0.5.3" name="Sigil version" />
+  </metadata>
+  <manifest>
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml" />
+    <item href="Images/comillas.jpg" id="comillas.jpg" media-type="image/jpeg" />
+    <item href="Images/cubierta.jpg" id="cubierta.jpg" media-type="image/jpeg" />
+    <item href="Images/ePUBlogo.png" id="ePUBlogo.png" media-type="image/png" />
+    <item href="Images/img0001.png" id="img0001.png" media-type="image/png" />
+    <item href="Styles/style.css" id="style.css" media-type="text/css" />
+    <item href="Text/Agradecimientos.xhtml" id="Agradecimientos.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Sec0003.xhtml" id="Sec0003.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Sec0014.xhtml" id="Sec0014.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Sec0015.xhtml" id="Sec0015.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Sec0016.xhtml" id="Sec0016.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Sec0017.xhtml" id="Sec0017.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Sec0018.xhtml" id="Sec0018.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Sec0019.xhtml" id="Sec0019.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Sec0020.xhtml" id="Sec0020.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Sec0021.xhtml" id="Sec0021.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Sec0022.xhtml" id="Sec0022.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Sec0025.xhtml" id="Sec0025.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Sec0004.xhtml" id="Sec0004.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Sec0026.xhtml" id="Sec0026.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Sec0027.xhtml" id="Sec0027.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Sec0028.xhtml" id="Sec0028.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Sec0029.xhtml" id="Sec0029.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Sec0030.xhtml" id="Sec0030.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Sec0031.xhtml" id="Sec0031.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Sec0032.xhtml" id="Sec0032.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Sec0033.xhtml" id="Sec0033.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Sec0034.xhtml" id="Sec0034.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Sec0005.xhtml" id="Sec0005.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Sec0035.xhtml" id="Sec0035.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Sec0036.xhtml" id="Sec0036.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Sec0037.xhtml" id="Sec0037.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Sec0038.xhtml" id="Sec0038.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Sec0039.xhtml" id="Sec0039.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Sec0040.xhtml" id="Sec0040.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Sec0041.xhtml" id="Sec0041.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Sec0042.xhtml" id="Sec0042.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Sec0043.xhtml" id="Sec0043.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Sec0044.xhtml" id="Sec0044.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Sec0006.xhtml" id="Sec0006.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Sec0045.xhtml" id="Sec0045.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Sec0007.xhtml" id="Sec0007.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Sec0008.xhtml" id="Sec0008.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Sec0009.xhtml" id="Sec0009.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Sec0012.xhtml" id="Sec0012.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Sec0013.xhtml" id="Sec0013.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Sec0046.xhtml" id="Sec0046.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Sec0001.xhtml" id="Sec0001.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Sec0010.xhtml" id="Sec0010.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Sec0023.xhtml" id="Sec0023.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Sec0002.xhtml" id="Sec0002.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Sec0011.xhtml" id="Sec0011.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Sec0024.xhtml" id="Sec0024.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/cover.xhtml" id="cover.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/dedicatoria.xhtml" id="dedicatoria.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/sinopsis.xhtml" id="sinopsis.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/titulo.xhtml" id="titulo.xhtml" media-type="application/xhtml+xml" />
+    <item href="Images/epubgratis.png" id="epubgratis.png" media-type="image/png" />
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="cover.xhtml" />
+    <itemref idref="sinopsis.xhtml" />
+    <itemref idref="titulo.xhtml" />
+    <itemref idref="dedicatoria.xhtml" />
+    <itemref idref="Sec0001.xhtml" />
+    <itemref idref="Sec0002.xhtml" />
+    <itemref idref="Sec0003.xhtml" />
+    <itemref idref="Sec0004.xhtml" />
+    <itemref idref="Sec0005.xhtml" />
+    <itemref idref="Sec0006.xhtml" />
+    <itemref idref="Sec0007.xhtml" />
+    <itemref idref="Sec0008.xhtml" />
+    <itemref idref="Sec0009.xhtml" />
+    <itemref idref="Sec0010.xhtml" />
+    <itemref idref="Sec0011.xhtml" />
+    <itemref idref="Sec0012.xhtml" />
+    <itemref idref="Sec0013.xhtml" />
+    <itemref idref="Sec0014.xhtml" />
+    <itemref idref="Sec0015.xhtml" />
+    <itemref idref="Sec0016.xhtml" />
+    <itemref idref="Sec0017.xhtml" />
+    <itemref idref="Sec0018.xhtml" />
+    <itemref idref="Sec0019.xhtml" />
+    <itemref idref="Sec0020.xhtml" />
+    <itemref idref="Sec0021.xhtml" />
+    <itemref idref="Sec0022.xhtml" />
+    <itemref idref="Sec0023.xhtml" />
+    <itemref idref="Sec0024.xhtml" />
+    <itemref idref="Sec0025.xhtml" />
+    <itemref idref="Sec0026.xhtml" />
+    <itemref idref="Sec0027.xhtml" />
+    <itemref idref="Sec0028.xhtml" />
+    <itemref idref="Sec0029.xhtml" />
+    <itemref idref="Sec0030.xhtml" />
+    <itemref idref="Sec0031.xhtml" />
+    <itemref idref="Sec0032.xhtml" />
+    <itemref idref="Sec0033.xhtml" />
+    <itemref idref="Sec0034.xhtml" />
+    <itemref idref="Sec0035.xhtml" />
+    <itemref idref="Sec0036.xhtml" />
+    <itemref idref="Sec0037.xhtml" />
+    <itemref idref="Sec0038.xhtml" />
+    <itemref idref="Sec0039.xhtml" />
+    <itemref idref="Sec0040.xhtml" />
+    <itemref idref="Sec0041.xhtml" />
+    <itemref idref="Sec0042.xhtml" />
+    <itemref idref="Sec0043.xhtml" />
+    <itemref idref="Sec0044.xhtml" />
+    <itemref idref="Sec0045.xhtml" />
+    <itemref idref="Sec0046.xhtml" />
+    <itemref idref="Agradecimientos.xhtml" />
+  </spine>
+  <guide>
+    <reference href="Text/cover.xhtml" title="Cover" type="cover" />
+  </guide>
+</package>

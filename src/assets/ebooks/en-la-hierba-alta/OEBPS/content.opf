@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookId" version="2.0">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:identifier id="BookId" opf:scheme="UUID">urn:uuid:373d3c68-368a-c307-ad99-70abb23a4779</dc:identifier>
+    <dc:title>En la hierba alta</dc:title>
+    <dc:creator opf:file-as="King, Stephen &amp; Hill, Joe" opf:role="aut">Stephen King &amp; Joe Hill</dc:creator>
+    <dc:language>es</dc:language>
+    <dc:contributor opf:file-as="Viciano, Manu" opf:role="trl">Manu Viciano</dc:contributor>
+    <dc:subject>Relato, Terror</dc:subject>
+    <dc:description>Cal y Becky DeMuth son dos hermanos que mantienen una relación casi telepática, pues sus vidas han montado en el mismo tándem desde su nacimiento. Cuando Becky se queda embarazada, decide marcharse a San Diego a casa de sus tíos hasta que nazca el bebé. La unión entre los hermanos es tan fuerte que Cal deja sus estudios para acompañarla y cruzar con ella el país en coche. Incluso planean juntos el futuro del niño. Pero la casualidad intercede en el transcurso del viaje. Al mediodía realizan un alto en el camino junto a un campo de hierba altísima: Cal apaga la radio para tener un momento de calma, y Becky abre las ventanillas, sofocada por el calor. De haber sido de otra manera, nunca habrían oído la voz de auxilio de aquel niño atrapado en la espesura. Deciden adentrarse en el campo y tomar sendas distintas para encontrar al niño cuanto antes. Por primera vez en su vida, los hermanos quedarán separados, aunque sea tan solo por unos metros de hierba. Sin embargo, nunca habían estado tan lejos.</dc:description>
+    <dc:date opf:event="publication">2012-10-09</dc:date>
+    <dc:date opf:event="modification">2013-10-16</dc:date>
+    <dc:publisher>ePubLibre</dc:publisher>
+    <meta content="0.7.3" name="Sigil version" />
+    <meta name="cover" content="cover.jpg" />
+  </metadata>
+  <manifest>
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml" />
+    <item href="Styles/style.css" id="style.css" media-type="text/css" />
+    <item href="Text/cubierta.xhtml" id="cubierta.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/sinopsis.xhtml" id="sinopsis.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/titulo.xhtml" id="titulo.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/info.xhtml" id="info.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/author.xhtml" id="author.xhtml" media-type="application/xhtml+xml" />
+    <item href="Images/EPL_logo.png" id="EPL_logo.png" media-type="image/png" />
+    <item href="Images/ex_libris.png" id="ex_libris.png" media-type="image/png" />
+    <item href="Text/Section0001.xhtml" id="Section0001.xhtml" media-type="application/xhtml+xml" />
+    <item href="Images/autor1.jpg" id="autor1.jpg" media-type="image/jpeg" />
+    <item href="Images/autor2.jpg" id="autor2.jpg" media-type="image/jpeg" />
+    <item href="Text/Section0002.xhtml" id="Section0002.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0003.xhtml" id="Section0003.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0004.xhtml" id="Section0004.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0005.xhtml" id="Section0005.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0006.xhtml" id="Section0006.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0007.xhtml" id="Section0007.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0008.xhtml" id="Section0008.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0009.xhtml" id="Section0009.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0010.xhtml" id="Section0010.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0011.xhtml" id="Section0011.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0012.xhtml" id="Section0012.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0013.xhtml" id="Section0013.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0014.xhtml" id="Section0014.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0015.xhtml" id="Section0015.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0016.xhtml" id="Section0016.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0017.xhtml" id="Section0017.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0018.xhtml" id="Section0018.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/author2.xhtml" id="author2.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/notas.xhtml" id="notas.xhtml" media-type="application/xhtml+xml" />
+    <item href="Images/image00047.jpeg" id="image00047.jpeg" media-type="image/jpeg" />
+    <item href="Images/image00049.jpeg" id="image00049.jpeg" media-type="image/jpeg" />
+    <item href="Images/image00050.jpeg" id="image00050.jpeg" media-type="image/jpeg" />
+    <item href="Images/image00051.jpeg" id="image00051.jpeg" media-type="image/jpeg" />
+    <item href="Images/image00052.jpeg" id="image00052.jpeg" media-type="image/jpeg" />
+    <item href="Images/image00053.jpeg" id="image00053.jpeg" media-type="image/jpeg" />
+    <item href="Images/image00054.jpeg" id="image00054.jpeg" media-type="image/jpeg" />
+    <item href="Images/image00055.jpeg" id="image00055.jpeg" media-type="image/jpeg" />
+    <item href="Images/image00056.jpeg" id="image00056.jpeg" media-type="image/jpeg" />
+    <item href="Images/image00057.jpeg" id="image00057.jpeg" media-type="image/jpeg" />
+    <item href="Images/image00058.jpeg" id="image00058.jpeg" media-type="image/jpeg" />
+    <item href="Images/image00059.jpeg" id="image00059.jpeg" media-type="image/jpeg" />
+    <item href="Images/image00060.jpeg" id="image00060.jpeg" media-type="image/jpeg" />
+    <item href="Images/image00061.jpeg" id="image00061.jpeg" media-type="image/jpeg" />
+    <item href="Images/image00062.jpeg" id="image00062.jpeg" media-type="image/jpeg" />
+    <item href="Images/image00063.jpeg" id="image00063.jpeg" media-type="image/jpeg" />
+    <item href="Images/image00064.jpeg" id="image00064.jpeg" media-type="image/jpeg" />
+    <item href="Images/image00065.jpeg" id="image00065.jpeg" media-type="image/jpeg" />
+    <item href="Images/cover.jpg" id="cover.jpg" media-type="image/jpeg" />
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="cubierta.xhtml" />
+    <itemref idref="sinopsis.xhtml" />
+    <itemref idref="titulo.xhtml" />
+    <itemref idref="info.xhtml" />
+    <itemref idref="Section0001.xhtml" />
+    <itemref idref="Section0002.xhtml" />
+    <itemref idref="Section0003.xhtml" />
+    <itemref idref="Section0004.xhtml" />
+    <itemref idref="Section0005.xhtml" />
+    <itemref idref="Section0006.xhtml" />
+    <itemref idref="Section0007.xhtml" />
+    <itemref idref="Section0008.xhtml" />
+    <itemref idref="Section0009.xhtml" />
+    <itemref idref="Section0010.xhtml" />
+    <itemref idref="Section0011.xhtml" />
+    <itemref idref="Section0012.xhtml" />
+    <itemref idref="Section0013.xhtml" />
+    <itemref idref="Section0014.xhtml" />
+    <itemref idref="Section0015.xhtml" />
+    <itemref idref="Section0016.xhtml" />
+    <itemref idref="Section0017.xhtml" />
+    <itemref idref="Section0018.xhtml" />
+    <itemref idref="author.xhtml" />
+    <itemref idref="author2.xhtml" />
+    <itemref idref="notas.xhtml" />
+  </spine>
+  <guide>
+    <reference href="Text/cubierta.xhtml" title="Cover" type="cover" />
+  </guide>
+</package>

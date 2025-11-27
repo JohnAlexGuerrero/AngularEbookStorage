@@ -47,4 +47,4 @@ Thumbs.db
 /src/app/services/firebase.service.spec.ts
 
 # assets/ebooks
-/src/assets/ebooks
+# /src/assets/ebooks
