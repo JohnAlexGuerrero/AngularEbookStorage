@@ -1,0 +1,182 @@
+<?xml version="1.0"  encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookId" version="2.0">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:creator opf:role="aut" opf:file-as="Herbert, Frank">Frank Herbert</dc:creator>
+<dc:identifier id="BookId" opf:scheme="UUID">urn:uuid:3cd0be5b-9d2f-4e4c-9ccc-681166d81bce</dc:identifier>
+    <dc:title>Hijos de Dune</dc:title>
+    <dc:description>&lt;p class="description"&gt;Tercera entrega de Dune. Leto Atreides, el hijo de Paul —el mesías de una religión que arrasó el universo, el mártir que, ciego, se adentró en el desierto para morir–, tenía ahora nueve años... Leto Atreides, el hijo de Paul —el mesías de una religión que arrasó el universo, el mártir que, ciego, se adentró en el desierto para morir–, tenía ahora nueve años. Pero es mucho más que un niño, porque dentro de él laten miles de vidas que lo arrastran a un implacable destino. Él y su hermana gemela, bajo la regencia de su tía Alia, gobiernan un planeta que se ha convertido en el eje de todo el universo: Arrakis, más conocido como Dune. Y en este planeta, centro de las intrigas de una corrupta clase política y sometido a una sofocante burocracia religiosa, aparece de pronto un predicador ciego, procedente del desierto. ¿Es realmente Paul Atreides, que regresa de entre los muertos para advertir a la humanidad del peligro más abominable?.&lt;/p&gt;</dc:description>
+    <dc:contributor opf:role="trl">Domingo Santos</dc:contributor>
+    <dc:date>1975-12-31T23:00:00+00:00</dc:date>
+    <meta content="0.5.3" name="Sigil version"/>
+    <meta name="cover" content="cover.jpg"/>
+    <meta content="Dune" name="calibre:series"/>
+    <meta content="3.0" name="calibre:series_index"/>
+  <meta name="calibre:title_sort" content="Hijos de Dune"/>
+<meta name="calibre:rating" content="0.0"/>
+<dc:subject>Ciencia ficción</dc:subject>
+<dc:contributor opf:role="bkp">calibre (0.9.0) [http://calibre-ebook.com]</dc:contributor>
+<meta name="calibre:user_categories" content="{}"/>
+<meta name="calibre:author_link_map" content="{&quot;Frank Herbert&quot;: &quot;&quot;}"/>
+<dc:language>es</dc:language>
+<meta name="calibre:user_metadata:#epg_id_nuevo" content="{&quot;is_category&quot;: false, &quot;#extra#&quot;: null, &quot;kind&quot;: &quot;field&quot;, &quot;is_custom&quot;: true, &quot;is_csp&quot;: false, &quot;colnum&quot;: 7, &quot;column&quot;: &quot;value&quot;, &quot;rec_index&quot;: 26, &quot;search_terms&quot;: [&quot;#epg_id_nuevo&quot;], &quot;link_column&quot;: &quot;value&quot;, &quot;label&quot;: &quot;epg_id_nuevo&quot;, &quot;is_multiple&quot;: null, &quot;datatype&quot;: &quot;float&quot;, &quot;#value#&quot;: null, &quot;category_sort&quot;: &quot;value&quot;, &quot;table&quot;: &quot;custom_column_7&quot;, &quot;is_editable&quot;: true, &quot;is_multiple2&quot;: {}, &quot;display&quot;: {&quot;number_format&quot;: &quot;{0:0&gt;6.0f}&quot;}, &quot;name&quot;: &quot;Epg Id Mod&quot;}"/>
+        <meta name="calibre:user_metadata:#version" content="{&quot;is_category&quot;: true, &quot;#extra#&quot;: null, &quot;kind&quot;: &quot;field&quot;, &quot;is_custom&quot;: true, &quot;is_csp&quot;: false, &quot;colnum&quot;: 5, &quot;column&quot;: &quot;value&quot;, &quot;rec_index&quot;: 25, &quot;search_terms&quot;: [&quot;#version&quot;], &quot;link_column&quot;: &quot;value&quot;, &quot;is_multiple2&quot;: {&quot;cache_to_list&quot;: &quot;|&quot;, &quot;ui_to_list&quot;: &quot;,&quot;, &quot;list_to_ui&quot;: &quot;, &quot;}, &quot;is_multiple&quot;: &quot;|&quot;, &quot;datatype&quot;: &quot;text&quot;, &quot;#value#&quot;: [&quot;2.1&quot;], &quot;category_sort&quot;: &quot;value&quot;, &quot;table&quot;: &quot;custom_column_5&quot;, &quot;is_editable&quot;: true, &quot;label&quot;: &quot;version&quot;, &quot;display&quot;: {&quot;is_names&quot;: false}, &quot;name&quot;: &quot;Versión&quot;}"/>
+        <meta name="calibre:user_metadata:#autor_ord" content="{&quot;is_category&quot;: false, &quot;#extra#&quot;: null, &quot;kind&quot;: &quot;field&quot;, &quot;is_custom&quot;: true, &quot;is_csp&quot;: false, &quot;colnum&quot;: 3, &quot;column&quot;: &quot;value&quot;, &quot;rec_index&quot;: 23, &quot;search_terms&quot;: [&quot;#autor_ord&quot;], &quot;link_column&quot;: &quot;value&quot;, &quot;label&quot;: &quot;autor_ord&quot;, &quot;is_multiple&quot;: null, &quot;datatype&quot;: &quot;composite&quot;, &quot;#value#&quot;: &quot;Herbert, Frank&quot;, &quot;category_sort&quot;: &quot;value&quot;, &quot;table&quot;: &quot;custom_column_3&quot;, &quot;is_editable&quot;: true, &quot;is_multiple2&quot;: {}, &quot;display&quot;: {&quot;composite_template&quot;: &quot;{author_sort}&quot;, &quot;contains_html&quot;: false, &quot;make_category&quot;: false, &quot;composite_sort&quot;: &quot;text&quot;, &quot;use_decorations&quot;: 0}, &quot;name&quot;: &quot;Autores&quot;}"/>
+        <meta name="calibre:user_metadata:#epg_id" content="{&quot;is_category&quot;: false, &quot;#extra#&quot;: null, &quot;kind&quot;: &quot;field&quot;, &quot;is_custom&quot;: true, &quot;is_csp&quot;: false, &quot;colnum&quot;: 4, &quot;column&quot;: &quot;value&quot;, &quot;rec_index&quot;: 24, &quot;search_terms&quot;: [&quot;#epg_id&quot;], &quot;link_column&quot;: &quot;value&quot;, &quot;label&quot;: &quot;epg_id&quot;, &quot;is_multiple&quot;: null, &quot;datatype&quot;: &quot;float&quot;, &quot;#value#&quot;: 1317.0, &quot;category_sort&quot;: &quot;value&quot;, &quot;table&quot;: &quot;custom_column_4&quot;, &quot;is_editable&quot;: true, &quot;is_multiple2&quot;: {}, &quot;display&quot;: {&quot;number_format&quot;: &quot;{0:0&gt;6.0f}&quot;}, &quot;name&quot;: &quot;EPG Id&quot;}"/>
+        <meta name="calibre:user_metadata:#pages" content="{&quot;is_category&quot;: false, &quot;#extra#&quot;: null, &quot;kind&quot;: &quot;field&quot;, &quot;is_custom&quot;: true, &quot;is_csp&quot;: false, &quot;colnum&quot;: 2, &quot;column&quot;: &quot;value&quot;, &quot;rec_index&quot;: 22, &quot;search_terms&quot;: [&quot;#pages&quot;], &quot;link_column&quot;: &quot;value&quot;, &quot;label&quot;: &quot;pages&quot;, &quot;is_multiple&quot;: null, &quot;datatype&quot;: &quot;int&quot;, &quot;#value#&quot;: 1015, &quot;category_sort&quot;: &quot;value&quot;, &quot;table&quot;: &quot;custom_column_2&quot;, &quot;is_editable&quot;: true, &quot;is_multiple2&quot;: {}, &quot;display&quot;: {&quot;number_format&quot;: &quot;{0:,}&quot;}, &quot;name&quot;: &quot;Páginas&quot;}"/>
+        </metadata>
+  <manifest>
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+    <item href="Images/autor.jpg" id="autor.jpg" media-type="image/jpeg"/>
+    <item href="Images/ePUBlogo.png" id="ePUBlogo.png" media-type="image/png"/>
+    <item href="Images/epubgratis.png" id="epubgratis.png" media-type="image/png"/>
+    <item href="Styles/style.css" id="style.css" media-type="text/css"/>
+    <item href="Text/001.xhtml" id="x001.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/002.xhtml" id="x002.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/003.xhtml" id="x003.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/004.xhtml" id="x004.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/005.xhtml" id="x005.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/006.xhtml" id="x006.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/007.xhtml" id="x007.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/008.xhtml" id="x008.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/009.xhtml" id="x009.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/010.xhtml" id="x010.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/011.xhtml" id="x011.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/012.xhtml" id="x012.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/013.xhtml" id="x013.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/014.xhtml" id="x014.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/015.xhtml" id="x015.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/016.xhtml" id="x016.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/017.xhtml" id="x017.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/018.xhtml" id="x018.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/019.xhtml" id="x019.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/020.xhtml" id="x020.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/021.xhtml" id="x021.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/022.xhtml" id="x022.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/023.xhtml" id="x023.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/024.xhtml" id="x024.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/025.xhtml" id="x025.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/026.xhtml" id="x026.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/027.xhtml" id="x027.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/028.xhtml" id="x028.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/029.xhtml" id="x029.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/030.xhtml" id="x030.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/031.xhtml" id="x031.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/032.xhtml" id="x032.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/033.xhtml" id="x033.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/034.xhtml" id="x034.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/035.xhtml" id="x035.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/036.xhtml" id="x036.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/037.xhtml" id="x037.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/038.xhtml" id="x038.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/039.xhtml" id="x039.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/040.xhtml" id="x040.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/041.xhtml" id="x041.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/042.xhtml" id="x042.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/043.xhtml" id="x043.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/044.xhtml" id="x044.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/045.xhtml" id="x045.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/046.xhtml" id="x046.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/047.xhtml" id="x047.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/048.xhtml" id="x048.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/049.xhtml" id="x049.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/050.xhtml" id="x050.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/051.xhtml" id="x051.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/052.xhtml" id="x052.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/053.xhtml" id="x053.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/054.xhtml" id="x054.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/055.xhtml" id="x055.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/056.xhtml" id="x056.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/057.xhtml" id="x057.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/058.xhtml" id="x058.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/059.xhtml" id="x059.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/060.xhtml" id="x060.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/061.xhtml" id="x061.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/062.xhtml" id="x062.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/063.xhtml" id="x063.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/064.xhtml" id="x064.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/autor.xhtml" id="autor.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/cubierta.xhtml" id="cubierta.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/info.xhtml" id="info.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/sinopsis.xhtml" id="sinopsis.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/titulo.xhtml" id="titulo.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Text/notas.xhtml" id="notas.xhtml" media-type="application/xhtml+xml"/>
+    <item href="Images/cover.jpg" id="cover.jpg" media-type="image/jpeg"/>
+    <item href="Text/dedicatoria.xhtml" id="dedicatoria.xhtml" media-type="application/xhtml+xml"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="cubierta.xhtml"/>
+    <itemref idref="sinopsis.xhtml"/>
+    <itemref idref="titulo.xhtml"/>
+    <itemref idref="info.xhtml"/>
+    <itemref idref="dedicatoria.xhtml"/>
+    <itemref idref="x001.xhtml"/>
+    <itemref idref="x002.xhtml"/>
+    <itemref idref="x003.xhtml"/>
+    <itemref idref="x004.xhtml"/>
+    <itemref idref="x005.xhtml"/>
+    <itemref idref="x006.xhtml"/>
+    <itemref idref="x007.xhtml"/>
+    <itemref idref="x008.xhtml"/>
+    <itemref idref="x009.xhtml"/>
+    <itemref idref="x010.xhtml"/>
+    <itemref idref="x011.xhtml"/>
+    <itemref idref="x012.xhtml"/>
+    <itemref idref="x013.xhtml"/>
+    <itemref idref="x014.xhtml"/>
+    <itemref idref="x015.xhtml"/>
+    <itemref idref="x016.xhtml"/>
+    <itemref idref="x017.xhtml"/>
+    <itemref idref="x018.xhtml"/>
+    <itemref idref="x019.xhtml"/>
+    <itemref idref="x020.xhtml"/>
+    <itemref idref="x021.xhtml"/>
+    <itemref idref="x022.xhtml"/>
+    <itemref idref="x023.xhtml"/>
+    <itemref idref="x024.xhtml"/>
+    <itemref idref="x025.xhtml"/>
+    <itemref idref="x026.xhtml"/>
+    <itemref idref="x027.xhtml"/>
+    <itemref idref="x028.xhtml"/>
+    <itemref idref="x029.xhtml"/>
+    <itemref idref="x030.xhtml"/>
+    <itemref idref="x031.xhtml"/>
+    <itemref idref="x032.xhtml"/>
+    <itemref idref="x033.xhtml"/>
+    <itemref idref="x034.xhtml"/>
+    <itemref idref="x035.xhtml"/>
+    <itemref idref="x036.xhtml"/>
+    <itemref idref="x037.xhtml"/>
+    <itemref idref="x038.xhtml"/>
+    <itemref idref="x039.xhtml"/>
+    <itemref idref="x040.xhtml"/>
+    <itemref idref="x041.xhtml"/>
+    <itemref idref="x042.xhtml"/>
+    <itemref idref="x043.xhtml"/>
+    <itemref idref="x044.xhtml"/>
+    <itemref idref="x045.xhtml"/>
+    <itemref idref="x046.xhtml"/>
+    <itemref idref="x047.xhtml"/>
+    <itemref idref="x048.xhtml"/>
+    <itemref idref="x049.xhtml"/>
+    <itemref idref="x050.xhtml"/>
+    <itemref idref="x051.xhtml"/>
+    <itemref idref="x052.xhtml"/>
+    <itemref idref="x053.xhtml"/>
+    <itemref idref="x054.xhtml"/>
+    <itemref idref="x055.xhtml"/>
+    <itemref idref="x056.xhtml"/>
+    <itemref idref="x057.xhtml"/>
+    <itemref idref="x058.xhtml"/>
+    <itemref idref="x059.xhtml"/>
+    <itemref idref="x060.xhtml"/>
+    <itemref idref="x061.xhtml"/>
+    <itemref idref="x062.xhtml"/>
+    <itemref idref="x063.xhtml"/>
+    <itemref idref="x064.xhtml"/>
+    <itemref idref="autor.xhtml"/>
+    <itemref idref="notas.xhtml"/>
+  </spine>
+  <guide>
+    <reference href="Text/cubierta.xhtml" title="Cover" type="cover"/>
+  </guide>
+</package>
