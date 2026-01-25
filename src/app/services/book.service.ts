@@ -6,16 +6,15 @@ import { Book } from '../models/book';
   providedIn: 'root'
 })
 export class BookService {
-  books: any[] = librosDataSet;
-  bookCurrent: Book = {
-    id: "", titulo: "", slug:"",sinopsis:"",saga:"",cover:"",active:false, authors: {nombre: "",image:"",bio:""}, pages:[], wallpapers: []
-  };
+  books: Book[] = librosDataSet;
+
 
   constructor() { }
 
-  getBookDetail(slug: string) {
-    this.bookCurrent = this.books.find(el => el.slug == slug);
+  getBookDetail(id: string) {
+    return this.books.find(el => el._id == id);
   }
+
 
 
 }

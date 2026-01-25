@@ -1,17 +1,39 @@
-<div class="mt-6 grid grid-cols-[repeat(auto-fill,minmax(180px,1fr))] gap-6">
+<mat-grid-list [cols]="columnsConfig().columns" rowHeight="100px">
+  @for (item of books; track item) {
+    <mat-grid-tile
+      [colspan]="1"
+      [rowspan]="generateRandomHeight(2,4)"
+      [style.border-radius.px]="15"
+      
+    >
+        <div class="w-full transform-gpu overflow-hidden rounded-lg bg-cover bg-center bg-no-repeat shadow-md transition-transform duration-300 ease-in-out group-hover:scale-105"
+            style='background-image: url(http://localhost:4200/assets/ebooks/item.slug/{{item.cover}}); padding-top: 133.33%; width:100%;'>
+            <p class="text-center mb-8">{{item.title}}</p>
+        </div>
+    </mat-grid-tile>
+  }
+</mat-grid-list>
+
+
+<div class="container">
+    <div class="mt-6 grid grid-cols-[repeat(auto-fill,minmax(180px,1fr))] gap-6">
+
+        
+    </div>
+    
     @for (item of books; track $index) {
-        <a routerLink="/book/{{item.slug}}" (click)="goToBookDetail(item.slug)">
+        <a routerLink="/book/" (click)="goToBookDetail(item.title)">
             <div class="group flex flex-col gap-3">
                 <div class="w-full transform-gpu overflow-hidden rounded-lg bg-cover bg-center bg-no-repeat shadow-md transition-transform duration-300 ease-in-out group-hover:scale-105"
-                    style='background-image: url(http://localhost:4200/assets/ebooks/{{item.slug}}/{{item.cover}}); padding-top: 133.33%;'>
+                    style='background-image: url(http://localhost:4200/assets/ebooks/item.slug/{{item.cover}}); padding-top: 133.33%;'>
                 </div>
                 <div>
-                    <h3 class="font-semibold text-gray-800">{{item.titulo}}</h3>
-                    <p class="text-sm text-gray-500">{{item.authors.nombre}}</p>
+                    <h3 class="font-semibold text-gray-800">{{item.title}}</h3>
+                    <p class="text-sm text-gray-500">{{item.authors.name}}</p>
                 </div>
             </div>
 
         </a>
     }
-        
 </div>
+

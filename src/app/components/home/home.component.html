@@ -1,3 +1,16 @@
+
+
+<app-carousel 
+  [title]="'Los más vendidos'" 
+  [books]="bestSellers">
+</app-carousel>
+
+<app-carousel 
+  [title]="'Literatura Fantástica'" 
+  [books]="fantasyBooks">
+</app-carousel>
+
+<!-- 
 <mat-sidenav-container class="h-screen">
   <mat-sidenav
   class="!bg-black/5 !rounded-none border-r !border-gray-200"
@@ -7,7 +20,7 @@
 </mat-sidenav>
 <mat-sidenav-content [style.margin-left.px]="width()">
   <app-header (onToggle)="collapsed.set(!collapsed())"></app-header>
-  <main>
+  <main class="m-2">
     <input
       class="form-input w-full rounded-full border-gray-300 bg-white py-2 pl-10 pr-4 text-gray-800 placeholder-gray-400 focus:border-[#1773cf] focus:ring-[#1773cf]"
       placeholder="Buscar por título o autor" type="text" />
@@ -19,7 +32,7 @@
   
   </main>
   </mat-sidenav-content>
-</mat-sidenav-container>
+</mat-sidenav-container> -->
 
 <!-- <mat-drawer-container class="example-container" autosize>
   <mat-drawer #drawer class="example-sidenav" mode="side">

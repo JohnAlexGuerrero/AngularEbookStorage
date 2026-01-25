@@ -1,15 +1,27 @@
-<!-- <section class="image" style="background-image: url({{book.wallpapers[0]}});"></section> -->
-<section class="text">
-    <h2 class="title">{{book.titulo}}</h2>
-</section>
+<div class="reader-container">
+  <header class="reader-header">
+    <button class="exit-btn" routerLink="..">✕ Salir</button>
+    <h2>{{ bookTitle }}</h2>
+    <span class="page-counter">Página {{ currentPage + 1 }} de {{ pages?.length }}</span>
+  </header>
 
-@for(page of pages; track page.titulo) {
-    @if (page.titulo != "cubierta") {
-        <!-- @if (book.wallpapers.length > 0) {
-            <section class="image" style="background-image: url({{book.wallpapers[0]}});"></section>
-        } -->
-        <section class="text">
-            <app-page [url]='book.slug+"/"+page.url'></app-page>
-        </section>
-    }
-}
+  <main class="page-content">
+    <!-- @for(page of pages; track page.title){ -->
+        <div class="text-wrapper" key="currentPage">
+        <p class="page-title">{{ pageTitle }}</p>
+        <p class="page-content-text">{{ contentPage }}</p>
+        </div>
+    <!-- } -->
+  </main>
+
+  <footer class="reader-footer">
+    <div class="progress-bar">
+      <div class="progress-fill" [style.width.%]="progress"></div>
+    </div>
+    
+    <div class="nav-controls">
+      <button (click)="prevPage()" [disabled]="currentPage === 0">Anterior</button>
+      <button (click)="nextPage()" [disabled]="currentPage === pages!.length - 1">Siguiente</button>
+    </div>
+  </footer>
+</div>

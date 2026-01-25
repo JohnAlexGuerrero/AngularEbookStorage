@@ -1,0 +1,80 @@
+/* .book-card {
+  width: 180px;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.book-card:hover {
+  transform: translateY(-5px);
+} */
+
+/* book-thumbnail.component.css */
+.book-card {
+  cursor: pointer;
+  outline: none;
+}
+
+.book-card:hover .book-title {
+  color: #3498db; /* Resalta el título al pasar el mouse */
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.book-card:hover .overlay {
+  opacity: 1;
+}
+
+.view-text {
+  color: white;
+  border: 1px solid white;
+  padding: 8px 15px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.book-cover {
+  position: relative;
+  height: 260px;
+  background-color: #f0f0f0;
+}
+
+.book-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.book-info {
+  padding: 10px 5px;
+  text-align: center;
+}
+
+.book-title {
+  font-size: 1rem;
+  margin: 5px 0;
+  /* white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; */
+}
+
+.book-author {
+  font-size: 0.85rem;
+  color: #666;
+  margin-bottom: 5px;
+}

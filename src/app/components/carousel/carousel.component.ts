@@ -1,21 +1,32 @@
-import { Component, Input, OnDestroy, OnInit } from '@angular/core';
+import { Component, Input, OnDestroy, OnInit, ViewChild, ElementRef } from '@angular/core';
 import { Book } from '../../models/book';
 import { CommonModule } from '@angular/common';
 import { Router } from '@angular/router';
+import { BookThumbnailComponent } from '../book-thumbnail/book-thumbnail.component';
 
 @Component({
   selector: 'app-carousel',
   standalone: true,
   imports: [
     CommonModule,
+    BookThumbnailComponent
   ],
   templateUrl: './carousel.component.html',
   styleUrl: './carousel.component.css'
 })
 export class CarouselComponent implements OnInit, OnDestroy{
-  @Input() slides: Book[] = [];
-  @Input() interval: number = 5000;
-  @Input() autoPlay: boolean = true;
+  @Input() books: Book[] = [];
+  @Input() title: string = "Novedades";
+
+  @ViewChild('carouselContent') carouselContent!: ElementRef;
+
+  scroll(direction: number){
+    // Desplaza 300px a la izquierda o derecha
+    this.carouselContent.nativeElement.scrollBy({
+      left: direction * 300,
+      behavior: 'smooth'
+    });
+  }
   
   currentIndex: number = 0 // Indice del libro actual
   private autoPlayInterval: any;
@@ -26,60 +37,12 @@ export class CarouselComponent implements OnInit, OnDestroy{
   ) {}
   
   ngOnDestroy(): void {
-    if (this.autoPlay) {
-      this.startAutoPlay();
-    }
+
   }
+
   ngOnInit(): void {
-    this.stopAutoPlay();
   }
 
-  goToPrevius():void{
-    const isFirstSlide = this.currentIndex === 0;
-    this.currentIndex = isFirstSlide ? this.slides.length - 1 : this.currentIndex - 1;
-    this.resetAutoPlay();
-  }
+  
 
-  goToPrevious(): void {
-    const isFirstSlide = this.currentIndex === 0;
-    this.currentIndex = isFirstSlide ? this.slides.length - 1 : this.currentIndex - 1;
-    this.resetAutoPlay();
-  }
-
-  goToNext(): void {
-    const isLastSlide = this.currentIndex === this.slides.length - 1;
-    this.currentIndex = isLastSlide ? 0 : this.currentIndex + 1;
-    this.resetAutoPlay();
-  }
-
-  goToSlide(slideIndex: number): void {
-    this.currentIndex = slideIndex;
-    this.resetAutoPlay();
-  }
-
-  private startAutoPlay(): void {
-    this.stopAutoPlay(); // Asegura que solo hay un intervalo corriendo
-    this.autoPlayInterval = setInterval(() => {
-      this.goToNext();
-    }, this.interval);
-  }
-
-  private stopAutoPlay(): void {
-    if (this.autoPlayInterval) {
-      clearInterval(this.autoPlayInterval);
-    }
-  }
-
-  private resetAutoPlay(): void {
-    if (this.autoPlay) {
-      this.stopAutoPlay();
-      this.startAutoPlay();
-    }
-  }
-
-  onSlideClick(id: string): void {
-    this.router.navigate([`book/${id}`]);
-    // this.service.setDataBookByID(id);
-    console.log("Book ID clicked: ", id);
-  }
 }
