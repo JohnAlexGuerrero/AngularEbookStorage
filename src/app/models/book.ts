@@ -7,9 +7,12 @@ export interface Book {
     // slug: string,
     cover: string,
     sinopsis: string,
-    // saga: string,
+    categories: string[],
     // active: boolean,
     authors: Author,
     pages: Page[],
     // wallpapers: string[],
+    rating: number,
+    publication_date: string,
+    number_pages: number
 }

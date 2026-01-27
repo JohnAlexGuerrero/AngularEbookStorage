@@ -4,14 +4,19 @@ export const librosDataSet = [
   "title": "A todos los chicos de los que me enamore",
   // "slug": "A-todos-los-chicos-de-los-que-me-enamore",
   // "saga": "A todos los chicos de los que me enamore",
-  "cover": "/assets/ebooks/A-todos-los-chicos-de-los-que-me-enamore/OEBPS/Images/cover.jpg",
+  "cover": "https://zdwxofkuxdjvivfvtlxh.supabase.co/storage/v1/object/public/images/cover.jpg",
   "sinopsis": "Lara Jean guarda sus cartas de amor en una caja. No son cartas que le hayan enviado, las ha escrito ella, una por cada chico de los que se ha enamorado. En ellas se muestra tal cual es, porque sabe que nadie las leerá. Hasta que un día alguien las envía por equivocación y la vida amorosa de Lara Jean pasa de «imaginaria» a estar totalmente fuera de control.",
   "authors": {
     "name": "JENNY HAN",
-    "image": "/assets/ebooks/A-todos-los-chicos-de-los-que-me-enamore/OEBPS/Images/autor.jpg",
+    "image": "https://zdwxofkuxdjvivfvtlxh.supabase.co/storage/v1/object/public/images/autor.jpg",
     "bio": ". Nació y se crió en Richmond, Virginia. Fue a la Universidad de Carolina del Norte en Chapel Hill y pasó a la escuela de posgrado en la New School de Nueva York, donde recibió su MFA en Escritura para la Infancia. Ha trabajado en una librería para niños y en una biblioteca, y ahora ella pasa todo su tiempo libre escribiendo. Jenny es la autora betseller del New York Times por la serie The Summer I Turned Pretty. Sus libros han sido publicados en 17 idiomas diferedntes y actualmente vive en Brooklyn."
   },
-  // "active": true,
+  "rating": 4.8,
+  "number_pages": 67,
+  "publication_date":"16/09/2005",
+  "categories":[
+    "Romance","Juvenil","Comedy","Amor"
+  ],
   "pages": [
     // {
     //   "title": "cover",
@@ -341,10 +346,15 @@ export const librosDataSet = [
   "sinopsis": "OEBPS/Text/sinopsis.xhtml",
   "authors": {
     "name": "Jenny Han",
-    "image": "/assets/ebooks/Para-siempre-Lara-Jean/OEBPS/Images/autor.jpg",
+    "image": "https://zdwxofkuxdjvivfvtlxh.supabase.co/storage/v1/object/public/images/autor.jpg",
     "bio": "JENNY HAN. Nació y se crió en Richmond, Virginia. Fue a la Universidad de Carolina del Norte en Chapel Hill y pasó a la escuela de posgrado en la New School de Nueva York, donde recibió su M<small>FA</small> en Escritura para la Infancia. Ha trabajado en una librería para niños y en una biblioteca, y ahora ella pasa todo su tiempo libre escribiendo. Jenny es la autora betseller del <em>New York Times</em> por la serie <em>The Summer I Turned Pretty</em>. Sus libros han sido publicados en 17 idiomas diferentes y actualmente vive en Brooklyn."
   },
-//   "active": true,
+  "rating": 4.8,
+  "number_pages": 67,
+  "publication_date":"16/09/2005",
+  "categories":[
+    "Romance","Juvenil","Comedy"
+  ],
   "pages": [
     {
       "title": "Cubierta",
@@ -541,10 +551,15 @@ export const librosDataSet = [
   "sinopsis": "OEBPS/Text/sinopsis.xhtml",
   "authors": {
     "name": "Jenny Han",
-    "image": "OEBPS/Images/autor.jpg",
+    "image": "https://zdwxofkuxdjvivfvtlxh.supabase.co/storage/v1/object/public/images/autor.jpg",
     "bio": "OEBPS/Text/autor.xhtml"
   },
-//   "active": true,
+"rating": 4.8,
+  "number_pages": 67,
+  "publication_date":"16/09/2005",
+  "categories":[
+    "Romance","Juvenil","Comedy"
+  ],
   "pages": [
     {
       "title": "cubierta",
@@ -808,7 +823,12 @@ export const librosDataSet = [
     "image": "OEBPS/Images/autor.jpg",
     "bio": "OEBPS/Text/autor.xhtml"
   },
-//   "active": true,
+"rating": 3.2,
+  "number_pages": 67,
+  "publication_date":"16/09/2005",
+  "categories":[
+    "Romance","Juvenil","Comedy"
+  ],
   "pages": [
     {
       "title": "Cubierta",

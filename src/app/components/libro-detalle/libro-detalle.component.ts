@@ -1,10 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, computed, OnInit } from '@angular/core';
 import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { Book } from '../../models/book';
 import { BookService } from '../../services/book.service';
 import { PageComponent } from '../page/page.component';
 import { TabsComponent } from '../tabs/tabs.component';
+import { MatIconModule } from '@angular/material/icon';
+import { Page } from '../../models/page';
 
 @Component({
   selector: 'app-libro-detalle',
@@ -13,7 +15,8 @@ import { TabsComponent } from '../tabs/tabs.component';
     CommonModule,
     PageComponent,
     RouterLink,
-    TabsComponent
+    TabsComponent,
+    MatIconModule
 ],
   templateUrl: './libro-detalle.component.html',
   styleUrl: './libro-detalle.component.css'
@@ -24,10 +27,9 @@ export class LibroDetalleComponent implements OnInit{
   // En book-details.component.ts definiendo las pestañas
   bookTabs = [
     { title: 'Sinopsis', id: 'info' },
-    { title: 'Autor', id: 'author' },
-    { title: 'Reseñas', id: 'reviews' }
+    { title: 'Autor', id: 'author' }
   ];
-
+  
   constructor(
     private router: Router,
     private route: ActivatedRoute,
@@ -39,9 +41,23 @@ export class LibroDetalleComponent implements OnInit{
     if (id){
       // Aqui se llama al servicio
       this.book = this.bookService.getBookDetail(id);
-      console.log(this.book);
+      // Parts of Book
+      this.bookTabs.push({ title: `Tabla de contenido (${this.book!.pages.length})`, id: 'tableOfContent' });
     }
-    // this.book = this.bookService.bookCurrent;
+  }
+
+
+  get bookRating(): boolean[]{
+    var rating: boolean[] = [];
+    var index = 1;
+    while (this.book!.rating > index) {
+      rating.push(true);
+      index ++;
+    } 
+    while (rating.length < 5) {
+      rating.push(false);
+    }
+    return rating;
   }
   
 
