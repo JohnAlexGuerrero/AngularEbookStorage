@@ -1,5 +1,5 @@
-import { Component, ElementRef, Input, OnInit, ViewChild, viewChild } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { Component, ElementRef, Inject, Input, OnInit, ViewChild, viewChild } from '@angular/core';
+import { APP_BASE_HREF, CommonModule } from '@angular/common';
 import { PageComponent } from '../page/page.component';
 import { BookService } from '../../services/book.service';
 // import { Book } from '../../models/book';
@@ -21,6 +21,7 @@ export class ReaderComponent implements OnInit{
   @Input() epubUrl: string = ''; // URL del archivo epub
   @ViewChild('viewer', { static: true }) viewerDiv!: ElementRef;
 
+
   private book?: Book;
   private rendition?: Rendition;
   public currentProgress: number = 0;
@@ -31,7 +32,8 @@ export class ReaderComponent implements OnInit{
   
   constructor(
     private bookService: BookService,
-    private route: ActivatedRoute
+    private route: ActivatedRoute,
+    @Inject(APP_BASE_HREF) private baseHref: string
   ) {}
   
   ngOnInit(): void {
@@ -49,8 +51,11 @@ export class ReaderComponent implements OnInit{
   }
 
   private initialzeReader(){
+    // Si la url empieza con 'assets/', le concatenamos el baseHref
+    // Esto transforma 'assets/libro.epub' en '/nombre-repo/assets/libro.epub'
+    const fullPath = this.baseHref + this.epubUrl;
     // Instanciar el libro
-    this.book = ePub(this.epubUrl);
+    this.book = ePub(fullPath);
     // Renderizarlo en el contenedor
     this.rendition = this.book.renderTo(this.viewerDiv.nativeElement, {
       width: '100%',

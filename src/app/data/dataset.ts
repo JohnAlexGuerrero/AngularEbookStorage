@@ -293,7 +293,7 @@ export const librosDataSet = [
   {
     "_id": "urn:uuid:2b46c036-0fe8-44ad-a523-435d30f41625",
     "title": "A todos los chicos de los que me enamor\u00e9",
-    "url": "/assets/A todos los chicos de los que me enamore - Jenny Han.epub",
+    "url": "/assets/ebooks/A todos los chicos de los que me enamore - Jenny Han.epub",
     "sinopsis": "Lara Jean guarda sus cartas de amor en una caja. No son cartas que le hayan enviado, las ha escrito ella, una por cada chico de los que se ha enamorado. En ellas se muestra tal cual es, porque sabe que nadie las leer\u00e1. Hasta que un d\u00eda alguien las env\u00eda por equivocaci\u00f3n y la vida amorosa de Lara Jean pasa de \u00abimaginaria\u00bb a estar totalmente fuera de control.",
     "pages": [
       {
