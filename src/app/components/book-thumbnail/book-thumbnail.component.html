@@ -1,6 +1,6 @@
 <div class="book-card" id="book._id" [routerLink]="['/book', book._id]">
   <div class="book-cover">
-    <img [src]="book.cover" [alt]="book.title" loading="lazy">
+    <img [src]="book.images[0].url" [alt]="book.title" loading="lazy">
     <!-- <div class="overlay">
       <button class="view-btn">Ver detalles</button>
     </div> -->
@@ -8,7 +8,6 @@
   
   <div class="book-info">
     <h3 class="book-title">{{ book.title }}</h3>
-    <p class="book-author">por {{ book.authors.name }}</p>
-    <!-- <span class="book-price" *ngIf="book.price">{{ "0.0"}}</span> -->
+    <p class="book-author">por {{ book.authors[0].name }}</p>
   </div>
 </div>

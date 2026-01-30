@@ -1,18 +1,19 @@
 import { Author } from "./author";
+import { Images } from "./images";
 import { Page } from "./page";
 
-export interface Book {
+export interface EBook {
     _id: string,
     title: string,
-    // slug: string,
-    cover: string,
+    url: string,
+    images: Images[],
     sinopsis: string,
     categories: string[],
     // active: boolean,
-    authors: Author,
+    authors: Author[],
     pages: Page[],
     // wallpapers: string[],
     rating: number,
-    publication_date: string,
+    publisher: string,
     number_pages: number
 }

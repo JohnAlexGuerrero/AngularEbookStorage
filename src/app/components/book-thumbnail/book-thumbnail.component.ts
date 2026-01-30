@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Book } from '../../models/book';
+import { EBook } from '../../models/book';
 import { RouterModule } from '@angular/router';
 
 
@@ -14,7 +14,7 @@ import { RouterModule } from '@angular/router';
   styleUrl: './book-thumbnail.component.css'
 })
 export class BookThumbnailComponent implements OnInit{
-  @Input() book!: Book; //Recibe el objeto libro
+  @Input() book!: EBook; //Recibe el objeto libro
 
   ngOnInit(): void {
   }

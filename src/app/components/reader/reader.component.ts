@@ -1,10 +1,11 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, ElementRef, Input, OnInit, ViewChild, viewChild } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { PageComponent } from '../page/page.component';
 import { BookService } from '../../services/book.service';
-import { Book } from '../../models/book';
+// import { Book } from '../../models/book';
 import { ActivatedRoute } from '@angular/router';
 import { Page } from '../../models/page';
+import ePub, { Book, Rendition } from 'epubjs';
 
 @Component({
   selector: 'app-reader',
@@ -17,10 +18,14 @@ import { Page } from '../../models/page';
   styleUrl: './reader.component.css'
 })
 export class ReaderComponent implements OnInit{
-  pages?: Page[]; //Contenido del libro por paginas
-  bookTitle: string = "";
-  pageTitle: string = "";
-  contentPage: string = "";
+  @Input() epubUrl: string = ''; // URL del archivo epub
+  @ViewChild('viewer', { static: true }) viewerDiv!: ElementRef;
+
+  private book?: Book;
+  private rendition?: Rendition;
+  public currentProgress: number = 0;
+  public bookTitle: string = '';
+
 
   currentPage: number = 0;
   
@@ -33,39 +38,49 @@ export class ReaderComponent implements OnInit{
     const id = this.route.snapshot.paramMap.get('id');
     if (id) {
       // Aqui se llama al servicio para obtener las paginas
-      var book = this.bookService.getBookDetail(id);
-      this.pages = book?.pages;
-      this.bookTitle = book!.title;
+      var ebook = this.bookService.getBookDetail(id);
+      this.epubUrl = ebook!.url;
     }
 
-    if (this.currentPage == 0) {
-      this.pageTitle = this.pages![0].title;
-      this.contentPage = this.pages![0].content;
+    if (this.epubUrl) {
+      this.initialzeReader();
     }
 
   }
 
-  nextPage(){
-    if (this.currentPage < this.pages!.length - 1) {
-      this.currentPage ++;
-      this.getCurrentPage();
+  private initialzeReader(){
+    // Instanciar el libro
+    this.book = ePub(this.epubUrl);
+    // Renderizarlo en el contenedor
+    this.rendition = this.book.renderTo(this.viewerDiv.nativeElement, {
+      width: '100%',
+      height: '100%',
+      flow: 'paginated', // Formato libro con páginas
+      manager: 'default'
+    });
+    // Mostar el libro y obtener metadatos
+    this.rendition.display();
+    
+    this.book.loaded.metadata.then(meta => {
+      this.bookTitle = meta.title;
+      
+    });
+
+    // Trackear el progreso location
+    this.rendition.on('relocated', (location: any) => {
+      this.currentProgress = Math.floor(location.start.percentage * 100);
+    });
+  }
+
+  // NAvegacion
+  prevPage() {this.rendition?.prev();}
+  nextPage() {this.rendition?.next();}
+
+  ngOnDestroy():void {
+    if (this.book) {
+      this.book.destroy(); // Limpieza de memoria
     }
   }
 
-  prevPage(){
-    if (this.currentPage > 0) {
-      this.currentPage --;
-      this.getCurrentPage();
-    }
-  }
-
-  get progress(): number{
-    return ((this.currentPage + 1) / this.pages!.length) * 100;
-  }
-
-  getCurrentPage(){
-    this.pageTitle = this.pages![this.currentPage].title;
-    this.contentPage = this.pages![this.currentPage].content;
-  }
 
 }

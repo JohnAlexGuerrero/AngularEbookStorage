@@ -3,7 +3,7 @@
 <div class="container" *ngIf="book; else loading">
   <div class="book-detail-wrapper">
     <div class="book-image">
-      <img [src]="book.cover" [alt]="book.title">
+      <img [src]="book.images[0].url" [alt]="book.title">
       <div class="actions">
         <button class="btn-primary" [routerLink]="['/book/reader', book._id]">Empezar a leer</button>
         <button class="btn-secondary">Añadir a deseos</button>
@@ -11,7 +11,8 @@
     </div>
     
     <div class="book-info-main">
-      <nav class="breadcrumb">Libros / {{ book.authors }}</nav>
+      <nav class="breadcrumb">Libros / @for(author of book.authors; track author.name) {
+        <span>{{ author.name }}</span> }</nav>
       <h1>{{ book.title }}</h1>
 
       <div class="rating">
@@ -34,21 +35,24 @@
         <div info>
           <p class="author">{{ book.sinopsis }}</p>
           <ul>
-            <li><strong>ISBN:</strong> 978-3-16-148410-0</li>
+            <li><strong>ISBN:</strong> {{ book._id }}</li>
             <li><strong>Páginas:</strong> {{ book.number_pages }}</li>
-            <li><strong>Published:</strong> {{ book.publication_date }}</li>
+            <li><strong>Published:</strong> {{ book.publisher }}</li>
             <li><strong>Editorial:</strong> Penguin Random House</li>
           </ul>
         </div>
         
         <div author>
-          <img class="author-image" [src]="book.authors.image" [alt]="book.authors.name" >
-          <p class="author"><span>{{ book.authors.name }}</span>{{ book.authors.bio }}</p>
+          @for(author of book.authors; track author.name) {
+            <!-- <img class="author-image" [src]="author.image" [alt]="author.name" > -->
+            <p class="author"><span>{{ author.name }}</span></p>
+
+          }
         </div>
         
         <div tableOfContent>
           <ul>
-            @for (p of book.pages; track p.title){
+            @for(p of book.pages; track $index){
               <li><strong>{{ p.title }}</strong></li>
             }
           </ul>

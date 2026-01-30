@@ -1,5 +1,5 @@
 import { Component, Input, OnDestroy, OnInit, ViewChild, ElementRef } from '@angular/core';
-import { Book } from '../../models/book';
+import { EBook } from '../../models/book';
 import { CommonModule } from '@angular/common';
 import { Router } from '@angular/router';
 import { BookThumbnailComponent } from '../book-thumbnail/book-thumbnail.component';
@@ -15,7 +15,7 @@ import { BookThumbnailComponent } from '../book-thumbnail/book-thumbnail.compone
   styleUrl: './carousel.component.css'
 })
 export class CarouselComponent implements OnInit, OnDestroy{
-  @Input() books: Book[] = [];
+  @Input() books: EBook[] = [];
   @Input() title: string = "Novedades";
 
   @ViewChild('carouselContent') carouselContent!: ElementRef;

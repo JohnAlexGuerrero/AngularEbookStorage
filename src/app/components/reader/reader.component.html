@@ -1,27 +1,20 @@
 <div class="reader-container">
   <header class="reader-header">
-    <button class="exit-btn" routerLink="..">✕ Salir</button>
+    <button class="exit-btn" routerLink="/books">✕ Salir</button>
     <h2>{{ bookTitle }}</h2>
-    <span class="page-counter">Página {{ currentPage + 1 }} de {{ pages?.length }}</span>
+    <span class="progress-text">{{ currentProgress }}% completado</span>
   </header>
 
-  <main class="page-content">
-    <!-- @for(page of pages; track page.title){ -->
-        <div class="text-wrapper" key="currentPage">
-        <p class="page-title">{{ pageTitle }}</p>
-        <p class="page-content-text">{{ contentPage }}</p>
-        </div>
-    <!-- } -->
-  </main>
+  <main class="viewer-wrapper" #viewer></main>
 
   <footer class="reader-footer">
     <div class="progress-bar">
-      <div class="progress-fill" [style.width.%]="progress"></div>
+      <div class="progress-fill" [style.width.%]="currentProgress"></div>
     </div>
     
     <div class="nav-controls">
-      <button (click)="prevPage()" [disabled]="currentPage === 0">Anterior</button>
-      <button (click)="nextPage()" [disabled]="currentPage === pages!.length - 1">Siguiente</button>
+      <button (click)="prevPage()" class="nav-btn">❮ Anterior</button>
+      <button (click)="nextPage()" class="nav-btn">Siguiente ❯</button>
     </div>
   </footer>
 </div>

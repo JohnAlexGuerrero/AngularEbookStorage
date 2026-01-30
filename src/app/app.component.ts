@@ -1,8 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { CarouselComponent } from './components/carousel/carousel.component';
-import { Book } from './models/book';
-import { LibrosComponent } from './components/libros/libros.component';
+import { EBook } from './models/book';
 import { HomeComponent } from './components/home/home.component';
 
 @Component({
@@ -16,7 +15,7 @@ import { HomeComponent } from './components/home/home.component';
   styleUrl: './app.component.css'
 })
 export class AppComponent implements OnInit{
-  books: Book[] = [];
+  books: EBook[] = [];
 
   constructor (
   ){}

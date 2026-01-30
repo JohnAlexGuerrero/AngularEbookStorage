@@ -9,7 +9,7 @@ import { librosDataSet } from '../../data/dataset';
 import { CommonModule } from '@angular/common';
 import { CarouselComponent } from '../carousel/carousel.component';
 import { RouterModule } from '@angular/router';
-import { Book } from '../../models/book';
+import { EBook } from '../../models/book';
 
 
 @Component({
@@ -33,7 +33,7 @@ export class HomeComponent implements OnInit{
   bestSellers = this.bookList;
   fantasyBooks = this.bookList;
 
-  books?: Book[] = [];
+  books?: EBook[] = [];
 
 
   constructor(

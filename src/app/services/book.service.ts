@@ -1,12 +1,12 @@
 import { Injectable } from '@angular/core';
 import { librosDataSet } from '../data/dataset';
-import { Book } from '../models/book';
+import { EBook } from '../models/book';
 
 @Injectable({
   providedIn: 'root'
 })
 export class BookService {
-  books: Book[] = librosDataSet;
+  books: EBook[] = librosDataSet;
 
 
   constructor() { }

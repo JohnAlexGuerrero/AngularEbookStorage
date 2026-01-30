@@ -1,7 +1,7 @@
 import { Component, computed, OnInit } from '@angular/core';
 import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 import { CommonModule } from '@angular/common';
-import { Book } from '../../models/book';
+import { EBook } from '../../models/book';
 import { BookService } from '../../services/book.service';
 import { PageComponent } from '../page/page.component';
 import { TabsComponent } from '../tabs/tabs.component';
@@ -22,7 +22,7 @@ import { Page } from '../../models/page';
   styleUrl: './libro-detalle.component.css'
 })
 export class LibroDetalleComponent implements OnInit{
-  book?: Book;
+  book?: EBook;
 
   // En book-details.component.ts definiendo las pestañas
   bookTabs = [
@@ -50,7 +50,7 @@ export class LibroDetalleComponent implements OnInit{
   get bookRating(): boolean[]{
     var rating: boolean[] = [];
     var index = 1;
-    while (this.book!.rating > index) {
+    while (Number(this.book!.rating )> index) {
       rating.push(true);
       index ++;
     } 
