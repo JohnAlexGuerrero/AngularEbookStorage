@@ -9,10 +9,7 @@ export interface EBook {
     images: Images[],
     sinopsis: string,
     categories: string[],
-    // active: boolean,
     authors: Author[],
-    pages: Page[],
-    // wallpapers: string[],
     rating: number,
     publisher: string,
     number_pages: number

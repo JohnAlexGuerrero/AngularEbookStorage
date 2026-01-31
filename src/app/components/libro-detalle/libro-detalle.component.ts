@@ -27,7 +27,8 @@ export class LibroDetalleComponent implements OnInit{
   // En book-details.component.ts definiendo las pestañas
   bookTabs = [
     { title: 'Sinopsis', id: 'info' },
-    { title: 'Autor', id: 'author' }
+    { title: 'Autor', id: 'author' },
+    { title: `Tabla de contenido (4)`, id: 'tableOfContent' }
   ];
   
   constructor(
@@ -42,7 +43,7 @@ export class LibroDetalleComponent implements OnInit{
       // Aqui se llama al servicio
       this.book = this.bookService.getBookDetail(id);
       // Parts of Book
-      this.bookTabs.push({ title: `Tabla de contenido (${this.book!.pages.length})`, id: 'tableOfContent' });
+      //this.bookTabs.push({ title: `Tabla de contenido (4)`, id: 'tableOfContent' });
     }
   }
 

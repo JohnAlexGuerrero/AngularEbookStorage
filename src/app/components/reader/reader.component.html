@@ -1,6 +1,6 @@
 <div class="reader-container">
   <header class="reader-header">
-    <button class="exit-btn" routerLink="/books">✕ Salir</button>
+    <button class="exit-btn" [routerLink]="['/book', id]">✕ Salir</button>
     <h2>{{ bookTitle }}</h2>
     <span class="progress-text">{{ currentProgress }}% completado</span>
   </header>

@@ -3,7 +3,7 @@ import { APP_BASE_HREF, CommonModule } from '@angular/common';
 import { PageComponent } from '../page/page.component';
 import { BookService } from '../../services/book.service';
 // import { Book } from '../../models/book';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, RouterLink } from '@angular/router';
 import { Page } from '../../models/page';
 import ePub, { Book, Rendition } from 'epubjs';
 
@@ -13,9 +13,12 @@ import ePub, { Book, Rendition } from 'epubjs';
   imports: [
     CommonModule,
     PageComponent,
+    RouterLink
   ],
   templateUrl: './reader.component.html',
-  styleUrl: './reader.component.css'
+  styleUrl: './reader.component.css',
+  providers: [{provide: APP_BASE_HREF, useValue: '/johnalexguerrero.github.io/AngularEbookStorage'}]
+
 })
 export class ReaderComponent implements OnInit{
   @Input() epubUrl: string = ''; // URL del archivo epub
@@ -26,6 +29,7 @@ export class ReaderComponent implements OnInit{
   private rendition?: Rendition;
   public currentProgress: number = 0;
   public bookTitle: string = '';
+  id: string = "";
 
 
   currentPage: number = 0;
@@ -33,7 +37,7 @@ export class ReaderComponent implements OnInit{
   constructor(
     private bookService: BookService,
     private route: ActivatedRoute,
-    @Inject(APP_BASE_HREF) private baseHref: string
+    // @Inject(APP_BASE_HREF) private baseHref: string
   ) {}
   
   ngOnInit(): void {
@@ -42,6 +46,7 @@ export class ReaderComponent implements OnInit{
       // Aqui se llama al servicio para obtener las paginas
       var ebook = this.bookService.getBookDetail(id);
       this.epubUrl = ebook!.url;
+      this.id = id;
     }
 
     if (this.epubUrl) {
@@ -51,11 +56,8 @@ export class ReaderComponent implements OnInit{
   }
 
   private initialzeReader(){
-    // Si la url empieza con 'assets/', le concatenamos el baseHref
-    // Esto transforma 'assets/libro.epub' en '/nombre-repo/assets/libro.epub'
-    const fullPath = this.baseHref + this.epubUrl;
     // Instanciar el libro
-    this.book = ePub(fullPath);
+    this.book = ePub(this.epubUrl);
     // Renderizarlo en el contenedor
     this.rendition = this.book.renderTo(this.viewerDiv.nativeElement, {
       width: '100%',
