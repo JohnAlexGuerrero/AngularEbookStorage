@@ -5,7 +5,11 @@
     <div class="book-image">
       <img [src]="book.images[0].url" [alt]="book.title">
       <div class="actions">
-        <button class="btn-primary" [routerLink]="['/book/reader', book._id]">Empezar a leer</button>
+        <button class="btn-primary" [routerLink]="['/book/reader', book._id]">
+          @if(isLastLocation) {
+            Continuar
+          }@else{ Empezar a leer }
+        </button>
         <button class="btn-secondary">Añadir a deseos</button>
       </div>
     </div>
@@ -44,17 +48,17 @@
         
         <div author>
           @for(author of book.authors; track author.name) {
-            <!-- <img class="author-image" [src]="author.image" [alt]="author.name" > -->
+            <img class="author-image" [src]="book.images[1].url" [alt]="book.images[1].name" >
             <p class="author"><span>{{ author.name }}</span></p>
-
           }
         </div>
         
-        <div tableOfContent>
+        <!-- <div tableOfContent>
+          <p>Tabla de contenido</p>
           <ul>
-            <li></li>
+            <li *ngFor="let i of pages;$index">{{i.label}}</li>
           </ul>
-        </div>
+        </div> -->
       </app-tabs>
       
     </div>

@@ -22,13 +22,15 @@ import { Page } from '../../models/page';
   styleUrl: './libro-detalle.component.css'
 })
 export class LibroDetalleComponent implements OnInit{
-  book?: EBook;
+  public book?: EBook;
+  public pages: Page[] = [];
+  public isLastLocation: boolean = false;
 
   // En book-details.component.ts definiendo las pestañas
   bookTabs = [
     { title: 'Sinopsis', id: 'info' },
     { title: 'Autor', id: 'author' },
-    { title: `Tabla de contenido (4)`, id: 'tableOfContent' }
+    // { title: `Tabla de contenido`, id: 'tableOfContent' },
   ];
   
   constructor(
@@ -42,11 +44,14 @@ export class LibroDetalleComponent implements OnInit{
     if (id){
       // Aqui se llama al servicio
       this.book = this.bookService.getBookDetail(id);
-      // Parts of Book
-      //this.bookTabs.push({ title: `Tabla de contenido (4)`, id: 'tableOfContent' });
+      this.pages = this.bookService.getNavigation(this.book!.url);
+    }
+
+    if (this.bookService.getPositionEbook(this.book!._id)) {
+      this.isLastLocation = true; 
     }
   }
-
+  
 
   get bookRating(): boolean[]{
     var rating: boolean[] = [];

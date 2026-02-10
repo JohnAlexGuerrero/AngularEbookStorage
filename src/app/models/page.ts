@@ -1,4 +1,8 @@
 export interface Page {
-    title: string,
-    content: string
+    id: string,
+    label: string,
+    href: string,
+    parent?: string,
+    subitems?: Object[]
 }
+
