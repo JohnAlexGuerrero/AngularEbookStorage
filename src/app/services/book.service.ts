@@ -13,8 +13,8 @@ export class BookService {
 
   constructor() { }
 
-  getBookDetail(id: string) {
-    return this.books.find(el => el._id == id);
+  getBookDetail(sku: string) {
+    return this.books.find(el => el.sku == sku);
   }
 
   getEbookOfStorage(url: string) {
@@ -41,9 +41,9 @@ export class BookService {
   }
 
   // Guardar la posicion usando el ID del libro como clave 
-  savePositionEbook(id: string, location:any){
+  savePositionEbook(sku: string, location:any){
     const cfi = location.start.cfi;
-    localStorage.setItem(`last-location-${id}`,cfi);
+    localStorage.setItem(`last-location-${sku}`,cfi);
   }
 
   getPositionEbook(id: string){

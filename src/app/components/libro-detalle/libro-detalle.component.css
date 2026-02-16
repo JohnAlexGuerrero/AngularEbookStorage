@@ -96,6 +96,10 @@ button {
   width: 100%;
 }
 
+.bio {
+  
+}
+
 /* Responsivo para móviles */
 @media (max-width: 768px) {
   .book-detail-wrapper {

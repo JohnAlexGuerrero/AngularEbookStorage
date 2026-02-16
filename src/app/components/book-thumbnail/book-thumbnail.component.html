@@ -1,6 +1,6 @@
-<div class="book-card" id="book._id" [routerLink]="['/book', book._id]">
+<div class="book-card" id="book.id" [routerLink]="['/book', book.sku]">
   <div class="book-cover">
-    <img [src]="book.images[0].url" [alt]="book.title" loading="lazy">
+    <img [src]="book.thumbnail_url" [alt]="book.title" loading="lazy">
     <!-- <div class="overlay">
       <button class="view-btn">Ver detalles</button>
     </div> -->

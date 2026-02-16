@@ -44,10 +44,10 @@ export class LibroDetalleComponent implements OnInit{
     if (id){
       // Aqui se llama al servicio
       this.book = this.bookService.getBookDetail(id);
-      this.pages = this.bookService.getNavigation(this.book!.url);
+      this.pages = this.bookService.getNavigation(this.book!.book_storage.archive);
     }
 
-    if (this.bookService.getPositionEbook(this.book!._id)) {
+    if (this.bookService.getPositionEbook(this.book!.sku)) {
       this.isLastLocation = true; 
     }
   }

@@ -3,9 +3,9 @@
 <div class="container" *ngIf="book; else loading">
   <div class="book-detail-wrapper">
     <div class="book-image">
-      <img [src]="book.images[0].url" [alt]="book.title">
+      <img [src]="book.thumbnail_url" [alt]="book.title">
       <div class="actions">
-        <button class="btn-primary" [routerLink]="['/book/reader', book._id]">
+        <button class="btn-primary" [routerLink]="['/book/reader', book.sku]">
           @if(isLastLocation) {
             Continuar
           }@else{ Empezar a leer }
@@ -39,7 +39,7 @@
         <div info>
           <p class="author">{{ book.sinopsis }}</p>
           <ul>
-            <li><strong>ISBN:</strong> {{ book._id }}</li>
+            <li><strong>ISBN:</strong> {{ book.sku }}</li>
             <li><strong>Páginas:</strong> {{ book.number_pages }}</li>
             <li><strong>Published:</strong> {{ book.publisher }}</li>
             <li><strong>Editorial:</strong> Penguin Random House</li>
@@ -47,9 +47,10 @@
         </div>
         
         <div author>
-          @for(author of book.authors; track author.name) {
-            <img class="author-image" [src]="book.images[1].url" [alt]="book.images[1].name" >
+          @for(author of book.authors; track author.id) {
+            <img class="author-image" [src]="author.avatar_url" [alt]="author.name" >
             <p class="author"><span>{{ author.name }}</span></p>
+            <p class="bio">{{ author.bio }}</p>
           }
         </div>
         

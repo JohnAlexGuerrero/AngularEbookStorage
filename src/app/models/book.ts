@@ -1,16 +1,17 @@
 import { Author } from "./author";
-import { Images } from "./images";
-import { Page } from "./page";
+import { BookStorage } from "./book_storage";
 
 export interface EBook {
-    _id: string,
+    id: number,
+    sku:string,
     title: string,
-    url: string,
-    images: Images[],
+    book_storage: BookStorage,
+    thumbnail_url: string,
     sinopsis: string,
     categories: string[],
     authors: Author[],
-    rating: number,
+    rating: string,
     publisher: string,
-    number_pages: number
+    number_pages: string,
+    created_at: string
 }

@@ -10,6 +10,7 @@ import { CommonModule } from '@angular/common';
 import { CarouselComponent } from '../carousel/carousel.component';
 import { RouterModule } from '@angular/router';
 import { EBook } from '../../models/book';
+import { ThreadsService } from '../../services/threads.service';
 
 
 @Component({
@@ -26,8 +27,8 @@ import { EBook } from '../../models/book';
   styleUrl: './home.component.css'
 })
 export class HomeComponent implements OnInit{
-  bookList = librosDataSet;
-  collapsed = signal(false);
+  bookList:any[] = [];
+  // collapsed = signal(false);
 
   // Categories
   bestSellers = this.bookList;
@@ -37,11 +38,12 @@ export class HomeComponent implements OnInit{
 
 
   constructor(
-    private bookService: BookService
+    private bookService: BookService,
+    private threadService: ThreadsService
   ){}
 
   ngOnInit(): void {
-    this.books = this.bookService.books;
+    this.bookList = this.threadService.getDatasetThreads();
     console.log(this.bookList);
 
   }

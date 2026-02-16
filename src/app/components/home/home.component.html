@@ -1,5 +1,14 @@
 
-
+@for(thread of bookList; track thread.name) {
+  @if(thread.is_active) {
+    <app-carousel
+      [title]="thread.name"
+      [books]="thread.books"
+    >  
+    </app-carousel>
+  }
+}
+<!-- 
 <app-carousel 
   [title]="'Los más vendidos'" 
   [books]="bestSellers">
@@ -8,4 +17,4 @@
 <app-carousel 
   [title]="'Literatura Fantástica'" 
   [books]="fantasyBooks">
-</app-carousel>
+</app-carousel> -->

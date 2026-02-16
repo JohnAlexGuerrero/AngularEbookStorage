@@ -46,7 +46,7 @@ export class ReaderComponent implements OnInit{
     if (id) {
       // Aqui se llama al servicio para obtener las paginas
       var ebook = this.bookService.getBookDetail(id);
-      this.epubUrl = ebook!.url;
+      this.epubUrl = ebook!.book_storage.archive;
       this.id = id;
     }
 
