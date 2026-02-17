@@ -7,6 +7,7 @@ import { ActivatedRoute, RouterLink } from '@angular/router';
 import { Page } from '../../models/page';
 import ePub, { Book, Rendition } from 'epubjs';
 import Pagelist from 'epubjs/types/pagelist';
+import { NavigationComponent } from '../navigation/navigation.component';
 
 @Component({
   selector: 'app-reader',
@@ -14,7 +15,8 @@ import Pagelist from 'epubjs/types/pagelist';
   imports: [
     CommonModule,
     PageComponent,
-    RouterLink
+    RouterLink,
+    NavigationComponent
   ],
   templateUrl: './reader.component.html',
   styleUrl: './reader.component.css',
@@ -26,8 +28,8 @@ export class ReaderComponent implements OnInit{
   @ViewChild('viewer', { static: true }) viewerDiv!: ElementRef;
 
 
-  private book?: Book;
-  private rendition?: Rendition;
+  public book?: Book;
+  public rendition?: Rendition;
   public currentProgress: number = 0;
   public bookTitle: string = '';
   public id: string = "";
@@ -46,7 +48,7 @@ export class ReaderComponent implements OnInit{
     if (id) {
       // Aqui se llama al servicio para obtener las paginas
       var ebook = this.bookService.getBookDetail(id);
-      this.epubUrl = ebook!.book_storage.archive;
+      this.epubUrl = ebook!.book_storage.get_absolute_url;
       this.id = id;
     }
 
@@ -60,8 +62,8 @@ export class ReaderComponent implements OnInit{
     this.book = this.bookService.getEbookOfStorage(this.epubUrl);
 
     // Obtener navegacion del libro
-    this.navigation = this.bookService.getNavigation(this.epubUrl);
-    console.log(this.navigation);
+    // this.navigation = this.bookService.getNavigation(this.epubUrl);
+    // console.log(this.navigation);
 
     // Renderizarlo en el contenedor
     this.rendition = this.book.renderTo(this.viewerDiv.nativeElement, {

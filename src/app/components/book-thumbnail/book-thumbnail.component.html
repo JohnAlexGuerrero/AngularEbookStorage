@@ -1,13 +1,14 @@
 <div class="book-card" id="book.id" [routerLink]="['/book', book.sku]">
   <div class="book-cover">
     <img [src]="book.thumbnail_url" [alt]="book.title" loading="lazy">
-    <!-- <div class="overlay">
-      <button class="view-btn">Ver detalles</button>
-    </div> -->
   </div>
   
   <div class="book-info">
     <h3 class="book-title">{{ book.title }}</h3>
-    <p class="book-author">por {{ book.authors[0].name }}</p>
+    @for(author of book.authors; track author.id) {
+      <p class="book-author"> 
+        {{ author.name }}
+      </p>
+    }
   </div>
 </div>

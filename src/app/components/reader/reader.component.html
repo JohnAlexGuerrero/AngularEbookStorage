@@ -4,6 +4,8 @@
     <h2>{{ bookTitle }}</h2>
     <span class="progress-text">{{ currentProgress }}% completado</span>
   </header>
+
+  <app-navigation [book]="book" [rendition]="rendition"></app-navigation>
   
   <main class="viewer-wrapper" #viewer></main>
   

@@ -6,7 +6,7 @@ import { BookService } from '../../services/book.service';
 import { PageComponent } from '../page/page.component';
 import { TabsComponent } from '../tabs/tabs.component';
 import { MatIconModule } from '@angular/material/icon';
-import { Page } from '../../models/page';
+import { NavigationComponent } from '../navigation/navigation.component';
 
 @Component({
   selector: 'app-libro-detalle',
@@ -16,14 +16,14 @@ import { Page } from '../../models/page';
     PageComponent,
     RouterLink,
     TabsComponent,
-    MatIconModule
+    MatIconModule,
+    NavigationComponent
 ],
   templateUrl: './libro-detalle.component.html',
   styleUrl: './libro-detalle.component.css'
 })
 export class LibroDetalleComponent implements OnInit{
   public book?: EBook;
-  public pages: Page[] = [];
   public isLastLocation: boolean = false;
 
   // En book-details.component.ts definiendo las pestañas
@@ -44,7 +44,7 @@ export class LibroDetalleComponent implements OnInit{
     if (id){
       // Aqui se llama al servicio
       this.book = this.bookService.getBookDetail(id);
-      this.pages = this.bookService.getNavigation(this.book!.book_storage.archive);
+
     }
 
     if (this.bookService.getPositionEbook(this.book!.sku)) {

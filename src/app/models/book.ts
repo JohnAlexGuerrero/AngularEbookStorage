@@ -13,5 +13,5 @@ export interface EBook {
     rating: string,
     publisher: string,
     number_pages: string,
-    created_at: string
+    created_at?: string
 }

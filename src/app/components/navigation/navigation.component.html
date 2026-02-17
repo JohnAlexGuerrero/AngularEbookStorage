@@ -1,0 +1,25 @@
+<button class="toc-toggle" (click)="toggleMenu()">
+  <mat-icon>menu</mat-icon> Índice
+</button>
+
+<div class="toc-sidebar" [class.open]="isOpen">
+  <div class="toc-header">
+    <h3>Contenido</h3>
+    <button (click)="toggleMenu()">✕</button>
+  </div>
+
+  <nav class="toc-list">
+    <ng-container *ngTemplateOutlet="recursiveList; context:{ $implicit: navigation }"></ng-container>
+  </nav>
+</div>
+
+<ng-template #recursiveList let-items>
+  <ul>
+    <li *ngFor="let item of items">
+      <a (click)="navigateTo(item.href)">{{ item.label }}</a>
+      <div *ngIf="item.subitems && item.subitems.length > 0" class="sub-items">
+        <ng-container *ngTemplateOutlet="recursiveList; context:{ $implicit: item.subitems }"></ng-container>
+      </div>
+    </li>
+  </ul>
+</ng-template>

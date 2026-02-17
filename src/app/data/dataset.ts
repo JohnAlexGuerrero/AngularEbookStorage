@@ -1,68 +1,59 @@
 export const librosDataSet = [
     {
-        "id": 21,
-        "sku": "urn:uuid:2029ab0c-ec92-49d8-b6cb-6044eb75ab70",
-        "title": "Las aventuras de Sherlock Holmes (Ed. Ilustrada)",
-        "sinopsis": "Pese a haber hecho ya su aparición en «Estudio en escarlata» y en «El signo de los cuatro», hubo que esperar hasta la publicación de los primeros relatos que integran «Las aventuras de Sherlock Holmes» en la revista «Strand» para que el extravagante detective de Baker Street despertara en los lectores un fervor que no ha disminuido hasta hoy. En efecto, la serie que abrió «Escándalo en Bohemia», que inicialmente habían de componer seis entregas, no sólo tuvo que prolongarse con seis más, sino que permitiría en adelante a Arthur Conan Doyle (1859-1930) dedicarse en exclusiva a la literatura, si bien ya con la inseparable y a veces agobiante compañía de su brillante, teatral e hipocondríaco investigador. Es importante decir que varios libros se han publicado bajo éste nombre, teniendo todos distintos relatos en diferente orden, pero este libro incluye las aventuras completas. Los relatos que comprende este libro son: «Escándalo en Bohemia» (1891), «La liga de los pelirrojos» (1891), «Un caso de identidad» (1891), «El misterio del valle de Boscombe» (1891), «Las cinco semillas de naranja» (1891), «El hombre del labio torcido» (1891), «El carbunclo azul» (1892), «La banda de lunares» (1892,) «El pulgar del ingeniero» (1892,) «El aristócrata solterón» (1892), «La corona de Berilos» (1892) y «El misterio de Cooper Beeches» (1892).",
-        "publisher": "1892-10-01",
-        "rating": "4.7",
-        "number_pages": "368",
-        "thumbnail_url": "https://i.pinimg.com/736x/84/3a/8f/843a8fd9842238f056325012780cc1a2.jpg",
+        "id": 23,
+        "sku": "urn:uuid:373d3c68-368a-c307-ad99-70abb23a4779",
+        "title": "En la hierba alta",
+        "sinopsis": "Cal y Becky DeMuth son dos hermanos que mantienen una relación casi telepática, pues sus vidas han montado en el mismo tándem desde su nacimiento. Cuando Becky se queda embarazada, decide marcharse a San Diego a casa de sus tíos hasta que nazca el bebé. La unión entre los hermanos es tan fuerte que Cal deja sus estudios para acompañarla y cruzar con ella el país en coche. Incluso planean juntos el futuro del niño. Pero la casualidad intercede en el transcurso del viaje. Al mediodía realizan un alto en el camino junto a un campo de hierba altísima: Cal apaga la radio para tener un momento de calma, y Becky abre las ventanillas, sofocada por el calor. De haber sido de otra manera, nunca habrían oído la voz de auxilio de aquel niño atrapado en la espesura. Deciden adentrarse en el campo y tomar sendas distintas para encontrar al niño cuanto antes. Por primera vez en su vida, los hermanos quedarán separados, aunque sea tan solo por unos metros de hierba. Sin embargo, nunca habían estado tan lejos.",
+        "publisher": "2012-10-09",
+        "rating": "4.5",
+        "number_pages": "0",
+        "thumbnail_url": "https://i.pinimg.com/736x/00/12/61/00126178ddc1e7eb525ffabdc5985d32.jpg",
         "authors": [
             {
-                "id": 20,
-                "name": "Arthur Conan Doyle",
-                "bio": "Sir Arthur Conan Doyle nació en Edimburgo en 1859 y murió en 1930. En aquellos años hubo una gran variedad de actividades y trabajos creativos que lo convirtieron en una figura internacional e inspiraron a los franceses a darle el epíteto de \"el buen gigante\". Era sobrino del artista 'Dickie Doyle', se educó en Stonyhurst y luego estudió medicina en la Universidad de Edimburgo, donde los métodos de diagnóstico de uno de los profesores proporcionaron la idea de los métodos de deducción utilizados por Sherlock Holmes.",
-                "avatar_url": "https://i.pinimg.com/736x/74/5a/9c/745a9c925da71cd12016fa99d47abd31.jpg",
-                "created_at": "2026-02-15"
-            }
-        ],
-        "categories": [
-            "SU",
-            "AV"
-        ],
-        "book_storage": {
-            "id": 19,
-            "archive": "https://zdwxofkuxdjvivfvtlxh.storage.supabase.co/storage/v1/s3/images/books/2026/02/Las_aventuras_de_Sherlock_Holmes_Ed_Ilustrada_-_Arthur_Conan_Doyle.epub?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=656fa2300bcb8b33f3518bcd8a3fe983%2F20260215%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20260215T213108Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=4884e3bd1014ed58965d56094bc54b1e0ca53c447a974bd73de64b5f0f388fc2",
-            "created_at": "2026-02-15"
-        },
-        "created_at": "2026-02-15"
-    },
-    {
-        "id": 19,
-        "sku": "urn:uuid:c457c28c-aa88-4488-bdff-594cce94eb32",
-        "title": "Bellas durmientes",
-        "sinopsis": "En un futuro tan real y cercano que podría ser hoy, cuando las mujeres se duermen, brota de su cuerpo una especie de capullo que las aísla del exterior. Si las despiertan, las molestan o tocan el capullo que las envuelve, reaccionan con una violencia extrema. Y durante el sueño se evaden a otro mundo. Los hombres, por su parte, quedan abandonados a sus instintos primarios. La misteriosa Evie, sin embargo, es inmune a esta bendición o castigo del trastorno del sueño. ¿Se trata de una anomalía médica que hay que estudiar? O ¿es un demonio al que hay que liquidar?",
-        "publisher": "2017-04-01",
-        "rating": "4.2",
-        "number_pages": "768",
-        "thumbnail_url": "https://i.pinimg.com/736x/69/b9/a0/69b9a0a0bf16d9910e1b9a33a9a9fe2e.jpg",
-        "authors": [
-            {
-                "id": 19,
-                "name": "Owen King",
-                "bio": "Owen King es el autor de The Curator, Double Feature y We're All in This Together: A Novella and Stories. Es coautor de Bellezas durmientes e Introducción a la invasión alienígena, y coeditor de ¿Quién puede salvarnos ahora? Superhéroes completamente nuevos y sus increíbles (cortas) historias. Su trabajo más reciente es la serie de cómics Self Help, coescrita con Jesse Kellerman e ilustrada por Marianna Ignazzi. Vive en el norte del estado de Nueva York con su familia.",
-                "avatar_url": "https://i.pinimg.com/1200x/1f/a5/b9/1fa5b9612cd41ed9e5a658312b4f6408.jpg",
-                "created_at": "2026-02-15"
+                "id": 22,
+                "name": "Joe Hill",
+                "bio": "Joseph Hillstrom King, más conocido por el seudónimo de Joe Hill, es un autor y escritor de cómics estadounidense. Ha publicado tres novelas —Heart-Shaped Box, Horns y NOS4A2— y una colección de cuentos titulada 20th Century Ghosts. También es autor de la serie de cómics Locke & Key. Los padres de Hill son los autores Stephen y Tabitha King.",
+                "avatar_url": "https://i.pinimg.com/1200x/1b/5d/7b/1b5d7b03e694ae7a8fe960ed305383a7.jpg"
             },
             {
                 "id": 17,
                 "name": "Stephen King",
                 "bio": "Stephen King es autor de más de sesenta libros, todos ellos bestsellers mundiales. Sus trabajos recientes incluyen NEVER FLINCH, YOU LIKE IT DARKER (uno de los diez mejores libros de terror de 2024 según New York Times Book Review), HOLLY (un libro notable de 2023 según New York Times), FAIRY TALE, BILLY SUMMERS, IF IT BLEEDS, THE INSTITUTE, ELEVATION, THE OUTSIDER, SLEEPING BEAUTIES (coescrito con su hijo Owen King) y la trilogía de Bill Hodges: END OF WATCH, FINDERS KEEPERS y MR. MERCEDES (ganadora del premio Edgar a la mejor novela). Su novela 22/11/63 fue nombrada uno de los diez mejores libros de 2011 por el New York Times Book Review y ganó el Premio del Libro de Misterio/Thriller del Los Angeles Times. Sus obras épicas THE DARK TOWER, IT, PET SEMATARY, DOCTOR SLEEP y FIRESTARTER son la base de importantes películas, siendo IT ahora la película de terror más taquillera de todos los tiempos. Recibió el Premio PEN America Literary Service 2018, la Medalla Nacional de las Artes 2014 y la Medalla de la Fundación Nacional del Libro 2003 por su contribución distinguida a las letras estadounidenses. Vive en Bangor, Maine, con su esposa, la novelista Tabitha King.",
-                "avatar_url": "https://i.pinimg.com/1200x/08/a6/66/08a66661de255403720803f6a71098e0.jpg",
-                "created_at": "2026-02-14"
+                "avatar_url": "https://i.pinimg.com/1200x/08/a6/66/08a66661de255403720803f6a71098e0.jpg"
             }
         ],
         "categories": [
-            "FI",
-            "SU"
+            "TE"
         ],
         "book_storage": {
-            "id": 17,
-            "archive": "https://zdwxofkuxdjvivfvtlxh.storage.supabase.co/storage/v1/s3/images/books/2026/02/Bellas_durmientes_-_Stephen_King.epub?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=656fa2300bcb8b33f3518bcd8a3fe983%2F20260215%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20260215T213108Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=21c716995210171a8a2eece50974aa475da26b170c7ec153c83abbe35e53c2ce",
-            "created_at": "2026-02-15"
-        },
-        "created_at": "2026-02-15"
+            "get_absolute_url": "https://zdwxofkuxdjvivfvtlxh.supabase.co/storage/v1/object/public/images/books/2026/02/En_la_hierba_alta_-_Stephen_King.epub"
+        }
+    },
+    {
+        "id": 22,
+        "sku": "urn:uuid:d9485218-e6d6-4866-9e08-9f087d43ea48",
+        "title": "Harry Potter y la Orden del Fénix",
+        "sinopsis": "Las tediosas vacaciones de verano en casa de sus tíos todavía no han acabado y Harry se encuentra más inquieto que nunca. Apenas ha tenido noticias de Ron y Hermione, y presiente que algo extraño está sucediendo en Hogwarts. En efecto, cuando por fin comienza otro curso en el famoso colegio de magia y hechicería, sus temores se vuelven realidad. El Ministerio de Magia niega que Voldemort haya regresado y ha iniciado una campaña de desprestigio contra Harry y Dumbledore, para lo cual ha asignado a la horrible profesora Dolores Umbridge la tarea de vigilar todos sus movimientos. Así pues, además de sentirse solo e incomprendido, Harry sospecha que Voldemort puede adivinar sus pensamientos, e intuye que el temible mago trata de apoderarse de un objeto secreto que le permitiría recuperar su poder destructivo.",
+        "publisher": "2002-12-31T16:00:00+00:00",
+        "rating": "4.8",
+        "number_pages": "893",
+        "thumbnail_url": "https://i.pinimg.com/1200x/3b/ef/15/3bef15866a3ccf7349727858527dac44.jpg",
+        "authors": [
+            {
+                "id": 16,
+                "name": "J.K. Rowling",
+                "bio": "J.K. Rowling es autora de los siete libros de la famosa saga de Harry Potter. Amada por lectores\r\nde todo el mundo, la serie ha vendido más de 500 millones de ejemplares, se ha traducido a\r\nochenta idiomas y ha inspirado ocho películas de enorme éxito de taquilla.\r\nHa escrito asimismo tres volúmenes complementarios con fines benéficos: Quidditch a través\r\nde los tiempos, Animales fantásticos y dónde encontrarlos (en beneficio de Comic Relief y\r\nLumos), y Los cuentos de Beedle el Bardo (en beneficio de Lumos), así como el guión inspirado\r\nen Animales fantásticos y dónde encontrarlos, la primera de una serie de cinco películas que\r\nescribirá la autora. También colaboró en una obra, Harry Potter y el legado maldito, Partes Uno\r\ny Dos, que se estrenó en el West End de Londres en el verano de 2016.\r\n\r\nEn 2012 creó la plataforma digital Pottermore, donde sus fans pueden disfrutar de noticias,\r\nreportajes y artículos, así como de contenido original escrito por J.K. Rowling. Asimismo, ha\r\nescrito la novela para adultos Una vacante imprevista, y, con el seudónimo Robert Galbraith, la\r\nserie de novelas policíacas protagonizadas por Cormoran Strike.\r\n\r\nHa sido galardonada con numerosos premios, entre ellos la Orden del Imperio Británico por su\r\ncontribución a la literatura infantil y la Orden de los Compañeros de Honor, la Orden de la\r\nLegión de Honor de Francia y el Premio Hans Christian Andersen.",
+                "avatar_url": "https://i.pinimg.com/736x/47/79/4f/47794f79f87bdbed40937f18edbd9875.jpg"
+            }
+        ],
+        "categories": [
+            "FA",
+            "MI",
+            "JU"
+        ],
+        "book_storage": {
+            "get_absolute_url": "https://zdwxofkuxdjvivfvtlxh.supabase.co/storage/v1/object/public/images/books/2026/02/Harry_Potter_y_la_orden_del_fenix_-_J._K._Rowling.epub"
+        }
     },
     {
         "id": 20,
@@ -78,49 +69,71 @@ export const librosDataSet = [
                 "id": 17,
                 "name": "Stephen King",
                 "bio": "Stephen King es autor de más de sesenta libros, todos ellos bestsellers mundiales. Sus trabajos recientes incluyen NEVER FLINCH, YOU LIKE IT DARKER (uno de los diez mejores libros de terror de 2024 según New York Times Book Review), HOLLY (un libro notable de 2023 según New York Times), FAIRY TALE, BILLY SUMMERS, IF IT BLEEDS, THE INSTITUTE, ELEVATION, THE OUTSIDER, SLEEPING BEAUTIES (coescrito con su hijo Owen King) y la trilogía de Bill Hodges: END OF WATCH, FINDERS KEEPERS y MR. MERCEDES (ganadora del premio Edgar a la mejor novela). Su novela 22/11/63 fue nombrada uno de los diez mejores libros de 2011 por el New York Times Book Review y ganó el Premio del Libro de Misterio/Thriller del Los Angeles Times. Sus obras épicas THE DARK TOWER, IT, PET SEMATARY, DOCTOR SLEEP y FIRESTARTER son la base de importantes películas, siendo IT ahora la película de terror más taquillera de todos los tiempos. Recibió el Premio PEN America Literary Service 2018, la Medalla Nacional de las Artes 2014 y la Medalla de la Fundación Nacional del Libro 2003 por su contribución distinguida a las letras estadounidenses. Vive en Bangor, Maine, con su esposa, la novelista Tabitha King.",
-                "avatar_url": "https://i.pinimg.com/1200x/08/a6/66/08a66661de255403720803f6a71098e0.jpg",
-                "created_at": "2026-02-14"
+                "avatar_url": "https://i.pinimg.com/1200x/08/a6/66/08a66661de255403720803f6a71098e0.jpg"
             }
         ],
         "categories": [
             "MI"
         ],
         "book_storage": {
-            "id": 18,
-            "archive": "https://zdwxofkuxdjvivfvtlxh.storage.supabase.co/storage/v1/s3/images/books/2026/02/El_visitante_-_Stephen_King.epub?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=656fa2300bcb8b33f3518bcd8a3fe983%2F20260215%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20260215T213108Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=b5ca73fe233866bb68e3017b0b6da7c23bf2ece3d95f2c7733d0d7214cacff5a",
-            "created_at": "2026-02-15"
-        },
-        "created_at": "2026-02-15"
+            "get_absolute_url": "https://zdwxofkuxdjvivfvtlxh.supabase.co/storage/v1/object/public/images/books/2026/02/El_visitante_-_Stephen_King.epub"
+        }
     },
     {
-        "id": 16,
-        "sku": "urn:uuid:31599bc0-55af-41aa-b14a-e4e51faa6903",
-        "title": "Harry Potter y el cáliz de fuego",
-        "sinopsis": "Tras otro abominable verano con los Dursley, Harry se dispone a iniciar el cuarto curso en Hogwarts, la famosa escuela de magia y hechicería. A sus catorce años, a Harry le gustaría ser un joven mago como los demás y dedicarse a aprender nuevos sortilegios, encontrarse con sus amigos Ron y Hermione y asistir con ellos a los Mundiales de quidditch. Sin embargo, al llegar al colegio le espera una gran sorpresa que lo obligará a enfrentarse a los desafíos más temibles de toda su vida. Si logra superarlos, habrá demostrado que ya no es un niño y que está preparado para vivir las nuevas y emocionantes experiencias que el futuro le depara. Premio Hugo 2001",
-        "publisher": "2000-01-01",
-        "rating": "4.8",
-        "number_pages": "672",
-        "thumbnail_url": "https://i.pinimg.com/736x/57/31/9e/57319e1d06dbf8a43e0b92aead69149b.jpg",
+        "id": 19,
+        "sku": "urn:uuid:c457c28c-aa88-4488-bdff-594cce94eb32",
+        "title": "Bellas durmientes",
+        "sinopsis": "En un futuro tan real y cercano que podría ser hoy, cuando las mujeres se duermen, brota de su cuerpo una especie de capullo que las aísla del exterior. Si las despiertan, las molestan o tocan el capullo que las envuelve, reaccionan con una violencia extrema. Y durante el sueño se evaden a otro mundo. Los hombres, por su parte, quedan abandonados a sus instintos primarios. La misteriosa Evie, sin embargo, es inmune a esta bendición o castigo del trastorno del sueño. ¿Se trata de una anomalía médica que hay que estudiar? O ¿es un demonio al que hay que liquidar?",
+        "publisher": "2017-04-01",
+        "rating": "4.2",
+        "number_pages": "768",
+        "thumbnail_url": "https://i.pinimg.com/736x/69/b9/a0/69b9a0a0bf16d9910e1b9a33a9a9fe2e.jpg",
         "authors": [
             {
-                "id": 16,
-                "name": "J.K. Rowling",
-                "bio": "J.K. Rowling es autora de los siete libros de la famosa saga de Harry Potter. Amada por lectores\r\nde todo el mundo, la serie ha vendido más de 500 millones de ejemplares, se ha traducido a\r\nochenta idiomas y ha inspirado ocho películas de enorme éxito de taquilla.\r\nHa escrito asimismo tres volúmenes complementarios con fines benéficos: Quidditch a través\r\nde los tiempos, Animales fantásticos y dónde encontrarlos (en beneficio de Comic Relief y\r\nLumos), y Los cuentos de Beedle el Bardo (en beneficio de Lumos), así como el guión inspirado\r\nen Animales fantásticos y dónde encontrarlos, la primera de una serie de cinco películas que\r\nescribirá la autora. También colaboró en una obra, Harry Potter y el legado maldito, Partes Uno\r\ny Dos, que se estrenó en el West End de Londres en el verano de 2016.\r\n\r\nEn 2012 creó la plataforma digital Pottermore, donde sus fans pueden disfrutar de noticias,\r\nreportajes y artículos, así como de contenido original escrito por J.K. Rowling. Asimismo, ha\r\nescrito la novela para adultos Una vacante imprevista, y, con el seudónimo Robert Galbraith, la\r\nserie de novelas policíacas protagonizadas por Cormoran Strike.\r\n\r\nHa sido galardonada con numerosos premios, entre ellos la Orden del Imperio Británico por su\r\ncontribución a la literatura infantil y la Orden de los Compañeros de Honor, la Orden de la\r\nLegión de Honor de Francia y el Premio Hans Christian Andersen.",
-                "avatar_url": "https://i.pinimg.com/736x/47/79/4f/47794f79f87bdbed40937f18edbd9875.jpg",
-                "created_at": "2026-02-14"
+                "id": 19,
+                "name": "Owen King",
+                "bio": "Owen King es el autor de The Curator, Double Feature y We're All in This Together: A Novella and Stories. Es coautor de Bellezas durmientes e Introducción a la invasión alienígena, y coeditor de ¿Quién puede salvarnos ahora? Superhéroes completamente nuevos y sus increíbles (cortas) historias. Su trabajo más reciente es la serie de cómics Self Help, coescrita con Jesse Kellerman e ilustrada por Marianna Ignazzi. Vive en el norte del estado de Nueva York con su familia.",
+                "avatar_url": "https://i.pinimg.com/1200x/1f/a5/b9/1fa5b9612cd41ed9e5a658312b4f6408.jpg"
+            },
+            {
+                "id": 17,
+                "name": "Stephen King",
+                "bio": "Stephen King es autor de más de sesenta libros, todos ellos bestsellers mundiales. Sus trabajos recientes incluyen NEVER FLINCH, YOU LIKE IT DARKER (uno de los diez mejores libros de terror de 2024 según New York Times Book Review), HOLLY (un libro notable de 2023 según New York Times), FAIRY TALE, BILLY SUMMERS, IF IT BLEEDS, THE INSTITUTE, ELEVATION, THE OUTSIDER, SLEEPING BEAUTIES (coescrito con su hijo Owen King) y la trilogía de Bill Hodges: END OF WATCH, FINDERS KEEPERS y MR. MERCEDES (ganadora del premio Edgar a la mejor novela). Su novela 22/11/63 fue nombrada uno de los diez mejores libros de 2011 por el New York Times Book Review y ganó el Premio del Libro de Misterio/Thriller del Los Angeles Times. Sus obras épicas THE DARK TOWER, IT, PET SEMATARY, DOCTOR SLEEP y FIRESTARTER son la base de importantes películas, siendo IT ahora la película de terror más taquillera de todos los tiempos. Recibió el Premio PEN America Literary Service 2018, la Medalla Nacional de las Artes 2014 y la Medalla de la Fundación Nacional del Libro 2003 por su contribución distinguida a las letras estadounidenses. Vive en Bangor, Maine, con su esposa, la novelista Tabitha King.",
+                "avatar_url": "https://i.pinimg.com/1200x/08/a6/66/08a66661de255403720803f6a71098e0.jpg"
+            }
+        ],
+        "categories": [
+            "FI",
+            "SU"
+        ],
+        "book_storage": {
+            "get_absolute_url": "https://zdwxofkuxdjvivfvtlxh.supabase.co/storage/v1/object/public/images/books/2026/02/Bellas_durmientes_-_Stephen_King.epub"
+        }
+    },
+    {
+        "id": 21,
+        "sku": "urn:uuid:2029ab0c-ec92-49d8-b6cb-6044eb75ab70",
+        "title": "Las aventuras de Sherlock Holmes (Ed. Ilustrada)",
+        "sinopsis": "Pese a haber hecho ya su aparición en «Estudio en escarlata» y en «El signo de los cuatro», hubo que esperar hasta la publicación de los primeros relatos que integran «Las aventuras de Sherlock Holmes» en la revista «Strand» para que el extravagante detective de Baker Street despertara en los lectores un fervor que no ha disminuido hasta hoy. En efecto, la serie que abrió «Escándalo en Bohemia», que inicialmente habían de componer seis entregas, no sólo tuvo que prolongarse con seis más, sino que permitiría en adelante a Arthur Conan Doyle (1859-1930) dedicarse en exclusiva a la literatura, si bien ya con la inseparable y a veces agobiante compañía de su brillante, teatral e hipocondríaco investigador. Es importante decir que varios libros se han publicado bajo éste nombre, teniendo todos distintos relatos en diferente orden, pero este libro incluye las aventuras completas. Los relatos que comprende este libro son: «Escándalo en Bohemia» (1891), «La liga de los pelirrojos» (1891), «Un caso de identidad» (1891), «El misterio del valle de Boscombe» (1891), «Las cinco semillas de naranja» (1891), «El hombre del labio torcido» (1891), «El carbunclo azul» (1892), «La banda de lunares» (1892,) «El pulgar del ingeniero» (1892,) «El aristócrata solterón» (1892), «La corona de Berilos» (1892) y «El misterio de Cooper Beeches» (1892).",
+        "publisher": "1892-10-01",
+        "rating": "4.7",
+        "number_pages": "368",
+        "thumbnail_url": "https://i.pinimg.com/736x/84/3a/8f/843a8fd9842238f056325012780cc1a2.jpg",
+        "authors": [
+            {
+                "id": 20,
+                "name": "Arthur Conan Doyle",
+                "bio": "Sir Arthur Conan Doyle nació en Edimburgo en 1859 y murió en 1930. En aquellos años hubo una gran variedad de actividades y trabajos creativos que lo convirtieron en una figura internacional e inspiraron a los franceses a darle el epíteto de \"el buen gigante\". Era sobrino del artista 'Dickie Doyle', se educó en Stonyhurst y luego estudió medicina en la Universidad de Edimburgo, donde los métodos de diagnóstico de uno de los profesores proporcionaron la idea de los métodos de deducción utilizados por Sherlock Holmes.",
+                "avatar_url": "https://i.pinimg.com/736x/74/5a/9c/745a9c925da71cd12016fa99d47abd31.jpg"
             }
         ],
         "categories": [
             "FA",
-            "MI",
-            "JU"
+            "MI"
         ],
         "book_storage": {
-            "id": 14,
-            "archive": "https://zdwxofkuxdjvivfvtlxh.storage.supabase.co/storage/v1/s3/images/books/2026/02/Harry_Potter_y_el_caliz_de_fuego_-_J._K._Rowling.epub?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=656fa2300bcb8b33f3518bcd8a3fe983%2F20260215%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20260215T213108Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=9a60c576b643f3ad80ab8fc1d0619df00449a4cb5a0fba03bcc6cb36eed99727",
-            "created_at": "2026-02-14"
-        },
-        "created_at": "2026-02-14"
+            "get_absolute_url": "https://zdwxofkuxdjvivfvtlxh.supabase.co/storage/v1/object/public/images/books/2026/02/Las_aventuras_de_Sherlock_Holmes_Ed_Ilustrada_-_Arthur_Conan_Doyle.epub"
+        }
     },
     {
         "id": 13,
@@ -136,19 +149,15 @@ export const librosDataSet = [
                 "id": 14,
                 "name": "Frank Herbert",
                 "bio": "Franklin Patrick Herbert, Jr. fue un autor de ciencia ficción estadounidense mejor conocido por sus novelas, entre las que destaca Dune y sus cinco secuelas. Aunque se hizo famoso por su ciencia ficción, también fue periodista de periódico, fotógrafo, cuentista, crítico de libros, consultor ecológico y conferencista.\r\nLa saga Dune, ambientada en un futuro lejano y que se desarrolla a lo largo de milenios, aborda temas complejos como la supervivencia y la evolución humana, la ecología y la intersección de la religión, la política y el poder. Dune en sí es la \"novela de ciencia ficción más vendida de todos los tiempos\" y la serie está ampliamente considerada como uno de los clásicos del género.",
-                "avatar_url": "https://i.pinimg.com/736x/8f/ed/dc/8feddc6ff7b80ac63f679b4cfd97f11e.jpg",
-                "created_at": "2026-02-14"
+                "avatar_url": "https://i.pinimg.com/736x/8f/ed/dc/8feddc6ff7b80ac63f679b4cfd97f11e.jpg"
             }
         ],
         "categories": [
             "FI"
         ],
         "book_storage": {
-            "id": 11,
-            "archive": "https://zdwxofkuxdjvivfvtlxh.storage.supabase.co/storage/v1/s3/images/books/2026/02/Dune_-_Frank_Herbert.epub?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=656fa2300bcb8b33f3518bcd8a3fe983%2F20260215%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20260215T213108Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=a8c155b54ad1468a984dd74444d938fe59e30161a9e07d1531658f25ed04c632",
-            "created_at": "2026-02-14"
-        },
-        "created_at": "2026-02-14"
+            "get_absolute_url": "https://zdwxofkuxdjvivfvtlxh.supabase.co/storage/v1/object/public/images/books/2026/02/Dune_-_Frank_Herbert.epub"
+        }
     },
     {
         "id": 18,
@@ -164,49 +173,15 @@ export const librosDataSet = [
                 "id": 18,
                 "name": "Andy Weir",
                 "bio": "Andy Weir es el autor del exitoso y premiado libro The Martian. Weir afirma: Empecé a escribir ficción y a publicarla en mi sitio web. El marciano fue publicado en formato serial de forma gratuita para que la gente lo lea. Su popularidad llevó a Weir a autopublicar una versión Kindle en Amazon en 2012. El marciano se disparó a la cima de las listas de los más vendidos en línea de Amazon poco después de su lanzamiento. Los editores de Random House pronto se enteraron del éxito de The Martians, lo que impulsó un contrato para publicar un libro.",
-                "avatar_url": "https://i.pinimg.com/736x/d7/7e/c0/d77ec0752f66de1f61537c6ad5f4cd00.jpg",
-                "created_at": "2026-02-14"
+                "avatar_url": "https://i.pinimg.com/736x/d7/7e/c0/d77ec0752f66de1f61537c6ad5f4cd00.jpg"
             }
         ],
         "categories": [
             "FI"
         ],
         "book_storage": {
-            "id": 16,
-            "archive": "https://zdwxofkuxdjvivfvtlxh.storage.supabase.co/storage/v1/s3/images/books/2026/02/El_marciano_-_Andy_Weir.epub?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=656fa2300bcb8b33f3518bcd8a3fe983%2F20260215%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20260215T213108Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=4cae1085278888d53f7483732f902584aa8d358ffe37cc7525251f34d1db77d9",
-            "created_at": "2026-02-14"
-        },
-        "created_at": "2026-02-14"
-    },
-    {
-        "id": 17,
-        "sku": "urn:uuid:ec1806a7-0f1f-42ec-8d38-f9c4fcf8c62f",
-        "title": "Apocalipsis",
-        "sinopsis": "Esta narración cuenta cómo un virus gripal, creado artíficíalmente como posible arma bacteriológica, se extiende por Estados Unidos y provoca la muerte de millones de personas. Los supervivientes tienen sueños comunes, en los que aparece una anciana y un hombre joven. La mujer anciana los incita a viajar a Nebraska para combatir a Randall Flagg, un abominable personaje que encarna las fuerzas del mal y posee un arsenal nuclear.",
-        "publisher": "1990-01-01",
-        "rating": "",
-        "number_pages": "0",
-        "thumbnail_url": "https://i.pinimg.com/736x/24/24/7d/24247dff2e174dab3e4e04d7ae5ad6b0.jpg",
-        "authors": [
-            {
-                "id": 17,
-                "name": "Stephen King",
-                "bio": "Stephen King es autor de más de sesenta libros, todos ellos bestsellers mundiales. Sus trabajos recientes incluyen NEVER FLINCH, YOU LIKE IT DARKER (uno de los diez mejores libros de terror de 2024 según New York Times Book Review), HOLLY (un libro notable de 2023 según New York Times), FAIRY TALE, BILLY SUMMERS, IF IT BLEEDS, THE INSTITUTE, ELEVATION, THE OUTSIDER, SLEEPING BEAUTIES (coescrito con su hijo Owen King) y la trilogía de Bill Hodges: END OF WATCH, FINDERS KEEPERS y MR. MERCEDES (ganadora del premio Edgar a la mejor novela). Su novela 22/11/63 fue nombrada uno de los diez mejores libros de 2011 por el New York Times Book Review y ganó el Premio del Libro de Misterio/Thriller del Los Angeles Times. Sus obras épicas THE DARK TOWER, IT, PET SEMATARY, DOCTOR SLEEP y FIRESTARTER son la base de importantes películas, siendo IT ahora la película de terror más taquillera de todos los tiempos. Recibió el Premio PEN America Literary Service 2018, la Medalla Nacional de las Artes 2014 y la Medalla de la Fundación Nacional del Libro 2003 por su contribución distinguida a las letras estadounidenses. Vive en Bangor, Maine, con su esposa, la novelista Tabitha King.",
-                "avatar_url": "https://i.pinimg.com/1200x/08/a6/66/08a66661de255403720803f6a71098e0.jpg",
-                "created_at": "2026-02-14"
-            }
-        ],
-        "categories": [
-            "FI",
-            "MI",
-            "SU"
-        ],
-        "book_storage": {
-            "id": 15,
-            "archive": "https://zdwxofkuxdjvivfvtlxh.storage.supabase.co/storage/v1/s3/images/books/2026/02/Apocalipsis_-_Stephen_King.epub?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=656fa2300bcb8b33f3518bcd8a3fe983%2F20260215%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20260215T213108Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=112d336bd143398aa1d979a36f7e5d1ea53c893fad60632d02812bd1c3fac589",
-            "created_at": "2026-02-14"
-        },
-        "created_at": "2026-02-14"
+            "get_absolute_url": "https://zdwxofkuxdjvivfvtlxh.supabase.co/storage/v1/object/public/images/books/2026/02/El_marciano_-_Andy_Weir.epub"
+        }
     },
     {
         "id": 14,
@@ -222,19 +197,15 @@ export const librosDataSet = [
                 "id": 14,
                 "name": "Frank Herbert",
                 "bio": "Franklin Patrick Herbert, Jr. fue un autor de ciencia ficción estadounidense mejor conocido por sus novelas, entre las que destaca Dune y sus cinco secuelas. Aunque se hizo famoso por su ciencia ficción, también fue periodista de periódico, fotógrafo, cuentista, crítico de libros, consultor ecológico y conferencista.\r\nLa saga Dune, ambientada en un futuro lejano y que se desarrolla a lo largo de milenios, aborda temas complejos como la supervivencia y la evolución humana, la ecología y la intersección de la religión, la política y el poder. Dune en sí es la \"novela de ciencia ficción más vendida de todos los tiempos\" y la serie está ampliamente considerada como uno de los clásicos del género.",
-                "avatar_url": "https://i.pinimg.com/736x/8f/ed/dc/8feddc6ff7b80ac63f679b4cfd97f11e.jpg",
-                "created_at": "2026-02-14"
+                "avatar_url": "https://i.pinimg.com/736x/8f/ed/dc/8feddc6ff7b80ac63f679b4cfd97f11e.jpg"
             }
         ],
         "categories": [
             "FI"
         ],
         "book_storage": {
-            "id": 12,
-            "archive": "https://zdwxofkuxdjvivfvtlxh.storage.supabase.co/storage/v1/s3/images/books/2026/02/Casa_capitular_Dune_-_Frank_Herbert.epub?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=656fa2300bcb8b33f3518bcd8a3fe983%2F20260215%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20260215T213108Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=175c9baa9dc99de32735d82c522ac0c5225cb894f8634107988b489c06c421e5",
-            "created_at": "2026-02-14"
-        },
-        "created_at": "2026-02-14"
+            "get_absolute_url": "https://zdwxofkuxdjvivfvtlxh.supabase.co/storage/v1/object/public/images/books/2026/02/Casa_capitular_Dune_-_Frank_Herbert.epub"
+        }
     },
     {
         "id": 15,
@@ -250,8 +221,7 @@ export const librosDataSet = [
                 "id": 15,
                 "name": "George R. R. Martin",
                 "bio": "George RR Martin es el autor número uno en ventas del New York Times de muchas novelas, incluida la aclamada serie Canción de hielo y fuego: Juego de tronos, Choque de reyes, Tormenta de espadas, Fiesta de cuervos y Danza de dragones. Como escritor y productor, ha trabajado en The Twilight Zone, La Bella y la Bestia y varios largometrajes y pilotos que nunca se realizaron. Vive con el encantador París en Santa Fe, Nuevo México.",
-                "avatar_url": "https://i.pinimg.com/1200x/7b/33/f3/7b33f32d6dcacdf1204ca0bc835820f3.jpg",
-                "created_at": "2026-02-14"
+                "avatar_url": "https://i.pinimg.com/1200x/7b/33/f3/7b33f32d6dcacdf1204ca0bc835820f3.jpg"
             }
         ],
         "categories": [
@@ -259,10 +229,59 @@ export const librosDataSet = [
             "FA"
         ],
         "book_storage": {
-            "id": 13,
-            "archive": "https://zdwxofkuxdjvivfvtlxh.storage.supabase.co/storage/v1/s3/images/books/2026/02/Fuego_y_sangre_-_George_R_R_Martin.epub?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=656fa2300bcb8b33f3518bcd8a3fe983%2F20260215%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20260215T213108Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=ed7da4e4675222b14f558566bbf20628b07d34ab22242fbe547eba76934bef42",
-            "created_at": "2026-02-14"
-        },
-        "created_at": "2026-02-14"
+            "get_absolute_url": "https://zdwxofkuxdjvivfvtlxh.supabase.co/storage/v1/object/public/images/books/2026/02/Fuego_y_sangre_-_George_R_R_Martin.epub"
+        }
+    },
+    {
+        "id": 16,
+        "sku": "urn:uuid:31599bc0-55af-41aa-b14a-e4e51faa6903",
+        "title": "Harry Potter y el cáliz de fuego",
+        "sinopsis": "Tras otro abominable verano con los Dursley, Harry se dispone a iniciar el cuarto curso en Hogwarts, la famosa escuela de magia y hechicería. A sus catorce años, a Harry le gustaría ser un joven mago como los demás y dedicarse a aprender nuevos sortilegios, encontrarse con sus amigos Ron y Hermione y asistir con ellos a los Mundiales de quidditch. Sin embargo, al llegar al colegio le espera una gran sorpresa que lo obligará a enfrentarse a los desafíos más temibles de toda su vida. Si logra superarlos, habrá demostrado que ya no es un niño y que está preparado para vivir las nuevas y emocionantes experiencias que el futuro le depara. Premio Hugo 2001",
+        "publisher": "2000-01-01",
+        "rating": "4.8",
+        "number_pages": "672",
+        "thumbnail_url": "https://i.pinimg.com/736x/57/31/9e/57319e1d06dbf8a43e0b92aead69149b.jpg",
+        "authors": [
+            {
+                "id": 16,
+                "name": "J.K. Rowling",
+                "bio": "J.K. Rowling es autora de los siete libros de la famosa saga de Harry Potter. Amada por lectores\r\nde todo el mundo, la serie ha vendido más de 500 millones de ejemplares, se ha traducido a\r\nochenta idiomas y ha inspirado ocho películas de enorme éxito de taquilla.\r\nHa escrito asimismo tres volúmenes complementarios con fines benéficos: Quidditch a través\r\nde los tiempos, Animales fantásticos y dónde encontrarlos (en beneficio de Comic Relief y\r\nLumos), y Los cuentos de Beedle el Bardo (en beneficio de Lumos), así como el guión inspirado\r\nen Animales fantásticos y dónde encontrarlos, la primera de una serie de cinco películas que\r\nescribirá la autora. También colaboró en una obra, Harry Potter y el legado maldito, Partes Uno\r\ny Dos, que se estrenó en el West End de Londres en el verano de 2016.\r\n\r\nEn 2012 creó la plataforma digital Pottermore, donde sus fans pueden disfrutar de noticias,\r\nreportajes y artículos, así como de contenido original escrito por J.K. Rowling. Asimismo, ha\r\nescrito la novela para adultos Una vacante imprevista, y, con el seudónimo Robert Galbraith, la\r\nserie de novelas policíacas protagonizadas por Cormoran Strike.\r\n\r\nHa sido galardonada con numerosos premios, entre ellos la Orden del Imperio Británico por su\r\ncontribución a la literatura infantil y la Orden de los Compañeros de Honor, la Orden de la\r\nLegión de Honor de Francia y el Premio Hans Christian Andersen.",
+                "avatar_url": "https://i.pinimg.com/736x/47/79/4f/47794f79f87bdbed40937f18edbd9875.jpg"
+            }
+        ],
+        "categories": [
+            "FA",
+            "MI",
+            "JU"
+        ],
+        "book_storage": {
+            "get_absolute_url": "https://zdwxofkuxdjvivfvtlxh.supabase.co/storage/v1/object/public/images/books/2026/02/Harry_Potter_y_el_caliz_de_fuego_-_J._K._Rowling.epub"
+        }
+    },
+    {
+        "id": 17,
+        "sku": "urn:uuid:ec1806a7-0f1f-42ec-8d38-f9c4fcf8c62f",
+        "title": "Apocalipsis",
+        "sinopsis": "Esta narración cuenta cómo un virus gripal, creado artíficíalmente como posible arma bacteriológica, se extiende por Estados Unidos y provoca la muerte de millones de personas. Los supervivientes tienen sueños comunes, en los que aparece una anciana y un hombre joven. La mujer anciana los incita a viajar a Nebraska para combatir a Randall Flagg, un abominable personaje que encarna las fuerzas del mal y posee un arsenal nuclear.",
+        "publisher": "1990-01-01",
+        "rating": "",
+        "number_pages": "0",
+        "thumbnail_url": "https://i.pinimg.com/736x/24/24/7d/24247dff2e174dab3e4e04d7ae5ad6b0.jpg",
+        "authors": [
+            {
+                "id": 17,
+                "name": "Stephen King",
+                "bio": "Stephen King es autor de más de sesenta libros, todos ellos bestsellers mundiales. Sus trabajos recientes incluyen NEVER FLINCH, YOU LIKE IT DARKER (uno de los diez mejores libros de terror de 2024 según New York Times Book Review), HOLLY (un libro notable de 2023 según New York Times), FAIRY TALE, BILLY SUMMERS, IF IT BLEEDS, THE INSTITUTE, ELEVATION, THE OUTSIDER, SLEEPING BEAUTIES (coescrito con su hijo Owen King) y la trilogía de Bill Hodges: END OF WATCH, FINDERS KEEPERS y MR. MERCEDES (ganadora del premio Edgar a la mejor novela). Su novela 22/11/63 fue nombrada uno de los diez mejores libros de 2011 por el New York Times Book Review y ganó el Premio del Libro de Misterio/Thriller del Los Angeles Times. Sus obras épicas THE DARK TOWER, IT, PET SEMATARY, DOCTOR SLEEP y FIRESTARTER son la base de importantes películas, siendo IT ahora la película de terror más taquillera de todos los tiempos. Recibió el Premio PEN America Literary Service 2018, la Medalla Nacional de las Artes 2014 y la Medalla de la Fundación Nacional del Libro 2003 por su contribución distinguida a las letras estadounidenses. Vive en Bangor, Maine, con su esposa, la novelista Tabitha King.",
+                "avatar_url": "https://i.pinimg.com/1200x/08/a6/66/08a66661de255403720803f6a71098e0.jpg"
+            }
+        ],
+        "categories": [
+            "FI",
+            "MI",
+            "SU"
+        ],
+        "book_storage": {
+            "get_absolute_url": "https://zdwxofkuxdjvivfvtlxh.supabase.co/storage/v1/object/public/images/books/2026/02/Apocalipsis_-_Stephen_King.epub"
+        }
     }
 ]

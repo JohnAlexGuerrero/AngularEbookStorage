@@ -3,5 +3,5 @@ export interface Author {
     name: string,
     bio: string,
     avatar_url: string,
-    created_at: string
+    created_at?: string
 }
