@@ -34,8 +34,9 @@ jobs:
         run: npx ng build --configuration production --base-href "/${{ github.event.repository.name }}/"
 
       - name: Add .nojekyll file
-        run: touch ./${{ github.event.repository.name }}/.nojekyll
-      # Cambia la ruta a tu carpeta de salida (dist, build, out, etc.)
+        run: |
+          mkdir -p ./dist/${{ github.event.repository.name }}/browser
+          touch ./dist/${{ github.event.repository.name }}/browser/.nojekyll
       
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
