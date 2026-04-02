@@ -33,9 +33,6 @@ jobs:
       - name: Build Angular App
         run: npx ng build --configuration production --base-href "/${{ github.event.repository.name }}/"
       
-      - name: Add .nojekyll file
-        run: touch ./dist/${{ github.event.repository.name }}/browser/.nojekyll
-      
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
