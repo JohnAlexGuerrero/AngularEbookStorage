@@ -1,9 +1,8 @@
-import { Component, computed, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { EBook } from '../../models/book';
 import { BookService } from '../../services/book.service';
-import { PageComponent } from '../page/page.component';
 import { TabsComponent } from '../tabs/tabs.component';
 import { MatIconModule } from '@angular/material/icon';
 import { NavigationComponent } from '../navigation/navigation.component';
@@ -13,7 +12,6 @@ import { NavigationComponent } from '../navigation/navigation.component';
   standalone: true,
   imports: [
     CommonModule,
-    PageComponent,
     RouterLink,
     TabsComponent,
     MatIconModule,

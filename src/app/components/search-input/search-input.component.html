@@ -1,0 +1,9 @@
+<mat-form-field appearance="fill">
+  <mat-label>Que quieres leer?</mat-label>
+  <input matInput type="text" [formControl]="searchField" oninput="filterBooks"/>
+  <mat-icon matSuffix>search</mat-icon>
+  <mat-hint>Hint</mat-hint>
+</mat-form-field>
+
+<p>{{ searchField.value }}</p>
+<app-search-store [books]="books"></app-search-store>

@@ -1,0 +1,5 @@
+<p>Resultado {{countBooks()}} Libros</p>
+@for(book of books; track book.id) {
+    <p :key="book.id">{{ book.title }}</p>
+}
+

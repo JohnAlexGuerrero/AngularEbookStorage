@@ -1,11 +1,14 @@
-<button class="btn-back" [routerLink]="['/']">Atras</button>
+<button matButton [routerLink]="['/books']">
+  <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="arrow_back"></mat-icon>
+  Atras
+</button>
 
 <div class="container" *ngIf="book; else loading">
   <div class="book-detail-wrapper">
     <div class="book-image">
       <img [src]="book.thumbnail_url" [alt]="book.title">
       <div class="actions">
-        <button class="btn-primary" [routerLink]="['/book/reader', book.sku]">
+        <button class="btn-primary" [routerLink]="['/books/reader', book.sku]">
           @if(isLastLocation) {
             Continuar
           }@else{ Empezar a leer }

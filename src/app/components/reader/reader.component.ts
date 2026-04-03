@@ -1,6 +1,5 @@
 import { Component, ElementRef, Inject, Input, OnInit, Optional, ViewChild, viewChild } from '@angular/core';
 import { APP_BASE_HREF, CommonModule } from '@angular/common';
-import { PageComponent } from '../page/page.component';
 import { BookService } from '../../services/book.service';
 // import { Book } from '../../models/book';
 import { ActivatedRoute, RouterLink } from '@angular/router';
@@ -14,7 +13,6 @@ import { NavigationComponent } from '../navigation/navigation.component';
   standalone: true,
   imports: [
     CommonModule,
-    PageComponent,
     RouterLink,
     NavigationComponent
   ],

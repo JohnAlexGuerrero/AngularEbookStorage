@@ -29,7 +29,7 @@ export class BookService {
     localStorage.setItem(`last-location-${sku}`,cfi);
   }
 
-  getPositionEbook(id: string){
-    return localStorage.getItem(`last-location-${id}`);
+  getPositionEbook(sku: string){
+    return localStorage.getItem(`last-location-${sku}`);
   }
 }

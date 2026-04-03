@@ -1,3 +1,8 @@
+<div>
+  <button matButton [routerLink]="['/books/search']">
+    <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="search"></mat-icon>
+  </button>
+</div>
 
 @for(thread of bookList; track thread.name) {
   @if(thread.is_active) {
